@@ -12,13 +12,21 @@ import GallarySection from "@components/portfolo-details-page/gallary";
 import StepAreaSection from "@components/service-details/step-area-section";
 import useGlobalContext from "@hooks/use-context";
 import PricingSection from "@components/service/pricing-section";
-import imageOne from "@assets/img/logo/uiuxhero.jpeg";
+import imageOne from "@assets/img/logo/uiuxhero.jpg";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import CaseSubtitleIcon from "@svg/case-subtitle-icon";
-import imageTwo from "@assets/img/logo/uiux4.jpeg"
-import imageThree from "@assets/img/logo/uiuix1.jpeg"
-import imageFour from "@assets/img/logo/uiux3.jpeg"
-import imageFive from "@assets/img/logo/uiux2.jpeg"
+import imageTwo from "@assets/img/logo/uiux1.png"
+import imageThree from "@assets/img/logo/uiux2.png"
+import imageFour from "@assets/img/logo/uiux3.png"
+import imageFive from "@assets/img/logo/uiux4.png"
+import imagesix from "@assets/img/logo/uiux5.png"
+import imageseven from "@assets/img/logo/uiux6.png"
+
+import imageeight from "@assets/img/logo/uiux7.png"
+
+import imagenine from "@assets/img/logo/uiux8.png"
+
+
 import { SwiperSlide } from "swiper/react";
 
 
@@ -155,6 +163,23 @@ const UiUx = ({ id }) => {
       id: 4,
       img: imageFive,
     },
+    {
+      id: 5,
+      img: imagesix,
+    },
+
+    {
+      id: 6,
+      img: imageseven,
+    },
+    {
+      id: 7,
+      img: imageeight,
+    },
+    {
+      id: 8,
+      img: imagenine,
+    },
   ];
   return (
     <>
@@ -278,42 +303,30 @@ const UiUx = ({ id }) => {
     </section ><br/><br/>
     <div className="container">
     <section className="design-area wow fadeInUp" data-wow-delay="0.3s">
-      <h4 className="case-subtitle">
-        <span>
-          <CaseSubtitleIcon />
-        </span>
-        Gallery
-      </h4>
-      <PhotoProvider
-      speed={() => 800}
-      easing={(type) =>
-        type === 2
-          ? "cubic-bezier(0.36, 0, 0.66, -0.56)"
-          : "cubic-bezier(0.34, 1.56, 0.64, 1)"}
-      >
-        <div className="design-humb-grid ">
-          {galary_data &&
-            galary_data.map((item) => (
-              <PhotoView key={item.id} src={item.img.src}>
-                <div className="design-thumb img-tilt all__item-fade common-galary-icons">
-                  <Image
-                    src={item.img}
-                    style={{ width: "100%", height: "auto" }}
-                    alt="image not found"
-                  />
-                  <div className="common-galary-icon">
-                    <i className="fal fa-plus fm-film-video-btn"></i>
-                  </div>
-                </div>
-              </PhotoView>
-            ))}
+  <h4 className="case-subtitle">
+    <span>
+      <CaseSubtitleIcon />
+    </span>
+    Gallery
+  </h4>
+  <div className="design-humb-grid">
+    {galary_data &&
+      galary_data.map((item) => (
+        <div key={item.id} className="design-thumb img-tilt all__item-fade">
+          <Image
+            src={item.img}
+            style={{ width: "100%", height: "auto" }}
+            alt="image not found"
+          />
         </div>
-      </PhotoProvider>
-    </section>
+      ))}
+  </div>
+</section>
+
     </div>
-        <FaqSection />
+        {/* <FaqSection /> */}
        <SwiperSlide />
-        <PricingSection />
+        {/* <PricingSection /> */}
        
         <ContactSection />
       </main>

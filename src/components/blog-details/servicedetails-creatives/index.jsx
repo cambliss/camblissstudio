@@ -15,7 +15,7 @@ const index = ({ id }) => {
         <Breadcrumb title="Service Details" subTitle="Service Details" />
         <ServiceDetails id={id} />
         {/* <CaseQouteArea /> */}
-        <PricingSection/>
+        {/* <PricingSection/> */}
         <ContactSection />
       </main>
       <FooterOne />

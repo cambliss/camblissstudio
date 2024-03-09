@@ -15,7 +15,7 @@ const index = () => {
         <Breadcrumb title="Services" subTitle="Services" />
         <ServiceSectionThere />
         {/* <TestimonialSliderOne /> */}
-        <PricingSection />
+        {/* <PricingSection /> */}
         <ContactSection />
       </main>
       <FooterOne />

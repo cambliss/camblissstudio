@@ -273,11 +273,11 @@ Partner with Cambliss for comprehensive marketing management. We handle the comp
           </div>
         </div>
       </div>
-    </section >
+    </section ><br/>
         {/* <StepAreaSection /> */}
-        <FaqSection />
+        {/* <FaqSection /> */}
         {/* <CaseQouteArea /> */}
-        <PricingSection />
+        {/* <PricingSection /> */}
         {/* <GallarySection /> */}
         <ContactSection />
       </main>

@@ -302,7 +302,7 @@
 
   &:hover {
     a {
-      color: var(--clr-theme-1);
+      color: #ffbd39;
     }
   }
 }
@@ -329,7 +329,7 @@
     position: relative;
 
     &:hover {
-      color: var(--clr-theme-1);
+      color: #ffbd39;
     }
 
     &:not(:last-child):after {
@@ -691,7 +691,7 @@
 
     a {
       &:hover {
-        color: var(--clr-theme-1);
+        color: #ffbd39;
       }
     }
 

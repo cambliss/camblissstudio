@@ -16,6 +16,8 @@ import imageOne from "@assets/img/logo/visualhero.jpeg"
 import PortfolioSlider from "@components/elements/slider/portfolio-slider/portfolio-slider";
 import PortfolioSliderTwo from "@components/elements/slider/portfolio-slider/portfolio-slider-two";
 import styles from "../Animation/Animation.module.css"
+import MovieSliderTwo from "@components/elements/slider/movie-slider/movie-slider-two";
+import MovieSectionFive from "@components/home-five/movie-section-five";
 const VisualProduction = ({ id }) => {
   const { setService } = useGlobalContext();
 
@@ -158,16 +160,20 @@ const VisualProduction = ({ id }) => {
                     alt="image not found"
                   />
                 </div>
-                <PortfolioSliderTwo/>
+                <MovieSliderTwo />
+        <MovieSectionFive />
+                {/* <PortfolioSliderTwo/>
+                <MovieSliderTwo/> */}
                 <br/><br/>
-                <div className="container"> 
+                {/* <div className="container"> 
     <div className={styles.videoContainer}>
     <video autoPlay loop muted width="100%" height="100%">
       <source src="assets/video/ANANDGIRI FOUNDATION.mp4" type="video/mp4" />
       Video not found or not supported by your browser.
     </video>
   </div>
-</div><br/><br/>
+</div> */}
+<br/><br/>
                 <h4 className="case-subtitle mb-25 ">
                   <span>
                     <svg
@@ -281,9 +287,9 @@ Visualization is all about pre-visualizing action, camera angles and camera move
 <br/><br/>
 
    
-        <FaqSection />
+        {/* <FaqSection /> */}
         {/* <CaseQouteArea /> */}
-        <PricingSection />
+        {/* <PricingSection /> */}
         {/* <GallarySection /> */}
         <ContactSection />
       </main>

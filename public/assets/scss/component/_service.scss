@@ -150,7 +150,7 @@
 
   a {
     &:hover {
-      color: var(--clr-theme-1);
+      color:#ffbd39;
     }
   }
 }
@@ -178,7 +178,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: var(--clr-theme-1);
+    background: #ffbd39;
     opacity: 0;
     z-index: -1;
   }
@@ -313,7 +313,7 @@
   }
 
   &:hover {
-    color: var(--clr-theme-1);
+    color: #ffbd39;
   }
 }
 
@@ -343,7 +343,7 @@
       color: var(--clr-common-white);
 
       &:hover {
-        color: var(--clr-theme-1);
+        color: #ffbd39;
       }
     }
   }
@@ -510,7 +510,7 @@
   }
 
   &:hover {
-    background: var(--clr-theme-1);
+    background: #ffbd39;
     border-color: transparent;
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.07);
 
@@ -570,7 +570,7 @@
 
     &:hover {
       .fm-view-more {
-        color: var(--clr-theme-1);
+        color: #ffbd39;
 
         &.btn-clr-2 {
           color: var(--clr-common-white);

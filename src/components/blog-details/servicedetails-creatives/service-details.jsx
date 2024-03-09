@@ -67,7 +67,7 @@ const ServiceDetails = ({ id }) => {
             </p> */}
 
             <StepAreaSection />
-            <FaqSection />
+            {/* <FaqSection /> */}
         
             {/* <div className="text-latout">
               <p className="mb-55 ">

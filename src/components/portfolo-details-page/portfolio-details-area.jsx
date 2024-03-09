@@ -59,7 +59,7 @@ const PortfolioDetailsArea = ({ id }) => {
               present Ali’s story in an immersive way in order to connect with
               his audience and express his love for storytelling and typography.
             </p>
-            <FaqSection />
+            {/* <FaqSection /> */}
             <GallarySection />
             <div className="text-latout">
               <p className="mb-55 ">

@@ -29,8 +29,11 @@ const BlogDetailsArea = ({ id }) => {
     }
   }, [id, setBlog]);
 
+  const isCareersPage = router.pathname === '/Careers';
+
   return (
     <section className="postbox__area section-spacing-top pb-60">
+      
       <div className="container">
         <div className="row g-40">
           <div className="col-xxl-8 col-xl-7 col-lg-7">

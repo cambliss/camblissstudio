@@ -29,7 +29,7 @@ const index = () => {
         {/* <BlogSectionTwo/> */}
         
         <BrandAreaSection />
-        <PricingSection/>
+        {/* <PricingSection/> */}
         <ContactSection />
       </main>
       <FooterOne />

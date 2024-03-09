@@ -17,7 +17,7 @@ import imagehero from "@assets/img/logo/brandinghero.png"
 
 import imageOne from "@assets/img/logo/Untitled design(4)/1.png";  
 import imageTwo from "@assets/img/logo/Untitled design(4)/2.png";  
-import imageThree from "@assets/img/logo/Untitled design(4)/branding66.jpeg";  
+import imageThree from "@assets/img/logo/Untitled design(4)/branding6.png";  
 import imageFour from "@assets/img/logo/brandingimagenew.jpg";  
 import imageFive from "@assets/img/logo/Untitled design(4)/5.png";  
 
@@ -304,7 +304,19 @@ Consistent application of your brand identity builds recognition and trust among
         </span>
         Gallery
       </h4>
-      <PhotoProvider
+      <div className="design-humb-grid ">
+          {galary_data &&
+            galary_data.map((item) => (
+              <div className="design-thumb img-tilt all__item-fade common-galary-icons" key={item.id}>
+                <Image
+                  src={item.img}
+                  style={{ width: "100%", height: "auto" }}
+                  alt="image not found"
+                />
+              </div>
+            ))}
+        </div>
+      {/* <PhotoProvider
       speed={() => 800}
       easing={(type) =>
         type === 2
@@ -328,14 +340,14 @@ Consistent application of your brand identity builds recognition and trust among
               </PhotoView>
             ))}
         </div>
-      </PhotoProvider>
+      </PhotoProvider> */}
     </section>
     </div>
  
 
 
         {/* <StepAreaSection /> */}
-        <FaqSection />
+        {/* <FaqSection /> */}
         {/* <CaseQouteArea /> */}
         <PricingSection />
      

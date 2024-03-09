@@ -11,7 +11,7 @@ const index = () => {
       <Header />
       <main>
         <Breadcrumb title="FAQ" subTitle="FAQ" />
-        <FaqSection />
+        {/* <FaqSection /> */}
         <ContactSection />
       </main>
       <FooterOne />

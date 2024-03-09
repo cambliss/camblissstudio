@@ -320,7 +320,19 @@ Ensure that the smallest details contribute to the overall cohesiveness of the d
         </span>
         Gallery
       </h4>
-      <PhotoProvider
+      <div className="design-humb-grid ">
+          {galary_data &&
+            galary_data.map((item) => (
+              <div className="design-thumb img-tilt all__item-fade common-galary-icons" key={item.id}>
+                <Image
+                  src={item.img}
+                  style={{ width: "100%", height: "auto" }}
+                  alt="image not found"
+                />
+              </div>
+            ))}
+        </div>
+      {/* <PhotoProvider
       speed={() => 800}
       easing={(type) =>
         type === 2
@@ -344,16 +356,16 @@ Ensure that the smallest details contribute to the overall cohesiveness of the d
               </PhotoView>
             ))}
         </div>
-      </PhotoProvider>
+      </PhotoProvider> */}
     </section>
     </div>
  
 
 
         {/* <StepAreaSection /> */}
-        <FaqSection />
+        {/* <FaqSection /> */}
         {/* <CaseQouteArea /> */}
-        <PricingSection />
+        {/* <PricingSection /> */}
      
         <ContactSection />
       </main>

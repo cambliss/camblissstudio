@@ -16,7 +16,7 @@ import PricingSection from "@components/service/pricing-section";
 import imagehero from "@assets/img/logo/advhero.png"
 
 import imageOne from "@assets/img/logo/adverstisement/adv3.png";  
-import imageTwo from "@assets/img/logo/adverstisement/adv2.png";  
+// import imageTwo from "@assets/img/logo/adverstisement/adv2.png";  
 import imageThree from "@assets/img/logo/adverstisement/adv1.png";  
 import imageFour from "@assets/img/logo/adverstisement/adv4.jpg";  
 import imageFive from "@assets/img/logo/adverstisement/adv5.jpg";  
@@ -151,17 +151,15 @@ const Advertisement = ({ id }) => {
    
   ];
   const galary_data = [
-    {
-      id: 1,
-      img: imageFive,
-    },
-    {
-      id: 2,
-      img: imageTwo,
-    },
+   
+    
+    // {
+    //   id: 2,
+    //   img: imageTwo,
+    // },
     {
       id: 3,
-      img: imageThree,
+      img: imageFive,
     },
     {
       id: 4,
@@ -305,7 +303,19 @@ const Advertisement = ({ id }) => {
         </span>
         Gallery
       </h4>
-      <PhotoProvider
+      <div className="design-humb-grid ">
+          {galary_data &&
+            galary_data.map((item) => (
+              <div className="design-thumb img-tilt all__item-fade common-galary-icons" key={item.id}>
+                <Image
+                  src={item.img}
+                  style={{ width: "100%", height: "auto" }}
+                  alt="image not found"
+                />
+              </div>
+            ))}
+        </div>
+      {/* <PhotoProvider
       speed={() => 800}
       easing={(type) =>
         type === 2
@@ -329,16 +339,16 @@ const Advertisement = ({ id }) => {
               </PhotoView>
             ))}
         </div>
-      </PhotoProvider>
+      </PhotoProvider> */}
     </section>
     </div>
  
 
 
         {/* <StepAreaSection /> */}
-        <FaqSection />
+        {/* <FaqSection /> */}
         {/* <CaseQouteArea /> */}
-        <PricingSection />
+        {/* <PricingSection /> */}
      
         <ContactSection />
       </main>

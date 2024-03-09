@@ -24,7 +24,7 @@ const index = () => {
         {/* <LandingBannerArea />
         <MovieSectionSix />
         <MovieSliderSeven /> */}
-        <FaqSection/>
+        {/* <FaqSection/> */}
         <ContactSection />
       </main>
       <FooterOne />

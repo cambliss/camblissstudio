@@ -59,7 +59,9 @@
 html {
   font-size: 10px;
 }
-
+main{
+  background-color: #171717 ;
+}
 body {
   font-family: $montserratsans;
   font-size: 16px;
@@ -131,7 +133,7 @@ a:focus,
 
 a:focus,
 a:hover {
-  color: var(--clr-theme-1);
+  color:#ffbd39;
   text-decoration: none;
 }
 
@@ -169,7 +171,7 @@ h4,
 h5,
 h6 {
   font-family: $montserratsans;
-  color: var(--clr-common-black);
+  color: var(--clr-common-white);
   font-weight: 700;
   line-height: 1.2;
   @include transition(0.3s);
@@ -305,7 +307,7 @@ p {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--clr-theme-1);
+  background: #ffbd39;
   -webkit-border-radius: 1ex;
   -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.75);
 }
@@ -433,6 +435,7 @@ textarea::placeholder:focus {
 
 .section-spacing-top {
   padding-top: 120px;
+  background-color: #171717 ;
 
   @media #{$lg} {
     padding-top: 120px;
@@ -449,7 +452,7 @@ textarea::placeholder:focus {
 
 .section-spacing-bottom {
   padding-bottom: 120px;
-  background-image: url('../../img/logo/bckimg.png');
+  // background-image: url('../../img/logo/bckimg.png');
   background-size: cover;
 
   @media #{$lg} {
@@ -555,7 +558,7 @@ textarea::placeholder:focus {
 }
 
 .bg-theme-1 {
-  background: var(--clr-theme-1);
+  background: #ffbd39;
 }
 
 .bg-theme-2 {
@@ -583,7 +586,7 @@ textarea::placeholder:focus {
 }
 
 .color-theme-1 {
-  color: var(--clr-theme-1);
+  color:#ffbd39;
 }
 
 // spacing

@@ -132,13 +132,13 @@ import { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 import Image from 'next/image';
-import client0 from "@assets/img/logo/client0.png";
-import client1 from "@assets/img/logo/client1.jpg";
-import client2 from "@assets/img/logo/client2.png";
-import client3 from "@assets/img/logo/client3.png";
-import client4 from "@assets/img/logo/client4.png";
-import client5 from "@assets/img/logo/client5.png";
-import client6 from "@assets/img/logo/client6.png";
+import client0 from "@assets/img/logo/clients/1.png";
+import client1 from "@assets/img/logo/clients/2.png";
+import client2 from "@assets/img/logo/clients/3.png";
+import client3 from "@assets/img/logo/clients/4.png";
+import client4 from "@assets/img/logo/clients/5.png";
+import client5 from "@assets/img/logo/clients/6.png";
+import client6 from "@assets/img/logo/clients/7.png";
 import { auto } from '@popperjs/core';
 
 const CertificateSlider = () => {
@@ -189,7 +189,7 @@ const CertificateSlider = () => {
             <div className="certificate-active wow fadeInUp" data-wow-delay="0.4s">
                <Swiper
                   modules={[Navigation, Autoplay]}
-                  spaceBetween={30}
+                  spaceBetween={10}
                   loop={true}
                   observeParents={true}
                   observer={true}
@@ -224,12 +224,12 @@ const CertificateSlider = () => {
                >
                   {certificateData.map((item) => (
                      <SwiperSlide key={item.id}>
-                        <div className="certificate-img">
+                        <div className="certificate-img1">
                            {/* Use the Image component with the correct syntax */}
                            <Image
                               src={item.image}
                       
-                              height={300}
+                              height={200} width={200}
                               alt={`Certificate Image ${item.id}`}
                            />
                         </div>

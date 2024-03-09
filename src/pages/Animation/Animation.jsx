@@ -318,9 +318,9 @@ const Animation = ({ id }) => {
   </div>
 
 </div> */}
-        <FaqSection />
+        {/* <FaqSection /> */}
        
-        <PricingSection />
+        {/* <PricingSection /> */}
        
         <ContactSection />
       </main>
