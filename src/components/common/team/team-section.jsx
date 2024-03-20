@@ -95,7 +95,7 @@ import vijay from "@assets/img/logo/vijay.jpg";
 import arjun from "@assets/img/logo/arjun.png";
 import pravath from "@assets/img/logo/pravath.png";
 import pramod from "@assets/img/logo/Pramod.png";
-
+import bobby from "@assets/img/logo/aaaa.jpg"
 const TeamSection = () => {
   const teams = [
     {
@@ -146,6 +146,23 @@ const TeamSection = () => {
     //     { _id: "4", icon: "fa-instagram", url: "https://www.instagram.com/" },
     //   ],
     // },
+
+
+
+
+    ,
+    {
+      _id: "9",
+      teamName: "S Bobby Jena",
+      // director: "Director",
+      designation: "Advisor IT Trainer",
+      teamImg: bobby,
+      delay: "0.6s",
+      // socialIcons: [
+      //   { _id: "3", icon: "fa-linkedin", url: "https://www.linkedin.com/" },
+      //   { _id: "4", icon: "fa-instagram", url: "https://www.instagram.com/" },
+      // ],
+    },
     {
       _id: "5",
       teamName: "Pravat",
@@ -193,7 +210,7 @@ const TeamSection = () => {
       //   { _id: "3", icon: "fa-linkedin", url: "https://www.linkedin.com/" },
       //   { _id: "4", icon: "fa-instagram", url: "https://www.instagram.com/" },
       // ],
-    },
+    }
     // Add more team members as needed
   ];
 

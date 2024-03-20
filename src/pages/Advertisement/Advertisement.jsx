@@ -108,7 +108,7 @@ const Advertisement = ({ id }) => {
                   OBJECTIVE
                 </h4>
                 <p className="mb-55">
-                  Cambliss elevates your brand through strategic and compelling media advertisements. Our primary objective is to seamlessly integrate your brand into the hearts and minds of your target audience. Through innovative storytelling, captivating visuals, and strategic placement, we ensure that your brand not only captures attention but leaves a lasting impression. We understand the power of media in shaping perceptions. Our mission is to leverage this power to amplify your brand's message, fostering a connection with your audience. Whether it's through impactful video campaigns, engaging social media content, or immersive digital experiences, we tailor our advertising strategies to align with your brand's unique identity and objectives.
+                  Cambliss elevates your brand through strategic and compelling media advertisements. Our primary objective is to seamlessly integrate your brand into the hearts and minds of your target audience. Through innovative storytelling, captivating visuals, and strategic placement, we ensure that your brand not only captures attention but leaves a lasting impression. We understand the power of media in shaping perceptions. Our mission is to leverage this power to amplify your brands message, fostering a connection with your audience. Whether its through impactful video campaigns, engaging social media content, or immersive digital experiences, we tailor our advertising strategies to align with your brands unique identity and objectives.
                 </p>
               </div>
             </div>
