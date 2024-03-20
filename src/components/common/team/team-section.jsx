@@ -155,7 +155,7 @@ const TeamSection = () => {
       _id: "9",
       teamName: "S Bobby Jena",
       // director: "Director",
-      designation: "Advisor IT Trainer",
+      designation: "Advisor, Training and  Publication",
       teamImg: bobby,
       delay: "0.6s",
       // socialIcons: [
