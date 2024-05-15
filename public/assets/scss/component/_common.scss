@@ -60,11 +60,7 @@ html {
   font-size: 10px;
 }
 main{
-<<<<<<< HEAD
-  background-color: #000 ;
-=======
-  background-color: #171717 ;
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
+  background-color: #000;
 }
 body {
   font-family: $montserratsans;
@@ -442,11 +438,7 @@ textarea::placeholder:focus {
 
 .section-spacing-top {
   padding-top: 120px;
-<<<<<<< HEAD
-  background-color: #000 ;
-=======
-  background-color: #171717 ;
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
+  background-color: #000;
 
   @media #{$lg} {
     padding-top: 120px;
@@ -465,10 +457,7 @@ textarea::placeholder:focus {
   padding-bottom: 120px;
   // background-image: url('../../img/logo/bckimg.png');
   background-size: cover;
-<<<<<<< HEAD
   background-color: #000;
-=======
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
 
   @media #{$lg} {
 
