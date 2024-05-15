@@ -18,14 +18,23 @@
 }
 
 .fm-slider-prev {
+<<<<<<< HEAD
   color: #ffffff;
   border-color: #ffffff;
+=======
+  color: #ffbd39;
+  border-color: #ffbd39;
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
   position: relative;
 
   &:before {
     position: absolute;
     height: 1px;
+<<<<<<< HEAD
     background: #ffffff;
+=======
+    background: #ffbd39;
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
     width: 60px;
     content: "";
     inset-inline-start: -84px;
@@ -40,14 +49,23 @@
 }
 
 .fm-slider-next {
+<<<<<<< HEAD
   color: #ffffff;
   border-color: #ffffff;
+=======
+  color: #ffbd39;
+  border-color: #ffbd39;
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
   position: relative;
 
   &:before {
     position: absolute;
     height: 1px;
+<<<<<<< HEAD
     background: #ffffff;
+=======
+    background: #ffbd39;
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
     width: 60px;
     content: "";
     inset-inline-end: -84px;

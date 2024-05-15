@@ -88,7 +88,10 @@ const MovieSliderSix = () => {
 
   return (
     <>
+<<<<<<< HEAD
     
+=======
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
       <div className="fm-landing-trending-area bg-common-black section-spacing">
         <div className="container">
           <div

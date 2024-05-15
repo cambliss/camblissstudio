@@ -6,7 +6,11 @@ import { Header } from "@layout/index";
 import React from "react";
 import ServiceDetails from "./service-details";
 import PricingSection from "@components/service/pricing-section";
+<<<<<<< HEAD
 import imageOne from "@assets/img/logo/mainbackground.png";
+=======
+import imageOne from "@assets/img/logo/websitehero.png";
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
 
 const index = ({ id }) => {
   return (

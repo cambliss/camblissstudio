@@ -13,7 +13,11 @@ import GallarySection from "@components/portfolo-details-page/gallary";
 import StepAreaSection from "@components/service-details/step-area-section";
 import useGlobalContext from "@hooks/use-context";
 import PricingSection from "@components/service/pricing-section";
+<<<<<<< HEAD
 import imagehero from "@assets/img/logo/mainbackground.png";
+=======
+import imagehero from "@assets/img/logo/brandinghero.png"
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
 
 import imageOne from "@assets/img/logo/Untitled design(4)/1.png";  
 import imageTwo from "@assets/img/logo/Untitled design(4)/2.png";  
@@ -189,7 +193,94 @@ const Branding = ({ id }) => {
         <div className="breadcrumb-image-overlay" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 1 }}></div>
       </div>
       <main>
+<<<<<<< HEAD
       
+=======
+        <section className="case-details-area">
+          <div className="container">
+            <div className="row">
+              <div className="col-xxl-12" style={{ position: 'relative', zIndex: 2 }}>
+                <div className="case-details-thumb" style={{ marginTop: '-100px' }}>
+                  <Image
+                    data-speed="auto"
+                    src={imagehero}
+                    style={{ width: "100%", height: "100%" }}
+                    alt="image not found"
+                  />
+                </div>
+                <h4 className="case-subtitle mb-25">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M3.23197 8L0 9.90086L2.38215 14.0991L5.616 12.2016L5.61782 16H10.3822L10.384 12.2016L13.6178 14.0991L16 9.90086L12.768 8L16 6.09914L13.6178 1.90086L10.384 3.79843L10.3822 0H5.61782L5.616 3.79843L2.38215 1.90086L0 6.09914L3.23197 8Z"
+                        fill="#BCA045"
+                      />
+                    </svg>
+                  </span>
+                  OBJECTIVE
+                </h4>
+                <p className="mb-55 ">
+
+                  Are you in search of innovative and distinctive visual identities to elevate your brand? Look no further; we are here to bring your brand to life through creative design solutions. Our team is ready to collaborate with you in crafting a fresh and unique visual identity that perfectly aligns with your brands essence. Lets embark on this creative journey together, ensuring your brand stands out and makes a lasting impression.
+                </p>
+                <p className="mb-45 ">
+                  {" "}
+                  Cambliss works closely with clients with a team of experienced brand strategists and designers to understand their bussiness objectives and target audience, our approach to branding is collaborative, involving clients in every step of the process to ensure their brand vision is accurately captured
+                </p>
+                {/* <p className="mb-45 ">
+                  {" "}
+                  Ore team specializes in  crafting stylish website design and development solutions that capture attention and leave a lasting impression. We understand the importance of asthetics
+                  and strive to create visual stunning websites that reflect your brand's unique style.
+                </p> */}
+                {/* <h4 className="case-subtitle mb-25">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M3.23197 8L0 9.90086L2.38215 14.0991L5.616 12.2016L5.61782 16H10.3822L10.384 12.2016L13.6178 14.0991L16 9.90086L12.768 8L16 6.09914L13.6178 1.90086L10.384 3.79843L10.3822 0H5.61782L5.616 3.79843L2.38215 1.90086L0 6.09914L3.23197 8Z"
+                        fill="#BCA045"
+                      />
+                    </svg>
+                  </span>
+                  WHAT WE DO
+                </h4>
+                <p className="mb-30 ">
+                  <strong>Define Clear Purpose and Values</strong><br />
+                  Clearly articulate the mission, vision, and core values of your brand.
+Establish a purpose that resonates with your target audience, conveying why your brand exists beyond just selling a product or service.                </p>
+                <p className="mb-30 ">
+                  <strong>Understand and Connect with Your Target Audience</strong><br />
+                  Conduct thorough market research to understand the needs, preferences, and behaviors of your target audience.
+Tailor your brand messaging and visual elements to create a connection with your audience, ensuring that your brand is relatable and resonant.                </p>
+                <p className="mb-30 ">
+                  <strong>Create a Distinctive Brand Identity</strong><br />
+                  Develop a unique and memorable brand identity, including a well-crafted name, recognizable logo, and consistent color palette and typography.
+Ensure that your brands visual elements stand out in the market and effectively convey the essence of your brand.                </p>
+                <p className="mb-30 ">
+                  <strong>Maintain Consistency Across Platforms</strong><br />
+                  Establish brand guidelines that outline the proper use of your brand elements, ensuring consistency in design across all platforms.
+Consistent application of your brand identity builds recognition and trust among your audience, fostering a cohesive and unified brand image.
+                </p> */}
+              </div>
+            </div>
+          </div>
+        </section>
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
         {/* <section className="step-area section-spacing-top">
       <div className="container">
         <div className="row section-title-spacing wow fadeInUp" data-wow-delay="0.3s">
@@ -225,6 +316,7 @@ const Branding = ({ id }) => {
     </section > */}
   <br/><br/>
   <div className="container">
+<<<<<<< HEAD
   <h4 className="case-subtitle mb-25 ">
         <span>
           <svg
@@ -255,6 +347,8 @@ const Branding = ({ id }) => {
         {" "}
         Cambliss works closely with clients with a team of experienced brand strategists and designers to understand their bussiness objectives and target audience, our approach to branding is collaborative, involving clients in every step of the process to ensure their brand vision is accurately captured
       </p>
+=======
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
     <section className="design-area wow fadeInUp" data-wow-delay="0.3s">
       <h4 className="case-subtitle">
         <span>

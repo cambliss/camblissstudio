@@ -29,7 +29,10 @@ const ContactForm = () => {
   });
 
   return (
+<<<<<<< HEAD
     
+=======
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
     <form onSubmit={handleSubmit}>
       <div className="row">
         <div className="col-xl-6 col-lg-6">

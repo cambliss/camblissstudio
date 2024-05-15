@@ -19,7 +19,10 @@
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px; /* Add margin between video containers */
+<<<<<<< HEAD
   display: flex;
+=======
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
 }
 
 /* Styles for the video element */
@@ -30,6 +33,7 @@
   border-radius: 8px; /* Match the border-radius of the container */
   outline: none; /* Remove the default focus outline on the video */
 }
+<<<<<<< HEAD
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .videoGrid {
     display: grid;
@@ -51,3 +55,5 @@
   }
 }
 
+=======
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f

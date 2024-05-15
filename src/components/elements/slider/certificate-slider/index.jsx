@@ -139,7 +139,10 @@ import client3 from "@assets/img/logo/clients/4.png";
 import client4 from "@assets/img/logo/clients/5.png";
 import client5 from "@assets/img/logo/clients/6.png";
 import client6 from "@assets/img/logo/clients/7.png";
+<<<<<<< HEAD
 import client7 from "@assets/img/logo/clients/8.png";
+=======
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
 import { auto } from '@popperjs/core';
 
 const CertificateSlider = () => {
@@ -173,10 +176,13 @@ const CertificateSlider = () => {
          id: 7,
          image: client6
       },
+<<<<<<< HEAD
       {
          id: 8,
          image: client7
       },
+=======
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
    ];
 
    return (

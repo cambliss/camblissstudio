@@ -12,7 +12,11 @@ import GallarySection from "@components/portfolo-details-page/gallary";
 import StepAreaSection from "@components/service-details/step-area-section";
 import useGlobalContext from "@hooks/use-context";
 import PricingSection from "@components/service/pricing-section";
+<<<<<<< HEAD
 import imageOne from "@assets/img/logo/mainbackground.png"
+=======
+import imageOne from "@assets/img/logo/visualhero.jpeg"
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
 import PortfolioSlider from "@components/elements/slider/portfolio-slider/portfolio-slider";
 import PortfolioSliderTwo from "@components/elements/slider/portfolio-slider/portfolio-slider-two";
 import styles from "../Animation/Animation.module.css"
@@ -147,6 +151,7 @@ const VisualProduction = ({ id }) => {
   const videos = [
     {
       id:1,
+<<<<<<< HEAD
       video:'https://www.youtube.com/embed/RmRRkJ3nb6U?si=MhJDzADLIdFvX9as"',
     },
     {
@@ -184,6 +189,45 @@ const VisualProduction = ({ id }) => {
     {
       id:10,
       video:'https://www.youtube.com/embed/TKzBb4wdBLA?si=cs_RPxSTBPJddZiL',
+=======
+      video:'assets/img/services/videos/video1.mp4',
+    },
+    {
+      id:2,
+      video:'assets/img/services/videos/video2.mp4',
+    },
+    {
+      id:3,
+      video:'assets/img/services/videos/A Journey of Change_ Testimony.mp4',
+    },
+    {
+      id:4,
+      video:'assets/img/services/videos/bluetoothearphone.mp4',
+    },
+    {
+      id:5,
+      video:'assets/img/services/videos/Cambliss showreel.mp4',
+    },
+    {
+      id:6,
+      video:'assets/img/services/videos/CAMBLISSSTUDIO.mp4',
+    },
+    {
+      id:7,
+      video:'assets/img/services/videos/CM 18 Cambliss Wireless Bluetooth ANC Headphones.mp4',
+    }, 
+    {
+      id:8,
+      video:'assets/img/services/videos/Connection comes free ..mp4',
+    },
+    {
+      id:9,
+      video:'assets/img/services/videos/doctor.mp4',
+    },
+    {
+      id:10,
+      video:'assets/img/services/videos/FREEDOM FROM NOISE  _ EARPHONES SH18.mp4',
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
     },
     // {
     //   id:11,
@@ -199,6 +243,7 @@ const VisualProduction = ({ id }) => {
     // },
     {
       id:14,
+<<<<<<< HEAD
       video:'https://www.youtube.com/embed/y9_lZP6PML8?si=S3_Xpj8S4VkJIv1M',
     },
     {
@@ -245,6 +290,54 @@ const VisualProduction = ({ id }) => {
     //   id:25,
     //   video:'assets/img/services/videos/flic2.mp4'
     // }
+=======
+      video:'assets/img/services/videos/FREEDOM FROM NOISE.mp4',
+    },
+    {
+      id:15,
+      video:'assets/img/services/videos/introducing all new M3 in ear bluetooth earphone.mp4',
+    },
+    {
+      id:16,
+      video:'assets/img/services/videos/M3 in ear bluetooth earphone ..mp4',
+    },
+    {
+      id:17,
+      video:'assets/img/services/videos/M3comingsoon.mp4',
+    },
+    {
+      id:18,
+      video:'assets/img/services/videos/Make your own World Silent.mp4',
+    },
+    {
+      id:19,
+      video:'assets/img/services/videos/Sci-Fi animation sample.mp4',
+    },
+    {
+      id:20,
+      video:'assets/img/services/videos/The Power of Compassion_ Social Workers Making a Difference_.mp4',
+    },
+    {
+      id:21,
+      video:'assets/img/services/videos/To see the world differently SH18 dual driver earphone by Cambliss.mp4',
+    },
+    {
+      id:22,
+      video:'assets/img/services/videos/Vfx before &  after.mp4',
+    },
+    {
+      id:23,
+      video:'assets/img/services/videos/Web Banner.mp4',
+    },
+    {
+      id:24,
+      video:'assets/video/anandgiri.mp4',
+    },
+    {
+      id:25,
+      video:'assets/img/services/videos/flic2.mp4'
+    }
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
     
  ];
 
@@ -269,7 +362,18 @@ const VisualProduction = ({ id }) => {
           <div className="container">
             <div className="row">
               <div className="col-xxl-12" style={{ position: 'relative', zIndex: 2 }}>
+<<<<<<< HEAD
                <br/><br/>
+=======
+                <div className="case-details-thumb" style={{ marginTop: '-100px' }}>
+                  <Image
+                    data-speed="auto"
+                    src={imageOne}
+                    style={{ width: "100%", height: "100%" }}
+                    alt="image not found"
+                  />
+                </div>
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
                 <h4 className="case-subtitle mb-25">
                   <span>
                     <svg
@@ -389,6 +493,7 @@ Visualization is all about pre-visualizing action, camera angles and camera move
     </div>
 </div> */}
   <div className="container"> 
+<<<<<<< HEAD
   <div className={styles.videoContainer}>
   <iframe 
     width="100%" 
@@ -422,6 +527,27 @@ Visualization is all about pre-visualizing action, camera angles and camera move
     </div>
 </div>
 
+=======
+    <div className={styles.videoContainer}>
+    <video autoPlay loop muted width="100%" height="100%">
+      <source src="assets/img/services/videos/flic1.mp4" type="video/mp4" />
+      Video not found or not supported by your browser.
+    </video>
+  </div>
+</div>
+   <div className="container"> 
+    <div className={styles.videoGrid}>
+      {videos.map((video, index) => (
+        <div key={index} className={styles.videoContainer}>
+          <video controls autoPlay loop muted width="100%" height="100%">
+            <source src={video.video} type="video/mp4" />
+            Video not found or not supported by your browser.
+          </video>
+        </div>
+      ))}
+    </div>
+</div>
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
   
 <br/><br/>
 

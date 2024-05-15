@@ -12,7 +12,11 @@ import GallarySection from "@components/portfolo-details-page/gallary";
 import StepAreaSection from "@components/service-details/step-area-section";
 import useGlobalContext from "@hooks/use-context";
 import PricingSection from "@components/service/pricing-section";
+<<<<<<< HEAD
 import imagehero from "@assets/img/logo/mainbackground.png"
+=======
+import imagehero from "@assets/img/logo/advhero.png"
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
 
 import imageOne from "@assets/img/logo/adverstisement/adv3.png";  
 import imageThree from "@assets/img/logo/adverstisement/adv1.png";  
@@ -68,7 +72,11 @@ const Advertisement = ({ id }) => {
           <div className="row justify-content-center">
             <div className="col-12">
               <div className="page-title-wrapper" style={{ marginTop: '-300px' }}>
+<<<<<<< HEAD
              
+=======
+                <h1 className="page-title">Advertisement</h1>
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
               </div>
             </div>
           </div>
@@ -80,14 +88,22 @@ const Advertisement = ({ id }) => {
           <div className="container">
             <div className="row">
               <div className="col-xxl-12" style={{ position: 'relative', zIndex: 2 }}>
+<<<<<<< HEAD
                 {/* <div className="case-details-thumb" style={{ marginTop: '-100px' }}>
+=======
+                <div className="case-details-thumb" style={{ marginTop: '-100px' }}>
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
                   <Image
                     data-speed="auto"
                     src={imagehero}
                     style={{ width: "100%", height: "100%" }}
                     alt="image not found"
                   />
+<<<<<<< HEAD
                 </div> */}<br/><br/>
+=======
+                </div>
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
                 <h4 className="case-subtitle mb-25">
                   <span>
                     <svg

@@ -4,9 +4,14 @@ import gallery1 from "@assets/img/logo/gallery1.jpeg";
 import gallery2 from "@assets/img/logo/gallery2.png";
 import gallery3 from "@assets/img/logo/gallery3.jpeg";
 import gallery4 from "@assets/img/logo/serviceimage5.png";
+<<<<<<< HEAD
 import gallery5 from "@assets/img/logo/footerimagesection.png";
 import gallery6 from "@assets/img/logo/cloud.png";
 
+=======
+import gallery5 from "@assets/img/logo/4.png";
+import gallery6 from "@assets/img/logo/gallery6.jpeg";
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
 
 
 const footerData = {
@@ -40,10 +45,17 @@ const footerData = {
                id:5,
                image:gallery5
             },
+<<<<<<< HEAD
             {
                id:6,
                image:gallery6
             },
+=======
+            // {
+            //    id:6,
+            //    image:gallery6
+            // },
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
             
          ],
     },
@@ -101,8 +113,13 @@ const footerData = {
             //home-two-data
             {
                 id: 4,
+<<<<<<< HEAD
                 contactInfo: 'mailto:contact@camblissstudio.com',
                 contact: 'contact@camblissstudio.com',
+=======
+                contactInfo: 'mailto:hello@faimemedia.com',
+                contact: 'hello@faimemedia.com',
+>>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
                 contactClass:'contact-mail',
                 addressWrapperClass:'fm-contact-mail',
                 contactTimeClass:'fm-contact-hours',
