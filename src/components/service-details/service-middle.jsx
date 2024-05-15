@@ -28,18 +28,7 @@ const ServiceMiddle = () => {
           </p>
         </div>
       </div> */}
-<<<<<<< HEAD
     <br/><br/>
-=======
-      <div className="case-details-thumb" style={{ marginTop: '-100px' }}>
-        <Image
-          data-speed="auto"
-          src={imageOne}
-          style={{ width: "100%", height: "100%" }}
-          alt="image not found"
-        />
-      </div>
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
       <h4 className="case-subtitle mb-25 ">
         <span>
           <svg

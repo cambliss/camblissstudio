@@ -126,12 +126,8 @@ const manuallyWrittenServices = [
     delay: "0.6s",
   },
   {
-<<<<<<< HEAD
     // link: "/Digital-Marketing",
     link:"",
-=======
-    link: "/Digital-Marketing",
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
     serviceNum: "05",
     title: "Digital Marketing",
     description: "From SEO to PPC advertising to social media marketing, Cambliss covers all aspects of marketing.",
@@ -157,17 +153,12 @@ const manuallyWrittenServices = [
   },
   {
     link: "/Visual-Production",
-<<<<<<< HEAD
     serviceNum: "08",
-=======
-    serviceNum: "07",
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
     title: "Visual Production",
     description: "Where Style Meets Comfort, Your Space Unveiled.",
     serviceBtn: "View More",
     delay: "0.6s",
   },
-<<<<<<< HEAD
   {
     link: "/IBS",
     serviceNum: "09",
@@ -176,8 +167,6 @@ const manuallyWrittenServices = [
     serviceBtn: "View More",
     delay: "0.6s",
   },
-=======
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
 ];
 
 const ServiceTwo = () => {

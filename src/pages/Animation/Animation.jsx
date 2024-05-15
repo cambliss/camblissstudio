@@ -16,11 +16,8 @@ import imageOne from "@assets/img/logo/animationhero.png"
 import styles from "./Animation.module.css";
 import video1 from '@assets/img/services/videos/video1.mp4';
 import video2 from '@assets/img/services/videos/video2.mp4';
-<<<<<<< HEAD
 import imagehero from "@assets/img/logo/mainbackground.png";
 
-=======
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
 
 
 const Animation = ({ id }) => {
@@ -139,37 +136,21 @@ const Animation = ({ id }) => {
   const videos = [
     {
       id:1,
-<<<<<<< HEAD
       video:'https://www.youtube.com/embed/mO8hYmZSGbs?si=JibmvgU4ovhbI8y2',
     },
     {
       id:2,
       video:'https://www.youtube.com/embed/A9Rae4VeIUQ?si=UvUExaNVJbkJoCVl',
-=======
-      video:'assets/img/services/videos/video1.mp4',
-    },
-    {
-      id:2,
-      video:'assets/img/services/videos/video2.mp4',
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
     },
  ];
  const videos1 = [
   {
     id:1,
-<<<<<<< HEAD
     video:'https://www.youtube.com/embed/QYeBqDS0dns?si=cnDdKrKmC5cQD63X',
   },
   {
     id:2,
     video:'https://www.youtube.com/embed/xkp3AulHScY?si=khT2PYyLjBy8ItxO',
-=======
-    video:'assets/img/services/videos/bluetoothearphone.mp4',
-  },
-  {
-    id:2,
-    video:'assets/img/services/videos/M3comingsoon.mp4',
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
   },
 ];
 
@@ -177,11 +158,7 @@ const Animation = ({ id }) => {
     <>
          <Header />
       <div className="adjust-header-space bg-common-black"></div>
-<<<<<<< HEAD
       <div className="fm-breadcrumb-area breadcrumb-style" style={{ backgroundImage: `url(${imagehero.src})`, paddingTop: '400px', position: 'relative' }}>
-=======
-      <div className="fm-breadcrumb-area breadcrumb-style" style={{ backgroundImage: `url(${imageOne.src})`, paddingTop: '400px', position: 'relative' }}>
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-12">
@@ -198,23 +175,15 @@ const Animation = ({ id }) => {
           <div className="container">
             <div className="row">
               <div className="col-xxl-12" style={{ position: 'relative', zIndex: 2 }}>
-<<<<<<< HEAD
                 <br/><br/>
                 {/* <div className="case-details-thumb" style={{ marginTop: '-100px' }}>
-=======
-                <div className="case-details-thumb" style={{ marginTop: '-100px' }}>
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
                   <Image
                     data-speed="auto"
                     src={imageOne}
                     style={{ width: "100%", height: "100%" }}
                     alt="image not found"
                   />
-<<<<<<< HEAD
                 </div> */}
-=======
-                </div>
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
                 <h4 className="case-subtitle mb-25">
                   <span>
                     <svg
@@ -328,7 +297,6 @@ const Animation = ({ id }) => {
           </div><br/><br/>
     <div className="container"> 
     <div className={styles.videoGrid}>
-<<<<<<< HEAD
         {videos.map((videos, index) => (
             <div key={index} className={styles.videoContainer}>
                 <iframe
@@ -371,40 +339,6 @@ const Animation = ({ id }) => {
     </div>
 </div>
 
-=======
-      {videos.map((video, index) => (
-        <div key={index} className={styles.videoContainer}>
-          <video controls autoPlay loop muted width="100%" height="100%">
-            <source src={video.video} type="video/mp4" />
-            Video not found or not supported by your browser.
-          </video>
-        </div>
-      ))}
-    </div>
-</div>
-<br/><br/>
-    <div className="container"> 
-    <div className={styles.videoContainer}>
-    <video autoPlay loop muted width="100%" height="100%">
-      <source src="assets/img/services/videos/video3.mp4" type="video/mp4" />
-      Video not found or not supported by your browser.
-    </video>
-  </div>
-
-</div>
-<div className="container"> 
-    <div className={styles.videoGrid}>
-      {videos1.map((video, index) => (
-        <div key={index} className={styles.videoContainer}>
-          <video controls autoPlay loop muted width="100%" height="100%">
-            <source src={video.video} type="video/mp4" />
-            Video not found or not supported by your browser.
-          </video>
-        </div>
-      ))}
-    </div>
-</div>
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
  {/* <div className="container"> 
     <div className={styles.videoContainer}>
     <video autoPlay loop muted width="100%" height="100%">

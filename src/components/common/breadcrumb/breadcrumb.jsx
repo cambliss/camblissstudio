@@ -44,11 +44,7 @@
 
 import Link from 'next/link';
 import React from 'react';
-<<<<<<< HEAD
 import BgImage from "@assets/img/logo/mainbackground.png";
-=======
-import BgImage from "@assets/img/services/servicesbackground.png";
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
 
 const Breadcrumb = ({ title, servicePage }) => {
   // Define a mapping of service pages to their subtitles

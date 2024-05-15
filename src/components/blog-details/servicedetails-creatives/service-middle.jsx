@@ -1,10 +1,6 @@
 import Image from "next/image";
 import React from "react";
-<<<<<<< HEAD
 import imageOne from "@assets/img/logo/mainbackground.png";
-=======
-import imageOne from "@assets/img/logo/websitehero.png";
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
 import useGlobalContext from "@hooks/use-context";
 
 const ServiceMiddle = () => {

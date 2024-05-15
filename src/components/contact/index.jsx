@@ -12,11 +12,7 @@ const index = () => {
       <Header />
       <main>
       
-<<<<<<< HEAD
         <Breadcrumb  />
-=======
-        <Breadcrumb title="Contact Us" subTitle="Contact Us" />
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
         <ContactArea />
         <ContactMap />
         <ContactSection />
