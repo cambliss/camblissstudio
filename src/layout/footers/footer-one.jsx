@@ -8,10 +8,6 @@ import footerData from "@data/footer-data";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 80bf117be067f3b48bdfc0119f6563b4ef9d096f
 const FooterOne = () => {
   return (
     <>
