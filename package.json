@@ -15,7 +15,6 @@
     "@vercel/analytics": "^1.1.2",
     "axios": "^1.5.0",
     "bootstrap": "^5.2.2",
-    "eslint": "8.26.0",
     "eslint-config-next": "13.0.2",
     "formik": "^2.2.9",
     "framer-motion": "^7.6.12",
@@ -44,6 +43,8 @@
     "yup": "^0.32.11"
   },
   "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.36.1",
     "file-loader": "^6.2.0"
   }
 }
