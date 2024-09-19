@@ -5,7 +5,7 @@ import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 import ModalVideo from "react-modal-video";
-import one from "@assets/img/ouwork/1.png"
+// import one from "@assets/img/ouwork/1.png"
 import two from "@assets/img/ouwork/2.png"
 import three from "@assets/img/ouwork/3.png"
 import four from "@assets/img/ouwork/4.png"
@@ -76,12 +76,13 @@ image : seven,
 const MovieSliderSix = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [videoUrl, setVideoUrl] = useState(" ");
-  const [activeCategory, setActiveCategory] = useState("WebsiteDesign");
+  // const [activeCategory, setActiveCategory] = useState("WebsiteDesign");
+  const [ setActiveCategory] = useState("WebsiteDesign");
 
-  const openVideoModal = (id) => {
-    setIsOpen(!isOpen);
-    setVideoUrl(id);
-  };
+  // const openVideoModal = (id) => {
+  //   setIsOpen(!isOpen);
+  //   setVideoUrl(id);
+  // };
 
   const handleCategoryChange = (category) => {
     setActiveCategory(category);
