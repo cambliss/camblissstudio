@@ -74,7 +74,7 @@ const FooterOne = () => {
                   </div>
                   <div className="fm-social-2 footer-social-3">
                   {footerData.socialLink.socialIcons.map((item) => (
-  <Link key={item.id} href={item.url} rel="noopener noreferrer">
+  <Link key={item.id} href={item.url} target="_blank" rel="noopener noreferrer">
   <i className={item.icon}></i>
 </Link>
 
