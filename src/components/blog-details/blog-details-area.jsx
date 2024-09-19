@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import Link from "next/link";
 import React, { useEffect } from "react";
-import { useRouter } from "next/router"; // Fixed router import
+// import { useRouter } from "next/router"; 
 import Image from "next/image";
 import axios from "axios";
 import useGlobalContext from "@hooks/use-context";
