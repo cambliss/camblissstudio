@@ -1,5 +1,10 @@
-const ShopModal = () => {
-  const { product } = useSelector((state) => state.products);
+import React from "react"; // Import React for JSX
+import { useSelector } from "react-redux"; // Import useSelector from react-redux
+import Image from "next/image";
+import PropTypes from "prop-types"; // Import PropTypes for validation
+
+const ShopModal = ({ product }) => {
+  const cartProduct = useSelector((state) => state.products[product.id]); // Example of using useSelector
 
   return (
     <div
@@ -61,7 +66,7 @@ const ShopModal = () => {
                             aria-selected="true"
                           >
                             <Image
-                              src={tab_1}
+                              src="/path-to-tab_1.jpg" // Example of other images
                               style={{ width: "100%", height: "100%" }}
                               alt="img not found"
                             />
@@ -79,7 +84,7 @@ const ShopModal = () => {
                             aria-selected="false"
                           >
                             <Image
-                              src={tab_2}
+                              src="/path-to-tab_2.jpg"
                               style={{ width: "100%", height: "100%" }}
                               alt="img not found"
                             />
@@ -97,7 +102,7 @@ const ShopModal = () => {
                             aria-selected="false"
                           >
                             <Image
-                              src={tab_3}
+                              src="/path-to-tab_3.jpg"
                               style={{ width: "100%", height: "100%" }}
                               alt="img not found"
                             />
@@ -129,7 +134,7 @@ const ShopModal = () => {
                           aria-labelledby="pro-2-tab"
                         >
                           <Image
-                            src={tab_1}
+                            src="/path-to-tab_1.jpg"
                             style={{ width: "100%", height: "100%" }}
                             className="active"
                             alt="img not found"
@@ -142,7 +147,7 @@ const ShopModal = () => {
                           aria-labelledby="pro-3-tab"
                         >
                           <Image
-                            src={tab_2}
+                            src="/path-to-tab_2.jpg"
                             style={{ width: "100%", height: "100%" }}
                             className="active"
                             alt="img not found"
@@ -155,7 +160,7 @@ const ShopModal = () => {
                           aria-labelledby="pro-4-tab"
                         >
                           <Image
-                            src={tab_3}
+                            src="/path-to-tab_3.jpg"
                             style={{ width: "100%", height: "100%" }}
                             className="active"
                             alt="img not found"
@@ -206,7 +211,7 @@ const ShopModal = () => {
                       Kindedo seemed great for my kindergartener-to-be, a full
                       santa believer. Not so the winter holiday episode, and
                       {`I'm`} not sure how {`I'm`} going to police. I really
-                      happy to see my child there
+                      happy to see my child there.
                     </p>
                     <div className="product-quantity-cart mb-30">
                       <span data-bs-dismiss="modal" aria-label="Close">
@@ -257,14 +262,15 @@ const ShopModal = () => {
   );
 };
 
-// Add PropTypes validation for `item`
+// Add PropTypes validation for `product`
 ShopModal.propTypes = {
-  item: PropTypes.shape({
+  product: PropTypes.shape({
     id: PropTypes.string.isRequired,
-    url: PropTypes.string.isRequired,
-    icon: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired,
-  }),
+    productImg: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    discount: PropTypes.number,
+    price: PropTypes.number.isRequired,
+  }).isRequired,
 };
 
 export default ShopModal;
