@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 import PropTypes from 'prop-types';
->>>>>>> master
 import useGlobalContext from '@hooks/use-context';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
@@ -20,12 +17,9 @@ const PrivateRoute = ({ children }) => {
   return user?.email ? children : null;
 };
 
-<<<<<<< HEAD
-=======
 // Add PropTypes validation
 PrivateRoute.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
->>>>>>> master
 export default PrivateRoute;
