@@ -13,7 +13,7 @@ const FooterOneCopyright = () => {
                         <p>© 2023<Link href="/"> CAMBLISS </Link> All Rights Reserved.</p>
                      </div>
                      <div className="footer-copyright">
-                        <p>Partnered with <a href="https://www.ghb.digital/" target="_blank"><img src="https://www.ghb.digital/img/GHB_logo.png" alt="" /></a></p>
+                        <p>Partnered with <a href="https://www.ghb.digital/" target="_blank" rel="noreferrer"><img src="https://www.ghb.digital/img/GHB_logo.png" alt="" /></a></p>
                      </div>
                      <div className="footer-rules ">
                      <Link href="/policy-privacy">Privacy Policy</Link>
