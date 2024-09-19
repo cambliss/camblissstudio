@@ -1,15 +1,4 @@
-import React from "react";
-import PropTypes from "prop-types"; // Import PropTypes for validation
-import footer_data from "@data/footer-data";
-import Image from "next/image";
-import Link from "next/link";
-import { useSelector } from "react-redux";
-import tab_1 from "@assets/img/shop/9.1.jpg";
-import tab_2 from "@assets/img/shop/8.1.jpg";
-import tab_3 from "@assets/img/shop/8.3.png";
-
-// const ShopModal = ({ item })
-const ShopModal = ({}) => {
+const ShopModal = () => {
   const { product } = useSelector((state) => state.products);
 
   return (
