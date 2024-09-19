@@ -75,7 +75,9 @@ image : seven,
 
 const MovieSliderSix = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [videoUrl, setVideoUrl] = useState(" ");
+  // const [videoUrl, setVideoUrl] = useState(" ");
+  const [videoUrl] = useState(" ");
+
   // const [activeCategory, setActiveCategory] = useState("WebsiteDesign");
   const [ setActiveCategory] = useState("WebsiteDesign");
 

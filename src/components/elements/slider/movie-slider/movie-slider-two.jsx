@@ -147,10 +147,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 import ModalVideo from "react-modal-video";
 import axios from "axios";
-import Preloader from "@components/preloader";
+// import Preloader from "@components/preloader";
 
 const MovieSliderTwo = () => {
-  const [movies, setMovies] = useState([]);
+  const [setMovies] = useState([]);
+
+  // const [movies, setMovies] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
   const [videoUrl, setVideoUrl] = useState("");
   const [manualVideos] = useState([
