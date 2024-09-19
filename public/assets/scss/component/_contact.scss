@@ -72,8 +72,13 @@
   }
 
   button[type="submit"] {
+<<<<<<< HEAD
     border: 1px solid var(--clr-common-black);
     color: var(--clr-common-black);
+=======
+    border: 1px solid #ffbd39;
+    color: #ffbd39;
+>>>>>>> master
     height: 50px;
     line-height: 50px;
     padding: 0 28px;
@@ -82,7 +87,11 @@
     text-transform: capitalize;
 
     &:hover {
+<<<<<<< HEAD
       background-color: var(--clr-theme-1);
+=======
+      background-color: #ffbd39;
+>>>>>>> master
       color: var(--clr-common-white);
       border-color: transparent;
     }

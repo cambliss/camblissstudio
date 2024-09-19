@@ -170,7 +170,11 @@ const Postbox = () => {
     },
   ];
 
+<<<<<<< HEAD
   const [blogs, setBlogs] = useState(sampleData);
+=======
+  const [blogs] = useState(sampleData);
+>>>>>>> master
 
   return (
     <>

@@ -13,6 +13,7 @@ import GallarySection from "@components/portfolo-details-page/gallary";
 import StepAreaSection from "@components/service-details/step-area-section";
 import useGlobalContext from "@hooks/use-context";
 import PricingSection from "@components/service/pricing-section";
+<<<<<<< HEAD
 import imagehero from "@assets/img/logo/interiorDesigning/hero.jpg"
 
 import imageOne from "@assets/img/logo/interiorDesigning/int1.jpeg";  
@@ -20,6 +21,15 @@ import imageOne from "@assets/img/logo/interiorDesigning/int1.jpeg";
 import imageTwo from "@assets/img/logo/interiorDesigning/int2.jpeg"; 
 import imageThree from "@assets/img/logo/interiorDesigning/int3.jpeg"; 
 import imageFour from "@assets/img/logo/interiorDesigning/int4.jpeg"; 
+=======
+import imagehero from "@assets/img/logo/mainbackground.png"
+
+import imageOne from "@assets/img/logo/interiorDesigning/int1.jpeg";
+// import imageTwo from "@assets/img/logo/interiorDesigning/int2.png"; 
+import imageTwo from "@assets/img/logo/interiorDesigning/int2.jpeg";
+import imageThree from "@assets/img/logo/interiorDesigning/int3.jpeg";
+import imageFour from "@assets/img/logo/interiorDesigning/int4.jpeg";
+>>>>>>> master
 import imageFive from "@assets/img/logo/interiorDesigning/int11.jpg";
 import imageSix from "@assets/img/logo/interiorDesigning/int22.jpg";
 
@@ -101,9 +111,15 @@ const Fabrication = ({ id }) => {
       serviceBtn: "Learn More",
       delay: "0.6s",
     },
+<<<<<<< HEAD
     
   ];
   
+=======
+
+  ];
+
+>>>>>>> master
   const stepData = [
     {
       id: 1,
@@ -155,7 +171,11 @@ const Fabrication = ({ id }) => {
       title: "Evaluate and Learn",
       description: " After the campaign concludes, conduct a thorough analysis of its overall performance. Identify what worked well and areas for improvement for future advertisement.",
     },
+<<<<<<< HEAD
    
+=======
+
+>>>>>>> master
   ];
   const galary_data = [
     {
@@ -191,6 +211,7 @@ const Fabrication = ({ id }) => {
       img: imageEight,
     },
   ];
+<<<<<<< HEAD
   
   return (
     <>
@@ -203,14 +224,44 @@ const Fabrication = ({ id }) => {
             <div className="row">
               <div className="col-xxl-12">
                 <div className="case-details-thumb">
+=======
+
+  return (
+    <>
+         <Header />
+      <div className="adjust-header-space bg-common-black"></div>
+      <div className="fm-breadcrumb-area breadcrumb-style" style={{ backgroundImage: `url(${imagehero.src})`, paddingTop: '400px', position: 'relative' }}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-12">
+              <div className="page-title-wrapper" style={{ marginTop: '-300px' }}>
+                {/* <h1 className="page-title">Interior Designing</h1> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="breadcrumb-image-overlay" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 1 }}></div>
+      </div>
+      <main>
+        <section className="case-details-area">
+          <div className="container">
+            <div className="row">
+              <div className="col-xxl-12" style={{ position: 'relative', zIndex: 2 }}>
+                {/* <div className="case-details-thumb" style={{ marginTop: '-100px' }}>
+>>>>>>> master
                   <Image
                     data-speed="auto"
                     src={imagehero}
                     style={{ width: "100%", height: "100%" }}
                     alt="image not found"
                   />
+<<<<<<< HEAD
                 </div>
                 <h4 className="case-subtitle mb-25 ">
+=======
+                </div> */}<br/><br/>
+                <h4 className="case-subtitle mb-25">
+>>>>>>> master
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -231,6 +282,7 @@ const Fabrication = ({ id }) => {
                 </h4>
                 <p className="mb-55 ">
 
+<<<<<<< HEAD
                 Cambliss, a leading interior design company, is dedicated to transforming spaces into aesthetically pleasing and functional environments. With a commitment to innovation and client satisfaction, Cambliss aims to create unique designs that reflect individual lifestyles and organizational identities.                <p className="mb-45 ">
               </p>
                   {" "}
@@ -241,6 +293,19 @@ const Fabrication = ({ id }) => {
                 </p>
                 
                 <h4 className="case-subtitle mb-25">
+=======
+                  Cambliss, a leading interior design company, is dedicated to transforming spaces into aesthetically pleasing and functional environments. With a commitment to innovation and client satisfaction, Cambliss aims to create unique designs that reflect individual lifestyles and organizational identities.                <p className="mb-45 ">
+                  Cambliss strives to create exceptional interior designs that not only meet but exceed the expectations of its clients while maintaining a commitment to quality and innovation.    With a team of creative minds and marketing experts, we go beyond traditional advertising boundaries, pushing the limits to deliver campaigns that resonate. By staying ahead of industry trends and leveraging cutting-edge technologies, we ensure that your brand stands out in a crowded media landscape.    
+                  </p>
+                  {" "}
+                  {/* Cambliss strives to create exceptional interior designs that not only meet but exceed the expectations of its clients while maintaining a commitment to quality and innovation.                <p className="mb-45 "> */}
+                  </p>
+                  {" "}
+                  {/* With a team of creative minds and marketing experts, we go beyond traditional advertising boundaries, pushing the limits to deliver campaigns that resonate. By staying ahead of industry trends and leveraging cutting-edge technologies, we ensure that your brand stands out in a crowded media landscape. */}
+                {/* </p> */}
+
+                {/* <h4 className="case-subtitle mb-25">
+>>>>>>> master
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -265,6 +330,7 @@ const Fabrication = ({ id }) => {
                 <p className="mb-30 ">
                   <strong>Innovative Design Solutions</strong><br />
                   Stay at the forefront of design trends and incorporate innovative concepts into every project.
+<<<<<<< HEAD
 Provide creative and original solutions that elevate the overall design aesthetic.</p>
                <p className="mb-30 ">
                   <strong>Functional and Practical Designs</strong><br />
@@ -274,6 +340,17 @@ Optimize space utilization through strategic planning and thoughtful design solu
                   <strong>Attention to Detail</strong><br />
                   Uphold a commitment to precision and attention to detail in every aspect of the design process.
 Ensure that the smallest details contribute to the overall cohesiveness of the design.                </p>
+=======
+                  Provide creative and original solutions that elevate the overall design aesthetic.</p>
+                <p className="mb-30 ">
+                  <strong>Functional and Practical Designs</strong><br />
+                  Balance aesthetics with functionality to ensure that each space serves its intended purpose effectively.
+                  Optimize space utilization through strategic planning and thoughtful design solutions.</p>
+                <p className="mb-30 ">
+                  <strong>Attention to Detail</strong><br />
+                  Uphold a commitment to precision and attention to detail in every aspect of the design process.
+                  Ensure that the smallest details contribute to the overall cohesiveness of the design.                </p> */}
+>>>>>>> master
               </div>
             </div>
           </div>
@@ -311,6 +388,7 @@ Ensure that the smallest details contribute to the overall cohesiveness of the d
         </div>
       </div>
     </section > */}
+<<<<<<< HEAD
   <br/><br/>
   <div className="container">
     <section className="design-area wow fadeInUp" data-wow-delay="0.3s">
@@ -333,6 +411,30 @@ Ensure that the smallest details contribute to the overall cohesiveness of the d
             ))}
         </div>
       {/* <PhotoProvider
+=======
+        <br /><br />
+        <div className="container">
+          <section className="design-area wow fadeInUp" data-wow-delay="0.3s">
+            <h4 className="case-subtitle">
+              <span>
+                <CaseSubtitleIcon />
+              </span>
+              Gallery
+            </h4>
+            <div className="design-humb-grid ">
+              {galary_data &&
+                galary_data.map((item) => (
+                  <div className="design-thumb img-tilt all__item-fade common-galary-icons" key={item.id}>
+                    <Image
+                      src={item.img}
+                      style={{ width: "100%", height: "auto" }}
+                      alt="image not found"
+                    />
+                  </div>
+                ))}
+            </div>
+            {/* <PhotoProvider
+>>>>>>> master
       speed={() => 800}
       easing={(type) =>
         type === 2
@@ -357,16 +459,26 @@ Ensure that the smallest details contribute to the overall cohesiveness of the d
             ))}
         </div>
       </PhotoProvider> */}
+<<<<<<< HEAD
     </section>
     </div>
  
+=======
+          </section>
+        </div>
+
+>>>>>>> master
 
 
         {/* <StepAreaSection /> */}
         {/* <FaqSection /> */}
         {/* <CaseQouteArea /> */}
         {/* <PricingSection /> */}
+<<<<<<< HEAD
      
+=======
+
+>>>>>>> master
         <ContactSection />
       </main>
       <FooterOne />

@@ -1,5 +1,9 @@
 import Link from "next/link";
 import React from "react";
+<<<<<<< HEAD
+=======
+import PropTypes from "prop-types"; // Import PropTypes
+>>>>>>> master
 import LogoImg from "@assets/img/logo/logo.png";
 import FacebookIcon from "@assets/img/new-icon/social/facebook.svg";
 import InstagramIcon from "@assets/img/new-icon/social/instagram.svg";
@@ -65,4 +69,15 @@ const HeaderSidebarTwo = ({ isOffCanvasOpen, handleMenuOpenClose }) => {
   );
 };
 
+<<<<<<< HEAD
 export default HeaderSidebarTwo;
+=======
+// Add PropTypes validation
+HeaderSidebarTwo.propTypes = {
+  isOffCanvasOpen: PropTypes.bool.isRequired, // Expecting a boolean value
+  handleMenuOpenClose: PropTypes.func.isRequired, // Expecting a function
+};
+
+export default HeaderSidebarTwo;
+  
+>>>>>>> master

@@ -1,8 +1,14 @@
 import Image from 'next/image';
 import React from 'react';
+<<<<<<< HEAD
 import aboutImage from '@assets/img/about/director-about.png'
 import Link from 'next/link';
 import aboutusimage from "@assets/img/logo/aboutus.jpeg";
+=======
+// import aboutImage from '@assets/img/about/director-about.png'
+// import Link from 'next/link';
+// import aboutusimage from "@assets/img/logo/aboutus.jpeg";
+>>>>>>> master
 import aboutusimage1 from "@assets/img/logo/aboutus1.png";
 
 const AboutSection = () => {
@@ -32,10 +38,17 @@ const AboutSection = () => {
                       target audience effectively, and drive measurable results.
                         </p>
 
+<<<<<<< HEAD
                      <p>Our mission is to stay at the forefront of digital marketing trends and technologies, continously refining our expertise
                         to deliver innovative and cutting-edge solutions.We aim to be a trusted partner to our clients, providing them with customized strategies
                         that align with their goals and objectives.
                      </p>
+=======
+                     {/* <p>Our mission is to stay at the forefront of digital marketing trends and technologies, continously refining our expertise
+                        to deliver innovative and cutting-edge solutions.We aim to be a trusted partner to our clients, providing them with customized strategies
+                        that align with their goals and objectives.
+                     </p> */}
+>>>>>>> master
                      {/* <div className="fm-director-about-name mt-55">
                         <Link href="/team-details" className="director-about-nam">David Anderson</Link>
                      </div> */}

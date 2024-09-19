@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import aboutImg from '@assets/img/bg/about-bg-3.png';
 import aboutBgImg from '@assets/img/bg/about-bg-2.png';
 import Image from 'next/image';
@@ -6,12 +7,25 @@ import Link from 'next/link';
 import { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 import imageabout from "@assets/img/logo/video-2-0.png";
+=======
+// import aboutImg from '@assets/img/bg/about-bg-3.png';
+// import aboutBgImg from '@assets/img/bg/about-bg-2.png';
+// import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
+import ModalVideo from 'react-modal-video';
+// import imageabout from "@assets/img/logo/video-2-0.png";
+>>>>>>> master
 import servicesimage1 from "@assets/img/logo/servicesimage1.png";
 
 
 const AboutSectionTwo = () => {
    const [isOpen, setIsOpen] = useState(false);
+<<<<<<< HEAD
    const openVideoModal = () => setIsOpen(!isOpen);
+=======
+   // const openVideoModal = () => setIsOpen(!isOpen);
+>>>>>>> master
    return (
       <>
          <section className="about-area fm-about-style bg-common-black">

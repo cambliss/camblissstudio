@@ -114,6 +114,7 @@
 
 
 
+<<<<<<< HEAD
 import React from "react";
 //swipper
 import { Navigation } from "swiper";
@@ -151,6 +152,47 @@ const BrandAreaSection = ({ brandWrapperClass, borderClass }) => {
       brandImage: "/assets/img/logo/client6.png",
     },
   ];
+=======
+// import React from "react";
+//swipper
+// import { Navigation } from "swiper";
+// import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css/bundle";
+
+const BrandAreaSection = ({  }) => {
+
+// const BrandAreaSection = ({ brandWrapperClass, borderClass }) => {
+  // const brandData = [
+  //   {
+  //     id: 1,
+  //     brandImage: "/assets/img/logo/client0.png",
+  //   },
+  //   {
+  //     id: 2,
+  //     brandImage: "/assets/img/logo/client1.jpg",
+  //   },
+  //   {
+  //     id: 3,
+  //     brandImage: "/assets/img/logo/client2.png",
+  //   },
+  //   {
+  //     id: 4,
+  //     brandImage: "/assets/img/logo/client3.png",
+  //   },
+  //   {
+  //     id: 5,
+  //     brandImage: "/assets/img/logo/client4.png",
+  //   },
+  //   {
+  //     id: 6,
+  //     brandImage: "/assets/img/logo/client5.png",
+  //   },
+  //   {
+  //     id: 7,
+  //     brandImage: "/assets/img/logo/client6.png",
+  //   },
+  // ];
+>>>>>>> master
 
   // Blo
 };

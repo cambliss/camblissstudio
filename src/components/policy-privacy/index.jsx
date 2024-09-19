@@ -44,6 +44,21 @@ const index = () => {
                       <span>Terms & Conditions</span>
                     </button>
                   </li>
+<<<<<<< HEAD
+=======
+                  <li role="presentation">
+                    <button
+                      data-bs-toggle="tab"
+                      data-bs-target="#refunds_and_cancellation"
+                      type="button"
+                      role="tab"
+                      aria-selected="true"
+                    >
+                      <i className="fas fa-circle"></i>
+                      <span>Refunds and cancellations</span>
+                    </button>
+                  </li>
+>>>>>>> master
                 </ul>
               </div>
               <div className="col-xl-9 col-lg-8">
@@ -58,6 +73,7 @@ const index = () => {
                         Privacy Policy Agreement
                       </h3>
                       <p>
+<<<<<<< HEAD
                         Companies or websites that handle customer information
                         are required by law and third parties to publish their
                         Privacy Policies on their business websites. If you own
@@ -65,6 +81,9 @@ const index = () => {
                         processes user data, you most certainly will have to
                         post a Privacy Policy on your website (or give in-app
                         access to the full Privacy Policy agreement).
+=======
+                      Companies or websites that handle customer information are required by law and third parties to publish their Privacy Policies on their business websites. If you own a website, web app, mobile app or that collects or processes user data, you most certainly will have to post a Privacy Policy on your website (or give in-app access to the full Privacy Policy agreement).
+>>>>>>> master
                       </p>
                       <h4 className="info_title">
                         Here are some of the main reasons:
@@ -199,9 +218,15 @@ const index = () => {
                       <p>
                         <Link
                           className="author_mail"
+<<<<<<< HEAD
                           href="mailto:howdy@paradox.com"
                         >
                           howdy@faime.com
+=======
+                          href="contact@camblissstudio.com"
+                        >
+                         contact@camblissstudio.com
+>>>>>>> master
                         </Link>
                       </p>
                       <h4 className="info_title">
@@ -314,27 +339,69 @@ const index = () => {
                       <ul className="icon_list unordered_list_block">
                         <li>
                           <span className="list_item_text">
+<<<<<<< HEAD
                             1. Inaccuracies and errors
+=======
+                            1. Subscription and Demo Period Cambliss Subscription offers a demo period during which customers can explore our services and evaluate their suitability. This demo period is provided as a free trial, allowing customers to experience the features and benefits of our subscription. Please note that the duration of the demo period will be clearly communicated.
+>>>>>>> master
                           </span>
                         </li>
                         <li>
                           <span className="list_item_text">
+<<<<<<< HEAD
                             2. Lack of enjoyment
+=======
+                            2.No Refunds Once the demo period is over and you have subscribed to our services, refunds will not be issued. We recommend utilizing the demo period to thoroughly evaluate our services and make an informed decision. By subscribing to Cambliss Subscription, you acknowledge and agree that no refunds will be provided for any subscription fees paid.
+>>>>>>> master
                           </span>
                         </li>
                         <li>
                           <span className="list_item_text">
+<<<<<<< HEAD
                             3. Product or website downtime
+=======
+                            3.  Service Availability and Limitations Cambliss Subscription strives to ensure uninterrupted access to our services. However, we cannot guarantee the availability or functionality of our services at all times. Factors beyond our control, such as technical issues or force majeure events, may impact service availability. We will make reasonable efforts to address any disruptions and minimize downtime.
+>>>>>>> master
                           </span>
                         </li>
                         <li>
                           <span className="list_item_text">
+<<<<<<< HEAD
                             4. Viruses, spyware, and product damage
                           </span>
                         </li>
                       </ul>
 
                       <h4 className="info_title">
+=======
+                            4.  Intellectual Property Rights All intellectual property rights associated with Cambliss Subscription, including trademarks, logos, and content, are owned by Cambliss or our licensors. You may not use, reproduce, distribute, or modify our intellectual property without explicit written permission from Cambliss.
+                          </span>
+                        </li>
+                        <li>
+                          <span className="list_item_text">
+                          5. Data Security and Privacy We take data security and privacy seriously. We employ industry-standard security measures to protect your personal information and ensure its confidentiality. For more details on how we handle your data, please refer to our Privacy Policy.                          </span>
+                        </li>
+                        <li>
+                          <span className="list_item_text">
+                          6. User Responsibilities As a subscriber to Cambliss Subscription, you are responsible for maintaining the security and confidentiality of your account credentials. You agree not to share your login information with third parties and to promptly notify us in case of any unauthorized access or suspected security breach.         </span>              
+                           </li>
+                           <li>
+                          <span className="list_item_text">
+                          7. Termination Cambliss Subscription reserves the right to terminate your subscription and access to our services in the event of any breach of this Agreement or violation of our terms of service. We also reserve the right to modify or discontinue our services at any time without prior notice.                           </span>
+                          
+                          </li>
+                           <li>
+                          <span className="list_item_text">
+                          8. Limitation of Liability Cambliss Subscription and its affiliates shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of or related to the use or inability to use our services, even if advised of the possibility of such damages. Our liability, if any, shall be limited to the extent permitted by applicable law.</span>                           </li>
+                           <li>
+                          <span className="list_item_text">
+                          9. Governing Law and Jurisdiction This Agreement shall be governed by and construed in accordance with the laws of [Jurisdiction]. Any disputes arising out of or in connection with this Agreement shall be subject to the exclusive jurisdiction of the courts of [Jurisdiction].</span>                           </li>
+                           <li>
+                          <span className="list_item_text">
+                          By subscribing to Cambliss Subscription, you acknowledge that you have read, understood, and agreed to these Terms and Conditions. If you do not agree with any part of this Agreement, please refrain from subscribing to our services.</span>                           </li> </ul>
+
+                      {/* <h4 className="info_title">
+>>>>>>> master
                         To Outline Policies and Avoid Abusive Behavior
                       </h4>
                       <p className="mb-1">
@@ -363,7 +430,11 @@ const index = () => {
                         site promise notification. Your continued use of this
                         site always evidences your acceptance of the terms this
                         Privacy Policy or any modifications.
+<<<<<<< HEAD
                       </p>
+=======
+                      </p> */}
+>>>>>>> master
                     </div>
                   </div>
                 </div>

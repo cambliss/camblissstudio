@@ -2237,7 +2237,11 @@
   position: relative;
   margin-top: -80px;
   z-index: 0;
+<<<<<<< HEAD
   background-color: #171717 ;
+=======
+  background-color: #000;
+>>>>>>> master
 }
 
 .case-subtitle {
@@ -2292,7 +2296,11 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 75px 100px;
   margin-top: 100px;
+<<<<<<< HEAD
   margin-bottom: 70px;
+=======
+  // margin-bottom: 70px;
+>>>>>>> master
 
   @media #{$lg,$md} {
     gap: 75px 50px;

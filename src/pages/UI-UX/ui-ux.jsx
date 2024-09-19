@@ -183,6 +183,7 @@ const UiUx = ({ id }) => {
   ];
   return (
     <>
+<<<<<<< HEAD
       <Header />
       <main>
      
@@ -192,14 +193,42 @@ const UiUx = ({ id }) => {
             <div className="row">
               <div className="col-xxl-12">
                 <div className="case-details-thumb">
+=======
+       <Header />
+      <div className="adjust-header-space bg-common-black"></div>
+      <div className="fm-breadcrumb-area breadcrumb-style" style={{ backgroundImage: `url(${imageOne.src})`, paddingTop: '400px', position: 'relative' }}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-12">
+              <div className="page-title-wrapper" style={{ marginTop: '-300px' }}>
+                {/* <h1 className="page-title">Advertisement</h1> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="breadcrumb-image-overlay" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 1 }}></div>
+      </div>
+      <main>
+        <section className="case-details-area">
+          <div className="container">
+            <div className="row">
+              <div className="col-xxl-12" style={{ position: 'relative', zIndex: 2 }}>
+                {/* <div className="case-details-thumb" style={{ marginTop: '-100px' }}>
+>>>>>>> master
                   <Image
                     data-speed="auto"
                     src={imageOne}
                     style={{ width: "100%", height: "100%" }}
                     alt="image not found"
                   />
+<<<<<<< HEAD
                 </div>
                 <h4 className="case-subtitle mb-25 ">
+=======
+                </div> */}
+                <br/><br/>
+                <h4 className="case-subtitle mb-25">
+>>>>>>> master
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -220,19 +249,33 @@ const UiUx = ({ id }) => {
                 </h4>
                 <p className="mb-55 ">
                 we believe in the transformative power of great design. Our passion is to create user interfaces and experiences that not only look visually appealing but also function seamlessly. With a focus on user-centric design principles, we strive to elevate your digital presence and leave a lasting impression on your audience.
+<<<<<<< HEAD
 
 
                 </p>
                 <p className="mb-45 ">
+=======
+                We understand that collaboration is key to success. We work closely with our clients to understand their vision, goals, and brand identity. Your input is invaluable in shaping the final design.We strive to infuse innovation into every design element, ensuring your product stands out in a crowded digital landscape.
+
+
+                </p>
+                {/* <p className="mb-45 ">
+>>>>>>> master
                   {" "}
                   We understand that collaboration is key to success. We work closely with our clients to understand their vision, goals, and brand identity. Your input is invaluable in shaping the final design.We strive to infuse innovation into every design element, ensuring your product stands out in a crowded digital landscape.
                 </p>
                 <p className="mb-45 ">
                   {" "}
                   Our team of skilled designers brings years of experience and a deep understanding of industry trends to the table. We stay abreast of the latest design technologies and methodologies to deliver cutting-edge solutions.
+<<<<<<< HEAD
                 </p>
               
                 <h4 className="case-subtitle mb-25">
+=======
+                </p> */}
+              
+                {/* <h4 className="case-subtitle mb-25">
+>>>>>>> master
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -263,12 +306,20 @@ const UiUx = ({ id }) => {
                 <p className="mb-30 ">
                   <strong>Responsive Design</strong><br />
                   In a digital landscape where users access content on various devices, we prioritize responsive design. Your interface will look and function flawlessly across desktops, tablets, and smartphones.
+<<<<<<< HEAD
                 </p>
+=======
+                </p> */}
+>>>>>>> master
               </div>
             </div>
           </div>
         </section>
+<<<<<<< HEAD
         <section className="step-area section-spacing-top">
+=======
+        {/* <section className="step-area section-spacing-top">
+>>>>>>> master
       <div className="container">
         <div className="row section-title-spacing wow fadeInUp" data-wow-delay="0.3s">
           <div className="col-12">
@@ -300,7 +351,12 @@ const UiUx = ({ id }) => {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
     </section ><br/><br/>
+=======
+    </section > */}
+    <br/><br/>
+>>>>>>> master
     <div className="container">
     <section className="design-area wow fadeInUp" data-wow-delay="0.3s">
   <h4 className="case-subtitle">

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import axios from "axios";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,6 +15,15 @@ const TeamSectionTwo = ({ teamBottomBorder }) => {
   //     })
   //     .catch((err) => console.log(err));
   // }, []);
+=======
+import Image from "next/image";
+import React, { useState } from "react";
+import PropTypes from "prop-types"; // Import PropTypes for validation
+import SocialIcon from "../social-icon/SocialIcon";
+
+const TeamSectionTwo = ({ teamBottomBorder }) => {
+  const [teams] = useState([]);
+>>>>>>> master
 
   return (
     <>
@@ -44,6 +54,7 @@ const TeamSectionTwo = ({ teamBottomBorder }) => {
                 key={item._id}
               >
                 <div className="fm-director-team-single team__item">
+<<<<<<< HEAD
                   {/* <Link
                     className="fm-director-team"
                     href={`/team-details/${item._id}`}
@@ -56,14 +67,27 @@ const TeamSectionTwo = ({ teamBottomBorder }) => {
                       alt="img not found"
                     />
                   
+=======
+                  <Image
+                    src={item.teamImg}
+                    width={500}
+                    height={500}
+                    style={{ width: "100%", height: "auto" }}
+                    alt="img not found"
+                  />
+>>>>>>> master
                   <div className="fm-director-content">
                     <span className="fm-director-designation body-color">
                       {item.designation}
                     </span>
                     <h4 className="fm-director-name title-color">
+<<<<<<< HEAD
                       {/* <Link href={`/team-details/${item._id}`}>
                         {item.teamName}
                       </Link> */}
+=======
+                      {item.teamName}
+>>>>>>> master
                     </h4>
                     <SocialIcon socialWrapperClass="fm-director-social" />
                   </div>
@@ -82,4 +106,12 @@ const TeamSectionTwo = ({ teamBottomBorder }) => {
   );
 };
 
+<<<<<<< HEAD
+=======
+// Add PropTypes validation
+TeamSectionTwo.propTypes = {
+  teamBottomBorder: PropTypes.bool, // teamBottomBorder is expected to be a boolean
+};
+
+>>>>>>> master
 export default TeamSectionTwo;

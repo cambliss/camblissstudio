@@ -33,7 +33,11 @@ const HistorySectionFour = () => {
     },
   ];
   return (
+<<<<<<< HEAD
     <div className="history-area section-spacing-bottom">
+=======
+    <div className="history-area section-spacing-bottom" >
+>>>>>>> master
       <div className="container">
         <div className="row align-items-center g-5">
           <div className="col-xl-6 col-lg-6 col-md-10">

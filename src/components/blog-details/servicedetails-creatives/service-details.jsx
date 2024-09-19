@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import FaqSection from "@components/portfolo-details-page/faq-section";
 import GallarySection from "@components/portfolo-details-page/gallary";
 import React from "react";
@@ -12,6 +13,19 @@ import axios from "axios";
 const ServiceDetails = ({ id }) => {
   //get data
   const { setService } = useGlobalContext();
+=======
+import PropTypes from 'prop-types'; // Import prop-types for validation
+import GallarySection from "@components/portfolo-details-page/gallary";
+import React, { useEffect } from "react";
+import useGlobalContext from "@hooks/use-context";
+import axios from "axios";
+import ServiceMiddle from "./service-middle";
+
+const ServiceDetails = ({ id }) => {
+  const { setService } = useGlobalContext();
+
+  // Fetch data
+>>>>>>> master
   useEffect(() => {
     if (id) {
       axios
@@ -30,13 +44,17 @@ const ServiceDetails = ({ id }) => {
           <ServiceMiddle />
         </div>
       </div>
+<<<<<<< HEAD
       {/* <PortfolioSliderTwo /> */}
+=======
+>>>>>>> master
       <div
         className="container section-spacing-bottom wow fadeInUp"
         data-wow-delay="0.3s"
       >
         <div className="row">
           <div className="col-xxl-12">
+<<<<<<< HEAD
           <GallarySection />
 
             {/* <h4 className="case-subtitle mb-25"> */}
@@ -92,6 +110,9 @@ const ServiceDetails = ({ id }) => {
                 typography.
               </p>
             </div> */}
+=======
+            <GallarySection />
+>>>>>>> master
           </div>
         </div>
       </div>
@@ -99,4 +120,12 @@ const ServiceDetails = ({ id }) => {
   );
 };
 
+<<<<<<< HEAD
+=======
+// Add prop-types validation for id
+ServiceDetails.propTypes = {
+  id: PropTypes.string.isRequired, // Make sure id is required and is a string
+};
+
+>>>>>>> master
 export default ServiceDetails;

@@ -27,7 +27,11 @@ const SliderItem = [
         sliderTitle: <>DIGITAL IMMERSIVE EXPERIENCE <br /></>,
         sliderSubtitle: "WE CREATE",
         description: 'In the age of digital transformation, harness the power of your bussiness ideas by transforming them into smart digital products',
+<<<<<<< HEAD
         sliderbtn: 'Contact Me'
+=======
+        sliderbtn: 'Contact US'
+>>>>>>> master
     },
     
    

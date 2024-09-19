@@ -13,7 +13,11 @@ import GallarySection from "@components/portfolo-details-page/gallary";
 import StepAreaSection from "@components/service-details/step-area-section";
 import useGlobalContext from "@hooks/use-context";
 import PricingSection from "@components/service/pricing-section";
+<<<<<<< HEAD
 import imagehero from "@assets/img/logo/brandinghero.png"
+=======
+import imagehero from "@assets/img/logo/mainbackground.png";
+>>>>>>> master
 
 import imageOne from "@assets/img/logo/Untitled design(4)/1.png";  
 import imageTwo from "@assets/img/logo/Untitled design(4)/2.png";  
@@ -174,6 +178,7 @@ const Branding = ({ id }) => {
   
   return (
     <>
+<<<<<<< HEAD
       <Header />
       <main>
      
@@ -263,6 +268,25 @@ Consistent application of your brand identity builds recognition and trust among
           </div>
         </section>
         <section className="step-area section-spacing-top">
+=======
+        <Header />
+      <div className="adjust-header-space bg-common-black"></div>
+      <div className="fm-breadcrumb-area breadcrumb-style" style={{ backgroundImage: `url(${imagehero.src})`, paddingTop: '400px', position: 'relative' }}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-12">
+              <div className="page-title-wrapper" style={{ marginTop: '-300px' }}>
+                {/* <h1 className="page-title">Branding & Creative Services</h1> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="breadcrumb-image-overlay" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 1 }}></div>
+      </div>
+      <main>
+      
+        {/* <section className="step-area section-spacing-top">
+>>>>>>> master
       <div className="container">
         <div className="row section-title-spacing wow fadeInUp" data-wow-delay="0.3s">
           <div className="col-12">
@@ -294,9 +318,45 @@ Consistent application of your brand identity builds recognition and trust among
           </div>
         </div>
       </div>
+<<<<<<< HEAD
     </section >
   <br/><br/>
   <div className="container">
+=======
+    </section > */}
+  <br/><br/>
+  <div className="container">
+  <h4 className="case-subtitle mb-25 ">
+        <span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+          >
+            <path
+              fillRule="evenodd"
+              clipRule="evenodd"
+              d="M3.23197 8L0 9.90086L2.38215 14.0991L5.616 12.2016L5.61782 16H10.3822L10.384 12.2016L13.6178 14.0991L16 9.90086L12.768 8L16 6.09914L13.6178 1.90086L10.384 3.79843L10.3822 0H5.61782L5.616 3.79843L2.38215 1.90086L0 6.09914L3.23197 8Z"
+              fill="#BCA045"
+            />
+          </svg>
+        </span>
+        OBJECTIVE
+      </h4>
+      <p className="mb-55 ">
+        
+      </p>
+      <p className="mb-45 ">
+        {" "}
+        Are you in search of innovative and distinctive visual identities to elevate your brand? Look no further; we are here to bring your brand to life through creative design solutions. Our team is ready to collaborate with you in crafting a fresh and unique visual identity that perfectly aligns with your brands essence. Lets embark on this creative journey together, ensuring your brand stands out and makes a lasting impression.
+      </p>
+      <p className="mb-45 ">
+        {" "}
+        Cambliss works closely with clients with a team of experienced brand strategists and designers to understand their bussiness objectives and target audience, our approach to branding is collaborative, involving clients in every step of the process to ensure their brand vision is accurately captured
+      </p>
+>>>>>>> master
     <section className="design-area wow fadeInUp" data-wow-delay="0.3s">
       <h4 className="case-subtitle">
         <span>
@@ -349,7 +409,11 @@ Consistent application of your brand identity builds recognition and trust among
         {/* <StepAreaSection /> */}
         {/* <FaqSection /> */}
         {/* <CaseQouteArea /> */}
+<<<<<<< HEAD
         <PricingSection />
+=======
+        {/* <PricingSection /> */}
+>>>>>>> master
      
         <ContactSection />
       </main>

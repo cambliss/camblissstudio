@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 import React, { useEffect } from "react";
 import axios from "axios";
 import Link from "next/link";
@@ -13,17 +16,26 @@ import GallarySection from "@components/portfolo-details-page/gallary";
 import StepAreaSection from "@components/service-details/step-area-section";
 import useGlobalContext from "@hooks/use-context";
 import PricingSection from "@components/service/pricing-section";
+<<<<<<< HEAD
 import imagehero from "@assets/img/logo/advhero.png"
 
 import imageOne from "@assets/img/logo/adverstisement/adv3.png";  
 // import imageTwo from "@assets/img/logo/adverstisement/adv2.png";  
+=======
+import imagehero from "@assets/img/logo/mainbackground.png"
+
+import imageOne from "@assets/img/logo/adverstisement/adv3.png";  
+>>>>>>> master
 import imageThree from "@assets/img/logo/adverstisement/adv1.png";  
 import imageFour from "@assets/img/logo/adverstisement/adv4.jpg";  
 import imageFive from "@assets/img/logo/adverstisement/adv5.jpg";  
 import imageSix from "@assets/img/logo/gallery5.jpeg";  
+<<<<<<< HEAD
 // import imageThree from "@assets/img/logo/Untitled design(4)/branding66.jpeg";  
 // import imageFour from "@assets/img/logo/brandingimagenew.jpg";  
 // import imageFive from "@assets/img/logo/Untitled design(4)/5.png";  
+=======
+>>>>>>> master
 
 import CaseSubtitleIcon from "@svg/case-subtitle-icon";
 import { PhotoProvider, PhotoView } from "react-photo-view";
@@ -41,6 +53,7 @@ const Advertisement = ({ id }) => {
     }
   }, [id, setService]);
 
+<<<<<<< HEAD
   const manuallyWrittenServices = [
     {
       _id: "1",
@@ -173,11 +186,35 @@ const Advertisement = ({ id }) => {
         id: 6,
         img: imageOne,
       },
+=======
+  const galary_data = [
+    {
+      id: 1,
+      img: imageSix,
+    },
+    {
+      id: 2,
+      img: imageFive,
+    },
+    {
+      id: 3,
+      img: imageFour,
+    },
+    {
+      id: 4,
+      img: imageThree,
+    },
+    {
+      id: 5,
+      img: imageOne,
+    },
+>>>>>>> master
   ];
   
   return (
     <>
       <Header />
+<<<<<<< HEAD
       <main>
      
         <Breadcrumb title="Advertisement" subTitle="Advertisement" />
@@ -186,14 +223,40 @@ const Advertisement = ({ id }) => {
             <div className="row">
               <div className="col-xxl-12">
                 <div className="case-details-thumb">
+=======
+      <div className="adjust-header-space bg-common-black"></div>
+      <div className="fm-breadcrumb-area breadcrumb-style" style={{ backgroundImage: `url(${imagehero.src})`, paddingTop: '400px', position: 'relative' }}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-12">
+              <div className="page-title-wrapper" style={{ marginTop: '-300px' }}>
+             
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="breadcrumb-image-overlay" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 1 }}></div>
+      </div>
+      <main>
+        <section className="case-details-area">
+          <div className="container">
+            <div className="row">
+              <div className="col-xxl-12" style={{ position: 'relative', zIndex: 2 }}>
+                {/* <div className="case-details-thumb" style={{ marginTop: '-100px' }}>
+>>>>>>> master
                   <Image
                     data-speed="auto"
                     src={imagehero}
                     style={{ width: "100%", height: "100%" }}
                     alt="image not found"
                   />
+<<<<<<< HEAD
                 </div>
                 <h4 className="case-subtitle mb-25 ">
+=======
+                </div> */}<br/><br/>
+                <h4 className="case-subtitle mb-25">
+>>>>>>> master
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -212,6 +275,7 @@ const Advertisement = ({ id }) => {
                   </span>
                   OBJECTIVE
                 </h4>
+<<<<<<< HEAD
                 <p className="mb-55 ">
 
                 Cambliss elevates your brand through strategic and compelling media advertisements. Our primary objective is to seamlessly integrate your brand into the hearts and minds of your target audience. Through innovative storytelling, captivating visuals, and strategic placement, we ensure that your brand not only captures attention but leaves a lasting impression.                </p>
@@ -256,11 +320,16 @@ const Advertisement = ({ id }) => {
                 <p className="mb-30 ">
                   <strong>Performance Analysis and Optimization</strong><br />
                   Continuous monitoring and analysis of campaign performance are integral to our process. We use data-driven insights to evaluate the effectiveness of our strategies and optimize campaigns in real-time. This iterative approach ensures that your advertising efforts consistently deliver the best results and return on investment.
+=======
+                <p className="mb-55">
+                  Cambliss elevates your brand through strategic and compelling media advertisements. Our primary objective is to seamlessly integrate your brand into the hearts and minds of your target audience. Through innovative storytelling, captivating visuals, and strategic placement, we ensure that your brand not only captures attention but leaves a lasting impression. We understand the power of media in shaping perceptions. Our mission is to leverage this power to amplify your brands message, fostering a connection with your audience. Whether its through impactful video campaigns, engaging social media content, or immersive digital experiences, we tailor our advertising strategies to align with your brands unique identity and objectives.
+>>>>>>> master
                 </p>
               </div>
             </div>
           </div>
         </section>
+<<<<<<< HEAD
         <section className="step-area section-spacing-top">
       <div className="container">
         <div className="row section-title-spacing wow fadeInUp" data-wow-delay="0.3s">
@@ -350,6 +419,33 @@ const Advertisement = ({ id }) => {
         {/* <CaseQouteArea /> */}
         {/* <PricingSection /> */}
      
+=======
+      
+        <br/><br/>
+        <div className="container">
+          <section className="design-area wow fadeInUp" data-wow-delay="0.3s">
+            <h4 className="case-subtitle">
+              <span>
+                <CaseSubtitleIcon />
+              </span>
+              Gallery
+            </h4>
+            <div className="design-humb-grid ">
+              {galary_data &&
+                galary_data.map((item) => (
+                  <div className="design-thumb img-tilt all__item-fade common-galary-icons" key={item.id}>
+                    <Image
+                      src={item.img}
+                      style={{ width: "100%", height: "auto" }}
+                      alt="image not found"
+                    />
+                  </div>
+                ))}
+            </div>
+          </section>
+        </div>
+
+>>>>>>> master
         <ContactSection />
       </main>
       <FooterOne />

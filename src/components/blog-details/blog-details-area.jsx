@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 import Link from "next/link";
 import React, { useEffect } from "react";
+=======
+import PropTypes from 'prop-types';
+import Link from "next/link";
+import React, { useEffect } from "react";
+// import { useRouter } from "next/router"; 
+>>>>>>> master
 import Image from "next/image";
 import axios from "axios";
 import useGlobalContext from "@hooks/use-context";
@@ -16,6 +23,10 @@ import blogDeatilsImg from "@assets/img/blog/blog-details-bg-1.jpg";
 
 const BlogDetailsArea = ({ id }) => {
   const { blog, setBlog } = useGlobalContext();
+<<<<<<< HEAD
+=======
+  // const router = useRouter(); // Defined router using the hook
+>>>>>>> master
 
   // Get data
   useEffect(() => {
@@ -29,11 +40,16 @@ const BlogDetailsArea = ({ id }) => {
     }
   }, [id, setBlog]);
 
+<<<<<<< HEAD
   const isCareersPage = router.pathname === '/Careers';
 
   return (
     <section className="postbox__area section-spacing-top pb-60">
       
+=======
+  return (
+    <section className="postbox__area section-spacing-top pb-60">
+>>>>>>> master
       <div className="container">
         <div className="row g-40">
           <div className="col-xxl-8 col-xl-7 col-lg-7">
@@ -131,7 +147,11 @@ const BlogDetailsArea = ({ id }) => {
               </div>
               <div className="sidebar__tag mb-35 mt-70 ">
                 <Link href="/blog">Action</Link>
+<<<<<<< HEAD
                 <Link href="/blog">Adventure</Link>
+=======
+                <Link href="/blog"></Link>
+>>>>>>> master
                 <Link href="/blog">Comedy</Link>
               </div>
               <BlogSocailIcon />
@@ -139,6 +159,7 @@ const BlogDetailsArea = ({ id }) => {
               <PostBoxAuthor />
               <PostboxForm />
               <MovieSliderNine />
+<<<<<<< HEAD
 
               {/* Full Stack Developer Section */}
               <div className="postbox__item mb-60">
@@ -166,6 +187,8 @@ const BlogDetailsArea = ({ id }) => {
                   <a className="fill-btn">Apply Now</a>
                 </Link>
               </div>
+=======
+>>>>>>> master
             </div>
           </div>
           <BlogSidebarArea />
@@ -175,4 +198,12 @@ const BlogDetailsArea = ({ id }) => {
   );
 };
 
+<<<<<<< HEAD
+=======
+// Add prop-types validation
+BlogDetailsArea.propTypes = {
+  id: PropTypes.string.isRequired,
+};
+
+>>>>>>> master
 export default BlogDetailsArea;

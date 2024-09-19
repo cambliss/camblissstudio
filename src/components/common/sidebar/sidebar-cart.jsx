@@ -1,7 +1,11 @@
 import Link from "next/link";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
+<<<<<<< HEAD
 
+=======
+import PropTypes from "prop-types"; // Import PropTypes
+>>>>>>> master
 import { remove_cart_product } from "../../../redux/features/cart-slice";
 import Image from "next/image";
 import useCartInfo from "@hooks/use-cart-info";
@@ -10,6 +14,10 @@ const SidebarCart = ({ openCart, setOpenCart }) => {
   const { cartProducts } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
   const { total } = useCartInfo();
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
   return (
     <>
       <div className="fix">
@@ -105,4 +113,13 @@ const SidebarCart = ({ openCart, setOpenCart }) => {
   );
 };
 
+<<<<<<< HEAD
+=======
+// Add PropTypes validation for `openCart` and `setOpenCart`
+SidebarCart.propTypes = {
+  openCart: PropTypes.bool.isRequired,
+  setOpenCart: PropTypes.func.isRequired,
+};
+
+>>>>>>> master
 export default SidebarCart;

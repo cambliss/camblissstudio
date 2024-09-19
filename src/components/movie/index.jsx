@@ -11,12 +11,27 @@ import ContactSection from "@components/common/contact/contact-area";
 import MovieSliderSeven from "@components/elements/slider/movie-slider/movie-slider-seven";
 import VideoAreaSection from "@components/home-two/video-area-section";
 import FaqSection from "@components/portfolo-details-page/faq-section";
+<<<<<<< HEAD
 
+=======
+import BgImage from "@assets/img/logo/mainbackground.png";
+>>>>>>> master
 const index = () => {
   return (
     <>
       <Header />
       <main>
+<<<<<<< HEAD
+=======
+        
+        <div
+        className="fm-breadcrumb-area breadcrumb-style"
+        style={{ backgroundImage: `url(${BgImage.src})` , height:"510px"}}
+      >
+</div>
+      
+
+>>>>>>> master
       <VideoAreaSection /> 
         {/* <MovieSliderFour />
         <MovieSliderFive /> */}

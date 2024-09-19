@@ -4,7 +4,11 @@ import Link from "next/link";
 import menu_data from "@data/menu-data";
 
 const MobileMenusTwo = () => {
+<<<<<<< HEAD
   const [subMenu, setSubMenu] = useState("");
+=======
+  // const [subMenu, setSubMenu] = useState("");
+>>>>>>> master
   const [navTitle, setNavTitle] = useState("");
   //openMobileMenu
   const openMobileMenu = (menu) => {
@@ -15,6 +19,7 @@ const MobileMenusTwo = () => {
     }
   };
   // openSubMobileMenu
+<<<<<<< HEAD
   const openSubMobileMenu = (s_menu) => {
     if (subMenu === s_menu) {
       setSubMenu("");
@@ -22,6 +27,15 @@ const MobileMenusTwo = () => {
       setSubMenu(s_menu);
     }
   };
+=======
+  // const openSubMobileMenu = (s_menu) => {
+  //   if (subMenu === s_menu) {
+  //     setSubMenu("");
+  //   } else {
+  //     setSubMenu(s_menu);
+  //   }
+  // };
+>>>>>>> master
   return (
     <ul className="menu-list">
       {menu_data?.map((menu, i) => (

@@ -85,6 +85,11 @@ import branding from "@assets/img/logo/branding.png";
 import tv from "@assets/img/logo/5.png";
 import mix from "@assets/img/logo/mix.png";
 import uiux from "@assets/img/logo/uiux.png";
+<<<<<<< HEAD
+=======
+import technology from "@assets/img/logo/technology.png";
+
+>>>>>>> master
 
 const PortfolioSection = () => {
   // Manually define your portfolio data
@@ -153,6 +158,15 @@ const PortfolioSection = () => {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
+=======
+     
+    
+
+
+   
+      
+>>>>>>> master
       <div className="container ">
         <div className="fm-director-wrapper">
           {portfolios.map((item) => (

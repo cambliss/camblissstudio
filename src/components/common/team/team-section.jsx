@@ -89,13 +89,21 @@ import Image from "next/image";
 import Link from "next/link";
 import sunaina from "@assets/img/logo/sunaina.png";
 import avishek from "@assets/img/logo/avishek.jpg";
+<<<<<<< HEAD
 import bismay from "@assets/img/logo/bismay.jpg";
+=======
+// import bismay from "@assets/img/logo/bismay.jpg";
+>>>>>>> master
 import gabriel from "@assets/img/logo/gabriel.jpg";
 import vijay from "@assets/img/logo/vijay.jpg";
 import arjun from "@assets/img/logo/arjun.png";
 import pravath from "@assets/img/logo/pravath.png";
 import pramod from "@assets/img/logo/Pramod.png";
+<<<<<<< HEAD
 
+=======
+import bobby from "@assets/img/logo/aaaa.jpg"
+>>>>>>> master
 const TeamSection = () => {
   const teams = [
     {
@@ -146,6 +154,26 @@ const TeamSection = () => {
     //     { _id: "4", icon: "fa-instagram", url: "https://www.instagram.com/" },
     //   ],
     // },
+<<<<<<< HEAD
+=======
+
+
+
+
+    
+    {
+      _id: "9",
+      teamName: "S Bobby Jena",
+      // director: "Director",
+      designation: "Advisor, Training and  Publication",
+      teamImg: bobby,
+      delay: "0.6s",
+      // socialIcons: [
+      //   { _id: "3", icon: "fa-linkedin", url: "https://www.linkedin.com/" },
+      //   { _id: "4", icon: "fa-instagram", url: "https://www.instagram.com/" },
+      // ],
+    },
+>>>>>>> master
     {
       _id: "5",
       teamName: "Pravat",
@@ -193,7 +221,11 @@ const TeamSection = () => {
       //   { _id: "3", icon: "fa-linkedin", url: "https://www.linkedin.com/" },
       //   { _id: "4", icon: "fa-instagram", url: "https://www.instagram.com/" },
       // ],
+<<<<<<< HEAD
     },
+=======
+    }
+>>>>>>> master
     // Add more team members as needed
   ];
 

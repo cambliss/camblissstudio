@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 
 import React from "react";
+=======
+import React from "react";
+import PropTypes from "prop-types"; // Import PropTypes for validation
+>>>>>>> master
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -34,4 +39,18 @@ const SwiperComponent = ({ genres }) => {
   );
 };
 
+<<<<<<< HEAD
+=======
+// Add PropTypes validation
+SwiperComponent.propTypes = {
+  genres: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+        .isRequired,
+      name: PropTypes.string.isRequired,
+    })
+  ).isRequired, // genres should be an array of objects
+};
+
+>>>>>>> master
 export default SwiperComponent;

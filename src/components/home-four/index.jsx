@@ -17,8 +17,13 @@ const index = () => {
         <>
         <Header /><br/><br/>
         <main>
+<<<<<<< HEAD
       
         <Breadcrumb title="About Us" subTitle="About Us" /> 
+=======
+      <Breadcrumb/>
+        {/* <Breadcrumb title="About Us" subTitle="About Us" />  */}
+>>>>>>> master
           <HomeAboutFour/>
           <HistorySectionFour/>
           <PortFolioSectionFour/>

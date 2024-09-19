@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import Link from 'next/link';
 // import React from 'react';
 // import BgImage from "@assets/img/services/servicesbackground.png";
@@ -45,6 +46,11 @@
 import Link from 'next/link';
 import React from 'react';
 import BgImage from "@assets/img/services/servicesbackground.png";
+=======
+import PropTypes from 'prop-types'; // Import PropTypes for validation
+import React from 'react';
+import BgImage from "@assets/img/logo/mainbackground.png";
+>>>>>>> master
 
 const Breadcrumb = ({ title, servicePage }) => {
   // Define a mapping of service pages to their subtitles
@@ -79,6 +85,7 @@ const Breadcrumb = ({ title, servicePage }) => {
                   className="breadcrumb-trail breadcrumbs"
                 >
                   <ul className="trail-items">
+<<<<<<< HEAD
                     {/* <li className="trail-item trail-begin ">
                       <Link href="/">
                         <span>Home</span>
@@ -86,6 +93,11 @@ const Breadcrumb = ({ title, servicePage }) => {
                     </li> */}
                     <li className="trail-item trail-end ">
                       <span>{serviceSubtitles[ formattedServicePage ]}</span>
+=======
+                    {/* Breadcrumb menu items */}
+                    <li className="trail-item trail-end ">
+                      <span>{serviceSubtitles[formattedServicePage]}</span>
+>>>>>>> master
                     </li>
                   </ul>
                 </nav>
@@ -98,6 +110,16 @@ const Breadcrumb = ({ title, servicePage }) => {
   );
 };
 
+<<<<<<< HEAD
 export default Breadcrumb;
 
 
+=======
+// Add PropTypes validation
+Breadcrumb.propTypes = {
+  title: PropTypes.string.isRequired,         // Ensure title is a required string
+  servicePage: PropTypes.string.isRequired,   // Ensure servicePage is a required string
+};
+
+export default Breadcrumb;
+>>>>>>> master

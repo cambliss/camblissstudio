@@ -12,6 +12,10 @@ import FooterOne from '@layout/footers/footer-one';
 import ContactSection from '@components/common/contact/contact-area';
 import PricingSection from '@components/service/pricing-section';
 import CertificateSlider from '@components/elements/slider/certificate-slider';
+<<<<<<< HEAD
+=======
+import Technology from './technology';
+>>>>>>> master
 
 const index = () => {
     return (
@@ -23,7 +27,11 @@ const index = () => {
                 <ServiceSection />
                 <FilmsArea />
                 {/* <TestimonialOne /> */}
+<<<<<<< HEAD
                
+=======
+               <Technology/>
+>>>>>>> master
                 {/* <TeamSection /> */}
                 <CertificateSlider/>
                 {/* <PricingSection/> */}

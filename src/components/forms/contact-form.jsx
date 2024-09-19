@@ -15,7 +15,11 @@ const ContactForm = () => {
     },
     validationSchema: contact_schema,
     onSubmit: () => {
+<<<<<<< HEAD
       const mailtoLink = `mailto:sunainamahesh1@gmail.com?subject=${encodeURIComponent(
+=======
+      const mailtoLink = `mailto:contact@camblissstudio.com?subject=${encodeURIComponent(
+>>>>>>> master
         values.subject
       )}&body=${encodeURIComponent(
         `Name: ${values.name}\nEmail: ${values.email}\nPhone Number: ${values.phnNo}\nMessage: ${values.msg}`
@@ -29,6 +33,10 @@ const ContactForm = () => {
   });
 
   return (
+<<<<<<< HEAD
+=======
+    
+>>>>>>> master
     <form onSubmit={handleSubmit}>
       <div className="row">
         <div className="col-xl-6 col-lg-6">
