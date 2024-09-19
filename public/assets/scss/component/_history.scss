@@ -1,10 +1,5 @@
 @use "../abstract" as *;
 
-<<<<<<< HEAD
-.history-area {
-  @media #{$xl} {
-    padding-top: 35px;
-=======
 
 .history-area.section-spacing-bottom{
   background-color: #000;
@@ -13,16 +8,12 @@
   @media #{$xl} {
     padding-top: 35px;
     background-color: #000;
->>>>>>> master
   }
 
   @media #{$lg} {
     padding-top: 20px;
-<<<<<<< HEAD
-=======
     color: #000;
 
->>>>>>> master
   }
 }
 
@@ -35,10 +26,7 @@
 
   @media #{$xl,$lg,$md,$sm,$xs} {
     padding-left: 0;
-<<<<<<< HEAD
-=======
     color: #000;
->>>>>>> master
   }
 }
 
