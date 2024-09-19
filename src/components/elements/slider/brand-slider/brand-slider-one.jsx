@@ -120,7 +120,9 @@
 // import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 
-const BrandAreaSection = ({ brandWrapperClass, borderClass }) => {
+const BrandAreaSection = ({  }) => {
+
+// const BrandAreaSection = ({ brandWrapperClass, borderClass }) => {
   // const brandData = [
   //   {
   //     id: 1,
