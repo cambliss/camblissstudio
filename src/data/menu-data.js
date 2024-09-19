@@ -88,12 +88,7 @@ const menu_data = [
     submenus:[]
    
   },
-<<<<<<< HEAD
- 
-
-=======
   
->>>>>>> master
  
   {
     id: 5,
@@ -144,9 +139,6 @@ const menu_data = [
   //   ],
   //   submenus:[],
   // },
-<<<<<<< HEAD
- 
-=======
   {
     id: 8,
     hasDropdown: true,
@@ -157,7 +149,6 @@ const menu_data = [
    
   },
 
->>>>>>> master
 ];
 
 export default menu_data;

@@ -118,27 +118,13 @@ const manuallyWrittenServices = [
     delay: "0.5s",
   },
   {
-<<<<<<< HEAD
-    link: "",
-=======
     link: "/UI-UX",
->>>>>>> master
     serviceNum: "04",
     title: "UI/UX",
     description: "Cambliss specializes in UI/UX, where your functionality meets aesthetics.",
     serviceBtn: "View More",
     delay: "0.6s",
   },
-<<<<<<< HEAD
-  {
-    link: "/Digital-Marketing",
-    serviceNum: "05",
-    title: "Digital Marketing",
-    description: "From SEO to PPC advertising to social media marketing, Cambliss covers all aspects of marketing.",
-    serviceBtn: "View More",
-    delay: "0.6s",
-  },
-=======
   // {
   //   link: "/Digital-Marketing",
   //   link:"",
@@ -149,7 +135,6 @@ const manuallyWrittenServices = [
   //   delay: "0.6s",
   // }
   ,
->>>>>>> master
   {
     link: "/Advertisement",
     serviceNum: "06",
@@ -167,8 +152,6 @@ const manuallyWrittenServices = [
     serviceBtn: "View More",
     delay: "0.6s",
   },
-<<<<<<< HEAD
-=======
   {
     link: "/Visual-Production",
     serviceNum: "08",
@@ -185,7 +168,6 @@ const manuallyWrittenServices = [
     serviceBtn: "View More",
     delay: "0.6s",
   },
->>>>>>> master
 ];
 
 const ServiceTwo = () => {
@@ -204,11 +186,7 @@ const ServiceTwo = () => {
 
               <div className="fm-services-btn btn_wrapper">
                 <Link
-<<<<<<< HEAD
-                  href="/service-details"
-=======
                   href="/contact"
->>>>>>> master
                   className="blog-rotate-btn is-white btn-item btn__item-move"
                 >
                   <span>

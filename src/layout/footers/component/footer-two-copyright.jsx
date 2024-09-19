@@ -14,11 +14,8 @@ FooterTwoCopyRight = () => {
                  <div className="footer-rules ">
                  <Link href="/">Privacy Policy</Link>
                   <Link href="/">Terms & Condition</Link>
-<<<<<<< HEAD
-=======
                   <Link href="/refunds-cancellation">Refunds and Cancellations</Link>
 
->>>>>>> master
                  {/* <Link href="/policy-privacy">Privacy Policy</Link>
                   <Link href="/terms-conditions">Terms & Condition</Link> */}
                  </div>

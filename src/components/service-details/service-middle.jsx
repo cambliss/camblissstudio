@@ -1,12 +1,7 @@
 import Image from "next/image";
 import React from "react";
-<<<<<<< HEAD
-import imageOne from "@assets/img/logo/websitehero.png";
-import useGlobalContext from "@hooks/use-context";
-=======
  import useGlobalContext from "@hooks/use-context";
  import imageOne from "@assets/img/logo/websitehero.png";
->>>>>>> master
 
 const ServiceMiddle = () => {
   const { service } = useGlobalContext();
@@ -33,18 +28,7 @@ const ServiceMiddle = () => {
           </p>
         </div>
       </div> */}
-<<<<<<< HEAD
-      <div className="case-details-thumb">
-        <Image
-          data-speed="auto"
-          src={imageOne}
-          style={{ width: "100%", height: "100%" }}
-          alt="image not found"
-        />
-      </div>
-=======
     <br/><br/>
->>>>>>> master
       <h4 className="case-subtitle mb-25 ">
         <span>
           <svg
@@ -66,16 +50,10 @@ const ServiceMiddle = () => {
       </h4>
       <p className="mb-55 ">
         At our company, we take pride in delivering professional website design and development services. Our Team of experts combine their technical skills with a deep understanding
-<<<<<<< HEAD
-        of user experience to create websites that exude professionalism and credibility.
-      </p>
-      <p className="mb-45 ">
-=======
         of user experience to create websites that exude professionalism and credibility. Cambliss is specialized in creating powerful website design and development solutions that go beyond asthetics. Our team of skilled designers and developers leverage their expertise
       to craft websites that are not only visually stunning but also highly functional and effective.
       </p>
       {/* <p className="mb-45 ">
->>>>>>> master
         {" "}
       Cambliss is specialized in creating powerful website design and development solutions that go beyond asthetics. Our team of skilled designers and developers leverage their expertise
       to craft websites that are not only visually stunning but also highly functional and effective.
@@ -84,11 +62,7 @@ const ServiceMiddle = () => {
         {" "}
       Our team specializes in  crafting stylish website design and development solutions that capture attention and leave a lasting impression. We understand the importance of asthetics
       and strive to create visual stunning websites that reflect your brands unique style.
-<<<<<<< HEAD
-      </p>
-=======
       </p> */}
->>>>>>> master
       <h4 className="case-subtitle mb-25">
         <span>
           <svg
@@ -118,19 +92,11 @@ Cambliss talented team of designers specializes in creating unique and captivati
 <p className="mb-30 ">
       <strong>UI / UX</strong><br/>
 we craft visually appealing and user - friendly designs that not only captures attention but also guide users through your website or application effortlessly      </p>
-<<<<<<< HEAD
-<p className="mb-30 ">
-      <strong>Hosting</strong><br/>
-     Our Hosting services provide you with a reliable  and secure  platform to host your website or application. We will make your site uptime and fast loading speeds, which is why
-     we offer robust hosting solutions tailored to your specific needs.
-      </p>
-=======
 {/* <p className="mb-30 ">
       <strong>Hosting</strong><br/>
      Our Hosting services provide you with a reliable  and secure  platform to host your website or application. We will make your site uptime and fast loading speeds, which is why
      we offer robust hosting solutions tailored to your specific needs.
       </p> */}
->>>>>>> master
       {/* <p className="">
         The portfolio features a flexible grid system were pre-defined rows can
         be used to build a grid that fits all needs. We have selected a

@@ -12,22 +12,15 @@ import GallarySection from "@components/portfolo-details-page/gallary";
 import StepAreaSection from "@components/service-details/step-area-section";
 import useGlobalContext from "@hooks/use-context";
 import PricingSection from "@components/service/pricing-section";
-<<<<<<< HEAD
-import imageOne from "@assets/img/logo/visualhero.jpeg"
-=======
 import imageOne from "@assets/img/logo/mainbackground.png"
->>>>>>> master
 import PortfolioSlider from "@components/elements/slider/portfolio-slider/portfolio-slider";
 import PortfolioSliderTwo from "@components/elements/slider/portfolio-slider/portfolio-slider-two";
 import styles from "../Animation/Animation.module.css"
 import MovieSliderTwo from "@components/elements/slider/movie-slider/movie-slider-two";
 import MovieSectionFive from "@components/home-five/movie-section-five";
-<<<<<<< HEAD
-=======
 import CertificateSlider from "@components/elements/slider/certificate-slider";
 import VideoSlider from "@components/elements/slider/certificate-slider/VideoSlider";
 
->>>>>>> master
 const VisualProduction = ({ id }) => {
   const { setService } = useGlobalContext();
 
@@ -151,42 +144,6 @@ const VisualProduction = ({ id }) => {
       description: "Collect feedback from the audience or stakeholders after the visual content is released. Use analytics and insights to assess the performance and impact of the visual production in the market.",
     },
   ];
-<<<<<<< HEAD
-
-  return (
-    <>
-      <Header />
-      <main>
-     
-        <Breadcrumb title="Visual Production" subTitle="Visual Production" />
-        <section className="case-details-area">
-          <div className="container">
-            <div className="row">
-              <div className="col-xxl-12">
-                <div className="case-details-thumb">
-                  <Image
-                    data-speed="auto"
-                    src={imageOne}
-                    style={{ width: "100%", height: "100%" }}
-                    alt="image not found"
-                  />
-                </div>
-                <MovieSliderTwo />
-        <MovieSectionFive />
-                {/* <PortfolioSliderTwo/>
-                <MovieSliderTwo/> */}
-                <br/><br/>
-                {/* <div className="container"> 
-    <div className={styles.videoContainer}>
-    <video autoPlay loop muted width="100%" height="100%">
-      <source src="assets/video/ANANDGIRI FOUNDATION.mp4" type="video/mp4" />
-      Video not found or not supported by your browser.
-    </video>
-  </div>
-</div> */}
-<br/><br/>
-                <h4 className="case-subtitle mb-25 ">
-=======
   const videos = [
     {
       id:1,
@@ -314,7 +271,6 @@ const VisualProduction = ({ id }) => {
               <div className="col-xxl-12" style={{ position: 'relative', zIndex: 2 }}>
                <br/><br/>
                 <h4 className="case-subtitle mb-25">
->>>>>>> master
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -335,16 +291,11 @@ const VisualProduction = ({ id }) => {
                 </h4>
                 <p className="mb-55 ">
                 Visual production involves the creation and management of visual content for various purposes, including marketing, entertainment, and communication. Here are four key steps involved in visual production
-<<<<<<< HEAD
-                </p>
-                <p className="mb-45 ">
-=======
                 Techniques used to produce visuals are the features which marketers use to make text interesting and unique. Techniques may include the use of colour or black and white, borders, layout features, cinematographic devices, foregrounding, backgrounding and overlays. 
                 Visualization is all about pre-visualizing action, camera angles and camera movement before anything is filmed. The course of planning out complicated sequences in 3D has now become a recognised step in the pipeline of almost all large-scale film making ventures
 
                 </p>
                 {/* <p className="mb-45 ">
->>>>>>> master
                   {" "}
                   
 Visualization is all about pre-visualizing action, camera angles and camera movement before anything is filmed. The course of planning out complicated sequences in 3D has now become a recognised step in the pipeline of almost all large-scale film making ventures
@@ -352,13 +303,8 @@ Visualization is all about pre-visualizing action, camera angles and camera move
                 <p className="mb-45 ">
                   {" "}
                   Techniques used to produce visuals are the features which marketers use to make text interesting and unique. Techniques may include the use of colour or black and white, borders, layout features, cinematographic devices, foregrounding, backgrounding and overlays. 
-<<<<<<< HEAD
-                </p>
-                <h4 className="case-subtitle mb-25">
-=======
                 </p> */}
                 {/* <h4 className="case-subtitle mb-25">
->>>>>>> master
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -389,23 +335,14 @@ Visualization is all about pre-visualizing action, camera angles and camera move
                 <p className="mb-30 ">
                   <strong>Post-Production</strong><br />
                   Collaborate with stakeholders to review the initial draft, gather feedback, and make necessary revisions. Iterative feedback loops may be essential to refining the visual content.
-<<<<<<< HEAD
-                </p>
-=======
                 </p> */}
->>>>>>> master
               </div>
             </div>
           </div>
         </section>
-<<<<<<< HEAD
-       
-        <section className="step-area section-spacing-top">
-=======
         {/* <VideoSlider/> */}
 
         {/* <section className="step-area section-spacing-top">
->>>>>>> master
       <div className="container">
         <div className="row section-title-spacing wow fadeInUp" data-wow-delay="0.3s">
           <div className="col-12">
@@ -437,18 +374,6 @@ Visualization is all about pre-visualizing action, camera angles and camera move
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-    </section >
-    <br/><br/>
-    <div className="container"> 
-    <div className={styles.videoContainer}>
-    <video autoPlay loop muted width="100%" height="100%">
-      <source src="assets/video/anandgiri.mp4" type="video/mp4" />
-      Video not found or not supported by your browser.
-    </video>
-  </div>
-</div>
-=======
     </section > */}
     <br/><br/>
     {/* <div className="container"> 
@@ -498,7 +423,6 @@ Visualization is all about pre-visualizing action, camera angles and camera move
 </div>
 
   
->>>>>>> master
 <br/><br/>
 
    

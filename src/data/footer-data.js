@@ -4,14 +4,9 @@ import gallery1 from "@assets/img/logo/gallery1.jpeg";
 import gallery2 from "@assets/img/logo/gallery2.png";
 import gallery3 from "@assets/img/logo/gallery3.jpeg";
 import gallery4 from "@assets/img/logo/serviceimage5.png";
-<<<<<<< HEAD
-import gallery5 from "@assets/img/logo/4.png";
-import gallery6 from "@assets/img/logo/gallery6.jpeg";
-=======
 import gallery5 from "@assets/img/logo/footerimagesection.png";
 import gallery6 from "@assets/img/logo/cloud.png";
 
->>>>>>> master
 
 
 const footerData = {
@@ -45,17 +40,10 @@ const footerData = {
                id:5,
                image:gallery5
             },
-<<<<<<< HEAD
-            // {
-            //    id:6,
-            //    image:gallery6
-            // },
-=======
             {
                id:6,
                image:gallery6
             },
->>>>>>> master
             
          ],
     },
@@ -113,13 +101,8 @@ const footerData = {
             //home-two-data
             {
                 id: 4,
-<<<<<<< HEAD
-                contactInfo: 'mailto:hello@faimemedia.com',
-                contact: 'hello@faimemedia.com',
-=======
                 contactInfo: 'mailto:contact@camblissstudio.com',
                 contact: 'contact@camblissstudio.com',
->>>>>>> master
                 contactClass:'contact-mail',
                 addressWrapperClass:'fm-contact-mail',
                 contactTimeClass:'fm-contact-hours',

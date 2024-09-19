@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-import GetRating from "@hooks/use-rating";
-import axios from "axios";
-import Image from "next/image";
-import Link from "next/link";
-import React, { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
-import { cart_product } from "src/redux/features/cart-slice";
-
-const Products = () => {
-  const [movies, setMovies] = useState([]);
-  const dispatch = useDispatch();
-  //get data
-  useEffect(() => {
-    axios
-      .get(`${process.env.BASE_URL}movie/all-movie`)
-      .then((res) => {
-        setMovies(res.data);
-      })
-      .catch((e) => console.log(e));
-  }, []);
-=======
 // import GetRating from "@hooks/use-rating";
 // import axios from "axios";
 // import Image from "next/image";
@@ -172,7 +150,6 @@ const mockProducts = [
 const Products = () => {
   const [movies, setMovies] = useState(mockProducts); // Use hardcoded products
   const dispatch = useDispatch();
->>>>>>> master
 
   return (
     <div className="fm-shop-content-wrapper">
@@ -200,18 +177,6 @@ const Products = () => {
             </button>
           </div>
           <div className="fm-shop-product-content ">
-<<<<<<< HEAD
-            <div className="fm-shop-product-rating">
-              <GetRating averageRating={item.ratings} />
-            </div>
-            <h4 className="fm-shop-product-title">
-              <Link href={`/shop-details/${item._id}`}>{item.title}</Link>
-            </h4>
-            <span className="fm-shop-price">
-              <ins>${item.price}</ins>
-              <del>{item.old_price === 0 ? "" : `$${item.old_price}`}</del>
-            </span>
-=======
             {/* <div className="fm-shop-product-rating">
               <GetRating averageRating={item.ratings} />
             </div> */}
@@ -222,7 +187,6 @@ const Products = () => {
               <ins>${item.price}</ins>
               <del>{item.old_price === 0 ? "" : `$${item.old_price}`}</del>
             </span> */}
->>>>>>> master
           </div>
         </div>
       ))}

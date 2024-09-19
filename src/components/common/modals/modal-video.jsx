@@ -1,16 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
-import ModalVideo from 'react-modal-video';
-
-const VideoModal = ({isVideoOpen,setIsVideoOpen,videoId}) => {
-  return (
-    <ModalVideo channel='youtube' autoplay isOpen={isVideoOpen} 
-    videoId={videoId} onClose={() => setIsVideoOpen(false)} />
-  );
-};
-
-export default VideoModal;
-=======
 import PropTypes from 'prop-types'; // Import PropTypes
 import ModalVideo from 'react-modal-video';
 
@@ -34,4 +22,3 @@ VideoModal.propTypes = {
 };
 
 export default VideoModal;
->>>>>>> master

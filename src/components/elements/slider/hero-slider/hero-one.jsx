@@ -1,10 +1,6 @@
 import Link from "next/link";
 import React from "react";
-<<<<<<< HEAD
-import Image from "next/image";
-=======
 // import Image from "next/image";
->>>>>>> master
 import SliderItem from "@data/banner-data";
 import backgroundImage from "@assets/img/logo/cambliss.jpeg";
 

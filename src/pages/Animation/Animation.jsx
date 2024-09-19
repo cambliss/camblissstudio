@@ -16,11 +16,8 @@ import imageOne from "@assets/img/logo/animationhero.png"
 import styles from "./Animation.module.css";
 import video1 from '@assets/img/services/videos/video1.mp4';
 import video2 from '@assets/img/services/videos/video2.mp4';
-<<<<<<< HEAD
-=======
 import imagehero from "@assets/img/logo/mainbackground.png";
 
->>>>>>> master
 
 
 const Animation = ({ id }) => {
@@ -139,52 +136,26 @@ const Animation = ({ id }) => {
   const videos = [
     {
       id:1,
-<<<<<<< HEAD
-      video:'assets/img/services/videos/video1.mp4',
-    },
-    {
-      id:2,
-      video:'assets/img/services/videos/video2.mp4',
-=======
       video:'https://www.youtube.com/embed/mO8hYmZSGbs?si=JibmvgU4ovhbI8y2',
     },
     {
       id:2,
       video:'https://www.youtube.com/embed/A9Rae4VeIUQ?si=UvUExaNVJbkJoCVl',
->>>>>>> master
     },
  ];
  const videos1 = [
   {
     id:1,
-<<<<<<< HEAD
-    video:'assets/img/services/videos/bluetoothearphone.mp4',
-  },
-  {
-    id:2,
-    video:'assets/img/services/videos/M3comingsoon.mp4',
-=======
     video:'https://www.youtube.com/embed/QYeBqDS0dns?si=cnDdKrKmC5cQD63X',
   },
   {
     id:2,
     video:'https://www.youtube.com/embed/xkp3AulHScY?si=khT2PYyLjBy8ItxO',
->>>>>>> master
   },
 ];
 
   return (
     <>
-<<<<<<< HEAD
-      <Header />
-      <main>
-      <Breadcrumb title="Animation" subTitle="Animation" />
-        <section className="case-details-area">
-          <div className="container">
-            <div className="row">
-              <div className="col-xxl-12">
-                <div className="case-details-thumb">
-=======
          <Header />
       <div className="adjust-header-space bg-common-black"></div>
       <div className="fm-breadcrumb-area breadcrumb-style" style={{ backgroundImage: `url(${imagehero.src})`, paddingTop: '400px', position: 'relative' }}>
@@ -206,20 +177,14 @@ const Animation = ({ id }) => {
               <div className="col-xxl-12" style={{ position: 'relative', zIndex: 2 }}>
                 <br/><br/>
                 {/* <div className="case-details-thumb" style={{ marginTop: '-100px' }}>
->>>>>>> master
                   <Image
                     data-speed="auto"
                     src={imageOne}
                     style={{ width: "100%", height: "100%" }}
                     alt="image not found"
                   />
-<<<<<<< HEAD
-                </div>
-                <h4 className="case-subtitle mb-25 ">
-=======
                 </div> */}
                 <h4 className="case-subtitle mb-25">
->>>>>>> master
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -239,11 +204,6 @@ const Animation = ({ id }) => {
                   OBJECTIVE
                 </h4>
                 <p className="mb-55 ">
-<<<<<<< HEAD
-                  We bring your imagination to life through stunning 2D and 3D animations. Our team of talented artists and animators is dedicated to providing high quality animaion services that captivate, enguage, and inspire audiences.
-                </p>
-                <p className="mb-45 ">
-=======
                   We bring your imagination to life through stunning 2D and 3D animations. Our team of talented artists and animators is dedicated to providing high quality animaion services
                    that captivate, enguage, and inspire audiences.Cambliss 3D animation bring ideas and concepts to life in a way that resonates with audiences on an emotional level.
                     Our 3D Animation is a trusted provider of top-quality and expertly crafted animation services.                Our 3D Animation is a leading provider of impactful and visually striking animation services. With their expertise in 3D animation, they create powerful and dynamic visuals that captivate audiences and leave a lastiing impression.
@@ -251,20 +211,14 @@ const Animation = ({ id }) => {
 
                 </p>
                 {/* <p className="mb-45 ">
->>>>>>> master
                   {" "}
                   Cambliss 3D animation bring ideas and concepts to life in a way that resonates with audiences on an emotional level. Our 3D Animation is a trusted provider of top-quality and expertly crafted animation services.
                 </p>
                 <p className="mb-45 ">
                   {" "}
                 Our 3D Animation is a leading provider of impactful and visually striking animation services. With their expertise in 3D animation, they create powerful and dynamic visuals that captivate audiences and leave a lastiing impression.
-<<<<<<< HEAD
-                </p>
-                <h4 className="case-subtitle mb-25">
-=======
                 </p> */}
                 {/* <h4 className="case-subtitle mb-25">
->>>>>>> master
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -283,11 +237,7 @@ const Animation = ({ id }) => {
                   </span>
                   WHAT WE DO
                 </h4>
-<<<<<<< HEAD
-                <p className="mb-30 ">
-=======
                 <p className="mb-30">
->>>>>>> master
                   <strong>Character Animation</strong><br />
                   Character animation is a specialized form that focuses on bringing characters to life creating the illusion of movement and emotion in characters                </p>
                 <p className="mb-30 ">
@@ -300,20 +250,12 @@ const Animation = ({ id }) => {
                 <p className="mb-30 ">
                   <strong>Explainer Videos</strong><br />
                   Explainer videos are short, engaging videos designed to explain a concept, product, service, or process in a clear and concise manner. 
-<<<<<<< HEAD
-                </p>
-=======
                 </p> */}
->>>>>>> master
               </div>
             </div>
           </div>
         </section>
-<<<<<<< HEAD
-        <section className="step-area section-spacing-top">
-=======
         {/* <section className="step-area section-spacing-top">
->>>>>>> master
       <div className="container">
         <div className="row section-title-spacing wow fadeInUp" data-wow-delay="0.3s">
           <div className="col-12">
@@ -345,11 +287,7 @@ const Animation = ({ id }) => {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-    </section ><br/><br/>
-=======
     </section ><br/><br/> */}
->>>>>>> master
     <div className="col-12">
             <div className="section-title text-center">
               <h2 className="section-main-title title-anim step-main-title">
@@ -359,39 +297,6 @@ const Animation = ({ id }) => {
           </div><br/><br/>
     <div className="container"> 
     <div className={styles.videoGrid}>
-<<<<<<< HEAD
-      {videos.map((video, index) => (
-        <div key={index} className={styles.videoContainer}>
-          <video controls autoPlay loop muted width="100%" height="100%">
-            <source src={video.video} type="video/mp4" />
-            Video not found or not supported by your browser.
-          </video>
-        </div>
-      ))}
-    </div>
-</div><br/><br/>
-    <div className="container"> 
-    <div className={styles.videoContainer}>
-    <video autoPlay loop muted width="100%" height="100%">
-      <source src="assets/img/services/videos/video3.mp4" type="video/mp4" />
-      Video not found or not supported by your browser.
-    </video>
-  </div>
-
-</div>
-<div className="container"> 
-    <div className={styles.videoGrid}>
-      {videos1.map((video, index) => (
-        <div key={index} className={styles.videoContainer}>
-          <video controls autoPlay loop muted width="100%" height="100%">
-            <source src={video.video} type="video/mp4" />
-            Video not found or not supported by your browser.
-          </video>
-        </div>
-      ))}
-    </div>
-</div>
-=======
         {videos.map((videos, index) => (
             <div key={index} className={styles.videoContainer}>
                 <iframe
@@ -434,7 +339,6 @@ const Animation = ({ id }) => {
     </div>
 </div>
 
->>>>>>> master
  {/* <div className="container"> 
     <div className={styles.videoContainer}>
     <video autoPlay loop muted width="100%" height="100%">

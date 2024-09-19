@@ -118,15 +118,6 @@ const ServiceSection = () => {
       image: services3,
       delay: "0.9s",
     },
-<<<<<<< HEAD
-    {
-      _id: "4",
-      title: "Digital Marketing",
-      description: "From PPC to SEO, advertisting to content creation we cover all aspects of Digital Marketing",
-      image: services4,
-      delay: "1.2s",
-    },
-=======
     // {
     //   _id: "4",
     //   title: "Digital Marketing",
@@ -135,7 +126,6 @@ const ServiceSection = () => {
     //   delay: "1.2s",
     // }
     ,
->>>>>>> master
     {
       _id: "5",
       title: "UI/UX",
@@ -189,11 +179,7 @@ const ServiceSection = () => {
                 </div>
               </div>
               <div className="row g-5 gy-50">
-<<<<<<< HEAD
-                {services.slice(0, 6).map((item) => (
-=======
                 {services.slice(0, 7).map((item) => (
->>>>>>> master
                   <div
                     className="col-xl-6 col-sm-6 wow fadeInUp"
                     data-wow-delay={item.delay}

@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-import footer_data from "@data/footer-data";
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
-import { useSelector } from "react-redux";
-import tab_1 from "@assets/img/shop/9.1.jpg";
-import tab_2 from "@assets/img/shop/8.1.jpg";
-import tab_3 from "@assets/img/shop/8.3.png";
-
-const ShopModal = ({ item }) => {
-  const { product } = useSelector(state => state.products);
-
-  return (
-    <div className="modal bd-shop-modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div className="modal-dialog">
-        <div className="modal-content">
-          <div className="modal-header">
-            <h5 className="modal-title d-none" id="exampleModalLabel">Modal title</h5>
-            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-=======
 import React from "react"; // Ensure React is imported
 import PropTypes from "prop-types"; // Import PropTypes for validation
 // import { useSelector } from "react-redux"; 
@@ -51,7 +29,6 @@ const ShopModal = ({ product }) => {
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
->>>>>>> master
           </div>
           <div className="modal-body">
             <div className="container">
@@ -61,30 +38,6 @@ const ShopModal = ({ product }) => {
                     <div className="product-d-img-nav">
                       <ul className="nav nav-tabs" id="myTab" role="tablist">
                         <li className="nav-item" role="presentation">
-<<<<<<< HEAD
-                          <button className="nav-link active" id="pro-1-tab" data-bs-toggle="tab"
-                            data-bs-target="#pro-1" type="button" role="tab" aria-controls="pro-1"
-                            aria-selected="false">
-                            {product?.productImg && <Image src={product?.productImg} style={{ width: "100%", height: "100%" }} alt="img not found" />}
-                          </button>
-                        </li>
-                        <li className="nav-item" role="presentation">
-                          <button className="nav-link" id="pro-2-tab" data-bs-toggle="tab" data-bs-target="#pro-2"
-                            type="button" role="tab" aria-controls="pro-2" aria-selected="true">
-                            <Image src={tab_1} style={{ width: "100%", height: "100%" }} alt="img not found" />
-                          </button>
-                        </li>
-                        <li className="nav-item" role="presentation">
-                          <button className="nav-link" id="pro-3-tab" data-bs-toggle="tab" data-bs-target="#pro-3"
-                            type="button" role="tab" aria-controls="pro-3" aria-selected="false">
-                            <Image src={tab_2} style={{ width: "100%", height: "100%" }} alt="img not found" />
-                          </button>
-                        </li>
-                        <li className="nav-item" role="presentation">
-                          <button className="nav-link" id="pro-4-tab" data-bs-toggle="tab" data-bs-target="#pro-4"
-                            type="button" role="tab" aria-controls="pro-4" aria-selected="false">
-                            <Image src={tab_3} style={{ width: "100%", height: "100%" }} alt="img not found" />
-=======
                           <button
                             className="nav-link active"
                             id="pro-1-tab"
@@ -156,27 +109,12 @@ const ShopModal = ({ product }) => {
                               style={{ width: "100%", height: "100%" }}
                               alt="img not found"
                             />
->>>>>>> master
                           </button>
                         </li>
                       </ul>
                     </div>
                     <div className="product-d-img-tab">
                       <div className="tab-content" id="productDetailsTab">
-<<<<<<< HEAD
-                        <div className="tab-pane fade active show" id="pro-1" role="tabpanel"
-                          aria-labelledby="pro-1-tab">
-                          {product?.productImg && <Image src={product?.productImg} style={{ width: "100%", height: "100%" }} className="active" alt="img not found" />}
-                        </div>
-                        <div className="tab-pane fade" id="pro-2" role="tabpanel" aria-labelledby="pro-2-tab">
-                          <Image src={tab_1} style={{ width: "100%", height: "100%" }} className="active" alt="img not found" />
-                        </div>
-                        <div className="tab-pane fade" id="pro-3" role="tabpanel" aria-labelledby="pro-3-tab">
-                          <Image src={tab_2} style={{ width: "100%", height: "100%" }} className="active" alt="img not found" />
-                        </div>
-                        <div className="tab-pane fade" id="pro-4" role="tabpanel" aria-labelledby="pro-4-tab">
-                          <Image src={tab_3} style={{ width: "100%", height: "100%" }} className="active" alt="img not found" />
-=======
                         <div
                           className="tab-pane fade active show"
                           id="pro-1"
@@ -230,7 +168,6 @@ const ShopModal = ({ product }) => {
                             className="active"
                             alt="img not found"
                           />
->>>>>>> master
                         </div>
                       </div>
                     </div>
@@ -242,13 +179,6 @@ const ShopModal = ({ product }) => {
                       <div className="product-d-category">Organic, Food</div>
                       <div className="product-d-review">
                         <div className="rating">
-<<<<<<< HEAD
-                          <Link href=""><i className="fas fa-star"></i></Link>
-                          <Link href=""><i className="fas fa-star"></i></Link>
-                          <Link href=""><i className="fas fa-star"></i></Link>
-                          <Link href=""><i className="fas fa-star"></i></Link>
-                          <Link href=""><i className="far fa-star"></i></Link>
-=======
                           <Link href="">
                             <i className="fas fa-star"></i>
                           </Link>
@@ -264,16 +194,10 @@ const ShopModal = ({ product }) => {
                           <Link href="">
                             <i className="far fa-star"></i>
                           </Link>
->>>>>>> master
                         </div>
                         <span>10 Reviews</span>
                       </div>
                     </div>
-<<<<<<< HEAD
-                    <h4 className="product-name"><Link href={`/shop-details/${product?.id}`}>{product?.title}</Link></h4>
-                    <div className="product-price">
-                      {product?.discount && <span className="price-old">${product?.discount}</span>}
-=======
                     <h4 className="product-name">
                       <Link href={`/shop-details/${product?.id}`}>
                         {product?.title}
@@ -283,19 +207,10 @@ const ShopModal = ({ product }) => {
                       {product?.discount && (
                         <span className="price-old">${product?.discount}</span>
                       )}
->>>>>>> master
                       <span className="price-now">${product?.price}</span>
                     </div>
 
                     <p className="mb-30">
-<<<<<<< HEAD
-                      Kindedo seemed great for my kindergartener-to-be, a full santa believer. Not so the winter
-                      holiday
-                      episode, and {`I'm`} not sure how {`I'm`} going to police. I really happy to see my child there
-                    </p>
-                    <div className="product-quantity-cart mb-30" >
-                      <span data-bs-dismiss="modal" aria-label="Close"><Link href="/cart" className="bd-cart-btn"><i className="fas fa-shopping-basket"></i>Add to Cart</Link></span>
-=======
                       Kindedo seemed great for my kindergartener-to-be, a full
                       santa believer. Not so the winter holiday episode, and
                       {`I'm`} not sure how {`I'm`} going to police. I really
@@ -307,7 +222,6 @@ const ShopModal = ({ product }) => {
                           <i className="fas fa-shopping-basket"></i>Add to Cart
                         </Link>
                       </span>
->>>>>>> master
                     </div>
                     <div className="product-d-meta sku mb-10">
                       <span>SKU:</span>
@@ -327,10 +241,6 @@ const ShopModal = ({ product }) => {
                         <ul>
                           {footer_data.description.social_icons.map((item) => (
                             <li key={item.id}>
-<<<<<<< HEAD
-                              <Link target="_blank" href={item.url} rel="noreferrer">
-                                <i className={item.icon}></i>{item.name}
-=======
                               <Link
                                 target="_blank"
                                 href={item.url}
@@ -338,7 +248,6 @@ const ShopModal = ({ product }) => {
                               >
                                 <i className={item.icon}></i>
                                 {item.name}
->>>>>>> master
                               </Link>
                             </li>
                           ))}
@@ -356,8 +265,6 @@ const ShopModal = ({ product }) => {
   );
 };
 
-<<<<<<< HEAD
-=======
 // Add PropTypes validation for `product`
 ShopModal.propTypes = {
   product: PropTypes.shape({
@@ -369,5 +276,4 @@ ShopModal.propTypes = {
   }).isRequired,
 };
 
->>>>>>> master
 export default ShopModal;

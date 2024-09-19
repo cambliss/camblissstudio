@@ -139,41 +139,6 @@ import client3 from "@assets/img/logo/clients/4.png";
 import client4 from "@assets/img/logo/clients/5.png";
 import client5 from "@assets/img/logo/clients/6.png";
 import client6 from "@assets/img/logo/clients/7.png";
-<<<<<<< HEAD
-import { auto } from '@popperjs/core';
-
-const CertificateSlider = () => {
-   // Define certificate data
-   const certificateData = [
-      {
-         id: 1,
-         image: client0
-      },
-      {
-         id: 2,
-         image: client1
-      },
-      {
-         id: 3,
-         image: client2
-      },
-      {
-         id: 4,
-         image: client3
-      },
-      {
-         id: 5,
-         image: client4
-      },
-      {
-         id: 6,
-         image: client5
-      },
-      {
-         id: 7,
-         image: client6
-      },
-=======
 // import client7 from "@assets/img/logo/clients/8.png";
 // import client8 from "@assets/img/logo/clients/plushkins.png";
 // import client9 from "@assets/img/logo/clients/sudharshana1.png";
@@ -189,7 +154,6 @@ const CertificateSlider = () => {
       { id: 7, image: client6 },
       // { id: 8, image: client8 },
       // { id: 9, image: client9 },
->>>>>>> master
    ];
 
    return (
@@ -198,11 +162,7 @@ const CertificateSlider = () => {
             <div className="row section-title-spacing wow fadeInUp" data-wow-delay="0.3s">
                <div className="col-12">
                   <div className="sec-sub">
-<<<<<<< HEAD
-                     <div className="section-title sec-sub-style  text-center">
-=======
                      <div className="section-title sec-sub-style text-center">
->>>>>>> master
                         <span className="section-subtitle">OUR CLIENTS</span>
                      </div>
                   </div>
@@ -224,41 +184,6 @@ const CertificateSlider = () => {
                      pauseOnMouseEnter: true,
                   }}
                   breakpoints={{
-<<<<<<< HEAD
-                     450: {
-                        slidesPerView: 2,
-                     },
-                     576: {
-                        slidesPerView: 2,
-                     },
-                     768: {
-                        slidesPerView: 3,
-                     },
-                     991: {
-                        slidesPerView: 3,
-                     },
-                     1200: {
-                        slidesPerView: 4,
-                     },
-                     1400: {
-                        slidesPerView: 4,
-                     },
-                  }}
-               >
-                  {certificateData.map((item) => (
-                     <SwiperSlide key={item.id}>
-                        <div className="certificate-img1">
-                           {/* Use the Image component with the correct syntax */}
-                           <Image
-                              src={item.image}
-                      
-                              height={200} width={200}
-                              alt={`Certificate Image ${item.id}`}
-                           />
-                        </div>
-                     </SwiperSlide>
-                  ))}
-=======
                      450: { slidesPerView: 2 },
                      576: { slidesPerView: 2 },
                      768: { slidesPerView: 3 },
@@ -287,7 +212,6 @@ const CertificateSlider = () => {
                         </SwiperSlide>
                      );
                   })}
->>>>>>> master
                </Swiper>
             </div>
             <div className="fm-slider-navigation mt-50 wow fadeInUp" data-wow-delay="0.3s">

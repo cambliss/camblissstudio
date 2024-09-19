@@ -42,12 +42,7 @@ const HeroTwo = () => {
 
                   <div className="fm-btn mt-35">
                     <Link href="/contact" className="border-btn is-white">
-<<<<<<< HEAD
-                      Explore Now
-                      <span>
-=======
 Contact US                      <span>
->>>>>>> master
                         <i className="fa-regular fa-arrow-right"></i>
                       </span>
                     </Link>

@@ -56,11 +56,7 @@
 // };
 
 // export default ContactArea;
-<<<<<<< HEAD
-import Link from 'next/link';
-=======
 // import Link from 'next/link';
->>>>>>> master
 import React from 'react';
 import ContactForm from '@components/forms/contact-form';
 

@@ -5,11 +5,7 @@ import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 import ModalVideo from "react-modal-video";
-<<<<<<< HEAD
-import one from "@assets/img/ouwork/1.png"
-=======
 // import one from "@assets/img/ouwork/1.png"
->>>>>>> master
 import two from "@assets/img/ouwork/2.png"
 import three from "@assets/img/ouwork/3.png"
 import four from "@assets/img/ouwork/4.png"
@@ -46,20 +42,6 @@ const categoriesData = {
       _id: "4",
       title: "UI/UX",
 image: four,
-<<<<<<< HEAD
-url:"",
-      // url: "/UI-UX",
-    },
-  ],
-  DigitalMarketing: [
-    {
-      _id: "5",
-      title: "Digital Marketing",
-image: one,
-      url: "/Digital-Marketing",
-    },
-  ],
-=======
 
       url: "/UI-UX",
     },
@@ -73,7 +55,6 @@ image: one,
 //     },
 //   ],
 
->>>>>>> master
   Advertisement: [
     {
       _id: "6",
@@ -94,15 +75,6 @@ image : seven,
 
 const MovieSliderSix = () => {
   const [isOpen, setIsOpen] = useState(false);
-<<<<<<< HEAD
-  const [videoUrl, setVideoUrl] = useState(" ");
-  const [activeCategory, setActiveCategory] = useState("WebsiteDesign");
-
-  const openVideoModal = (id) => {
-    setIsOpen(!isOpen);
-    setVideoUrl(id);
-  };
-=======
   // const [videoUrl, setVideoUrl] = useState(" ");
   const [videoUrl] = useState(" ");
 
@@ -113,7 +85,6 @@ const MovieSliderSix = () => {
   //   setIsOpen(!isOpen);
   //   setVideoUrl(id);
   // };
->>>>>>> master
 
   const handleCategoryChange = (category) => {
     setActiveCategory(category);
@@ -121,10 +92,7 @@ const MovieSliderSix = () => {
 
   return (
     <>
-<<<<<<< HEAD
-=======
     
->>>>>>> master
       <div className="fm-landing-trending-area bg-common-black section-spacing">
         <div className="container">
           <div

@@ -1,15 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-import Link from "next/link";
-import Image from "next/image";
-import LogoImg from "@assets/img/logo/logo.png";
-import MobileMenus from "./mobile-menus";
-import Cambliss1 from "@assets/img/logo/cambliss.png"
-
-const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
-  const handleSubmit = (e) => {
-
-=======
 import PropTypes from "prop-types"; // Import PropTypes for validation
 import Link from "next/link";
 import Image from "next/image";
@@ -18,21 +7,15 @@ import Cambliss1 from "@assets/img/logo/cambliss.png";
 
 const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
   const handleSubmit = (e) => {
->>>>>>> master
     e.preventDefault();
   };
 
   return (
     <React.Fragment>
       <div
-<<<<<<< HEAD
-        className={`fm-header-sidebar-area fm-header-sidebar-left ${isOffCanvasOpen ? "header-sidebar-visible" : ""
-          }`}
-=======
         className={`fm-header-sidebar-area fm-header-sidebar-left ${
           isOffCanvasOpen ? "header-sidebar-visible" : ""
         }`}
->>>>>>> master
       >
         <div className="fm-header-sidebar-wrapper">
           <div className="fm-header-sidebar-action mb-75">
@@ -40,11 +23,7 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
               <Link href="/">
                 <Image
                   src={Cambliss1}
-<<<<<<< HEAD
-                  style={{ width: 'auto', height: 'auto' }}
-=======
                   style={{ width: "auto", height: "auto" }}
->>>>>>> master
                   alt="img not found"
                 />
               </Link>
@@ -77,11 +56,7 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
             <div className="fm-offcanvas-about mt-30 mb-30">
               <h4>About CAMBLISS</h4>
               <p>
-<<<<<<< HEAD
-                We Believe Film And Moving Image Has The PowerTo Create
-=======
                 We Believe Film And Moving Image Has The Power To Create
->>>>>>> master
                 Significant Change.
               </p>
             </div>
@@ -99,14 +74,7 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                   </Link>
                 </div>
                 <div className="offcanvas-contact-text">
-<<<<<<< HEAD
-                  <Link
-                    target="_blank"
-                  href=""
-                  >
-=======
                   <Link target="_blank" href="">
->>>>>>> master
                     SURVEY NO: 75/2, BALAPUR(V), HYDERABAD, TELANGANA, 500005
                   </Link>
                 </div>
@@ -129,11 +97,7 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                 </div>
                 <div className="offcanvas-contact-text">
                   <Link href="mailto:contact@camblissstudio.com">
-<<<<<<< HEAD
-                  contact@camblissstudio.com
-=======
                     contact@camblissstudio.com
->>>>>>> master
                   </Link>
                 </div>
               </li>
@@ -143,14 +107,10 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
             <div className="fm-offcanvas-social">
               <span className="social-text">Follow :</span>
               <div className="fm-offcanvas-social-icon">
-<<<<<<< HEAD
-                <Link href="https://www.facebook.com/profile.php?id=61553561020127" target="_blank">
-=======
                 <Link
                   href="https://www.facebook.com/profile.php?id=61553561020127"
                   target="_blank"
                 >
->>>>>>> master
                   <i className="fa-brands fa-facebook-f"></i>
                 </Link>
                 <Link href="https://twitter.com/" target="_blank">
@@ -175,13 +135,10 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
   );
 };
 
-<<<<<<< HEAD
-=======
 // Add PropTypes validation
 OffCanvasMain.propTypes = {
   isOffCanvasOpen: PropTypes.bool.isRequired, // Validate as a required boolean
   setIsOffCanvasOpen: PropTypes.func.isRequired, // Validate as a required function
 };
 
->>>>>>> master
 export default OffCanvasMain;

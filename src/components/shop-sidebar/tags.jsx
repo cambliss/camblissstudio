@@ -6,18 +6,6 @@ const Tags = () => {
         <div className="widget fm-widget widget-category   mb-40">
         <h4 className="fm-widget-heading-1-6 mb-20">Tags</h4>
         <div className="tagcloud">
-<<<<<<< HEAD
-          <Link href="/movie">Action</Link>
-          <Link href="/movie">Cinema</Link>
-          <Link href="/movie">Affection</Link>
-          <Link href="/movie">Love</Link>
-          <Link href="/movie">Emotion</Link>
-          <Link href="/movie">Telefilm</Link>
-          <Link href="/movie">Hard</Link>
-          <Link href="/movie">Romance</Link>
-          <Link href="/movie">Empress</Link>
-          <Link href="/movie">Bride</Link>
-=======
           <Link href="/movie">Web Development</Link>
           <Link href="/movie">App Development</Link>
           <Link href="/movie">UI / UX</Link>
@@ -47,7 +35,6 @@ const Tags = () => {
           <Link href="/movie">Content Creation</Link>
           <Link href="/movie">PR Analytics</Link>
 
->>>>>>> master
         </div>
       </div>
     );

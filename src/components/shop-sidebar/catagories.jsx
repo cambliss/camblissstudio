@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-
-const Categories = ({ selectCategory }) => {
-  const [movieCategoryTwo, setMovieCategoryTwo] = useState([]);
-  useEffect(() => {
-    axios
-      .get(`${process.env.BASE_URL}category/all-category`)
-      .then((res) => {
-        setMovieCategoryTwo(res.data);
-      })
-      .catch((e) => console.log(e));
-  }, []);
-=======
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -47,22 +32,15 @@ const Categories = ({ selectCategory }) => {
       .catch((e) => console.log(e));
   }, []);
 
->>>>>>> master
   return (
     <div className="widget fm-widget widget-category mb-40">
       <h4 className="fm-widget-heading-1-6 mb-20">Categories</h4>
       <div className="fm-widget-categories-list-1-6 category-btn">
-<<<<<<< HEAD
-        <button className="mb-4">View all</button>
-        <ul>
-          {movieCategoryTwo?.slice(0, 4).map((item) => (
-=======
         {/* View all button can be used to show/hide categories or for another feature */}
         {/* Uncomment the button if needed */}
         {/* <button className="mb-4">View all</button> */}
         <ul>
           {Array.isArray(movieCategoryTwo) && movieCategoryTwo.map((item) => (
->>>>>>> master
             <li key={item._id}>
               <button onClick={() => selectCategory(item.category)}>
                 {item.category}
