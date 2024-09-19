@@ -1,6 +1,6 @@
 import React from "react"; // Ensure React is imported
 import PropTypes from "prop-types"; // Import PropTypes for validation
-import { useSelector } from "react-redux"; // Import useSelector from react-redux
+// import { useSelector } from "react-redux"; 
 import Image from "next/image"; // Import Image from next/image
 import Link from "next/link"; // Import Link from next/link
 import footer_data from "@data/footer-data"; // Import footer data
