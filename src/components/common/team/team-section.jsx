@@ -89,7 +89,7 @@ import Image from "next/image";
 import Link from "next/link";
 import sunaina from "@assets/img/logo/sunaina.png";
 import avishek from "@assets/img/logo/avishek.jpg";
-import bismay from "@assets/img/logo/bismay.jpg";
+// import bismay from "@assets/img/logo/bismay.jpg";
 import gabriel from "@assets/img/logo/gabriel.jpg";
 import vijay from "@assets/img/logo/vijay.jpg";
 import arjun from "@assets/img/logo/arjun.png";
@@ -150,7 +150,7 @@ const TeamSection = () => {
 
 
 
-    ,
+    
     {
       _id: "9",
       teamName: "S Bobby Jena",
