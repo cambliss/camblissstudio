@@ -15,13 +15,13 @@ const MobileMenusTwo = () => {
     }
   };
   // openSubMobileMenu
-  const openSubMobileMenu = (s_menu) => {
-    if (subMenu === s_menu) {
-      setSubMenu("");
-    } else {
-      setSubMenu(s_menu);
-    }
-  };
+  // const openSubMobileMenu = (s_menu) => {
+  //   if (subMenu === s_menu) {
+  //     setSubMenu("");
+  //   } else {
+  //     setSubMenu(s_menu);
+  //   }
+  // };
   return (
     <ul className="menu-list">
       {menu_data?.map((menu, i) => (

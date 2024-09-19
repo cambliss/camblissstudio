@@ -1,4 +1,4 @@
-import CouponForm from '@components/forms/coupon-form';
+// import CouponForm from '@components/forms/coupon-form';
 import CouponInfoForm from '@components/forms/coupon-info-form';
 import React, { useState } from 'react';
 
@@ -7,9 +7,9 @@ const CuponArea = () => {
     const [isActive, setActive] = useState("false");
     const [isActiveA, setActiveA] = useState("false");
 
-    const handleToggle = () => {
-        setActive(!isActive);
-    };
+    // const handleToggle = () => {
+    //     setActive(!isActive);
+    // };
     const handleToggleA = () => {
         setActiveA(!isActiveA);
     };

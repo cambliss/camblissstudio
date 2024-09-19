@@ -1,6 +1,6 @@
 import React from "react";
 import Postbox from "./postbox";
-import BlogSidebar from "./blog-sidebar";
+// import BlogSidebar from "./blog-sidebar";
 
 const PostBoxArea = () => {
   return (

@@ -4,7 +4,7 @@ import imageOne from "@assets/img/logo/mainbackground.png";
 import useGlobalContext from "@hooks/use-context";
 
 const ServiceMiddle = () => {
-  const { service } = useGlobalContext();
+  // const { service } = useGlobalContext();
   return (
     <div className="col-xxl-12">
       {/* <div className="case-meta-wrapper">

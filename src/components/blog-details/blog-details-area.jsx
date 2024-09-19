@@ -1,5 +1,7 @@
+import PropTypes from 'prop-types';
 import Link from "next/link";
 import React, { useEffect } from "react";
+import { useRouter } from "next/router"; // Fixed router import
 import Image from "next/image";
 import axios from "axios";
 import useGlobalContext from "@hooks/use-context";
@@ -16,6 +18,7 @@ import blogDeatilsImg from "@assets/img/blog/blog-details-bg-1.jpg";
 
 const BlogDetailsArea = ({ id }) => {
   const { blog, setBlog } = useGlobalContext();
+  const router = useRouter(); // Defined router using the hook
 
   // Get data
   useEffect(() => {
@@ -29,11 +32,8 @@ const BlogDetailsArea = ({ id }) => {
     }
   }, [id, setBlog]);
 
-  const isCareersPage = router.pathname === '/Careers';
-
   return (
     <section className="postbox__area section-spacing-top pb-60">
-      
       <div className="container">
         <div className="row g-40">
           <div className="col-xxl-8 col-xl-7 col-lg-7">
@@ -139,33 +139,6 @@ const BlogDetailsArea = ({ id }) => {
               <PostBoxAuthor />
               <PostboxForm />
               <MovieSliderNine />
-
-              {/* Full Stack Developer Section */}
-              <div className="postbox__item mb-60">
-                <h2 className="postbox__title">Full Stack Developer</h2>
-                <p>
-                  Join our team as a Full Stack Developer and contribute to the
-                  development of cutting-edge web applications. We are looking
-                  for someone with expertise in both front-end and back-end
-                  technologies.
-                </p>
-                <Link href="/apply-now-full-stack-developer">
-                  <a className="fill-btn">Apply Now</a>
-                </Link>
-              </div>
-
-              {/* HTML Developer Section */}
-              <div className="postbox__item mb-60">
-                <h2 className="postbox__title">HTML Developer</h2>
-                <p>
-                  Are you passionate about creating beautiful and responsive web
-                  interfaces? Join us as an HTML Developer and be a part of
-                  crafting exceptional user experiences.
-                </p>
-                <Link href="/apply-now-html-developer">
-                  <a className="fill-btn">Apply Now</a>
-                </Link>
-              </div>
             </div>
           </div>
           <BlogSidebarArea />
@@ -173,6 +146,11 @@ const BlogDetailsArea = ({ id }) => {
       </div>
     </section>
   );
+};
+
+// Add prop-types validation
+BlogDetailsArea.propTypes = {
+  id: PropTypes.string.isRequired,
 };
 
 export default BlogDetailsArea;

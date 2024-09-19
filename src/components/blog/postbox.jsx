@@ -170,7 +170,7 @@ const Postbox = () => {
     },
   ];
 
-  const [blogs, setBlogs] = useState(sampleData);
+  const [blogs] = useState(sampleData);
 
   return (
     <>

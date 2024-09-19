@@ -9,7 +9,7 @@ import { checkout_schema } from "@utils/validation-schema";
 import { toast } from "react-toastify";
 
 const CheckoutSection = () => {
-  const [categorys, setCategorys] = useState("")
+  // const [categorys, setCategorys] = useState("")
   const [isActiveC, setActiveC] = useState("false");
   const handleToggleC = () => {
     setActiveC(!isActiveC);
@@ -19,7 +19,7 @@ const CheckoutSection = () => {
   const handleToggleB = () => {
     setActiveB(!isActiveB);
   };
-  const selectHandler = (e) => { };
+  const selectHandler = () => { };
   // Use formik
   const { handleChange, handleSubmit, handleBlur, errors, values, touched } =
     useFormik({

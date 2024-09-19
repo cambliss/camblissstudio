@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
-import aboutImage from '@assets/img/about/director-about.png'
-import Link from 'next/link';
-import aboutusimage from "@assets/img/logo/aboutus.jpeg";
+// import aboutImage from '@assets/img/about/director-about.png'
+// import Link from 'next/link';
+// import aboutusimage from "@assets/img/logo/aboutus.jpeg";
 import aboutusimage1 from "@assets/img/logo/aboutus1.png";
 
 const AboutSection = () => {
