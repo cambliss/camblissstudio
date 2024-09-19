@@ -83,11 +83,7 @@ const FooterOne = () => {
       <i className={item.icon}></i>
     </Link>
   ))}
-
-
-
-
-                  </div>
+ </div>
                 </div>
                 <div className="footer-wrapper footer-widget-contact">
                   <div className="footer-title">
