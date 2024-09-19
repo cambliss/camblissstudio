@@ -77,8 +77,6 @@ const FooterOne = () => {
     <Link 
       key={item.id} 
       href={item.url} 
-      target="_blank" 
-      rel="noopener noreferrer"
     >
       <i className={item.icon}></i>
     </Link>
