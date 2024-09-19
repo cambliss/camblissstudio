@@ -60,11 +60,7 @@ html {
   font-size: 10px;
 }
 main{
-<<<<<<< HEAD
-  background-color: #171717 ;
-=======
   background-color: #000;
->>>>>>> master
 }
 body {
   font-family: $montserratsans;
@@ -128,12 +124,9 @@ h5,
 h6 {
   @include transition(0.3s);
 }
-<<<<<<< HEAD
-=======
 span{
   color : var(--clr-common-white);
 }
->>>>>>> master
 
 a:focus,
 .button:focus {
@@ -285,11 +278,7 @@ p {
   font-family: $montserratsans;
   font-size: 18px;
   font-weight: 500;
-<<<<<<< HEAD
-  color: var(--clr-body-text3);
-=======
   color: var(--clr-common-white);
->>>>>>> master
   margin-bottom: 0;
   line-height: 1.6;
 
@@ -449,11 +438,7 @@ textarea::placeholder:focus {
 
 .section-spacing-top {
   padding-top: 120px;
-<<<<<<< HEAD
-  background-color: #171717 ;
-=======
   background-color: #000;
->>>>>>> master
 
   @media #{$lg} {
     padding-top: 120px;
@@ -472,10 +457,7 @@ textarea::placeholder:focus {
   padding-bottom: 120px;
   // background-image: url('../../img/logo/bckimg.png');
   background-size: cover;
-<<<<<<< HEAD
-=======
   background-color: #000;
->>>>>>> master
 
   @media #{$lg} {
 
