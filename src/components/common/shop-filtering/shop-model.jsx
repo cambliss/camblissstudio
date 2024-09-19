@@ -1,10 +1,13 @@
-import React from "react"; // Import React for JSX
-import { useSelector } from "react-redux"; // Import useSelector from react-redux
-import Image from "next/image";
+import React from "react"; // Ensure React is imported
 import PropTypes from "prop-types"; // Import PropTypes for validation
+import { useSelector } from "react-redux"; // Import useSelector from react-redux
+import Image from "next/image"; // Import Image from next/image
+import Link from "next/link"; // Import Link from next/link
+import footer_data from "@data/footer-data"; // Import footer data
 
 const ShopModal = ({ product }) => {
-  const cartProduct = useSelector((state) => state.products[product.id]); // Example of using useSelector
+  // Removed unused cartProduct variable
+  // const cartProduct = useSelector((state) => state.products[product.id]); 
 
   return (
     <div
@@ -66,7 +69,7 @@ const ShopModal = ({ product }) => {
                             aria-selected="true"
                           >
                             <Image
-                              src="/path-to-tab_1.jpg" // Example of other images
+                              src="/path-to-tab_1.jpg"
                               style={{ width: "100%", height: "100%" }}
                               alt="img not found"
                             />
