@@ -139,7 +139,7 @@ import client3 from "@assets/img/logo/clients/4.png";
 import client4 from "@assets/img/logo/clients/5.png";
 import client5 from "@assets/img/logo/clients/6.png";
 import client6 from "@assets/img/logo/clients/7.png";
-import client7 from "@assets/img/logo/clients/8.png";
+// import client7 from "@assets/img/logo/clients/8.png";
 // import client8 from "@assets/img/logo/clients/plushkins.png";
 // import client9 from "@assets/img/logo/clients/sudharshana1.png";
 
