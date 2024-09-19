@@ -131,7 +131,7 @@ const BlogDetailsArea = ({ id }) => {
               </div>
               <div className="sidebar__tag mb-35 mt-70 ">
                 <Link href="/blog">Action</Link>
-                <Link href="/blog">Adventure</Link>
+                <Link href="/blog"></Link>
                 <Link href="/blog">Comedy</Link>
               </div>
               <BlogSocailIcon />

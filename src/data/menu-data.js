@@ -88,8 +88,7 @@ const menu_data = [
     submenus:[]
    
   },
- 
-
+  
  
   {
     id: 5,
@@ -140,7 +139,16 @@ const menu_data = [
   //   ],
   //   submenus:[],
   // },
- 
+  {
+    id: 8,
+    hasDropdown: true,
+    active:true,
+    title: "Shop",
+    link: "/shop-sidebar",
+    submenus:[]
+   
+  },
+
 ];
 
 export default menu_data;

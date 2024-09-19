@@ -125,15 +125,16 @@ const manuallyWrittenServices = [
     serviceBtn: "View More",
     delay: "0.6s",
   },
-  {
-    // link: "/Digital-Marketing",
-    link:"",
-    serviceNum: "05",
-    title: "Digital Marketing",
-    description: "From SEO to PPC advertising to social media marketing, Cambliss covers all aspects of marketing.",
-    serviceBtn: "View More",
-    delay: "0.6s",
-  },
+  // {
+  //   link: "/Digital-Marketing",
+  //   link:"",
+  //   serviceNum: "05",
+  //   title: "Digital Marketing",
+  //   description: "From SEO to PPC advertising to social media marketing, Cambliss covers all aspects of marketing.",
+  //   serviceBtn: "View More",
+  //   delay: "0.6s",
+  // }
+  ,
   {
     link: "/Advertisement",
     serviceNum: "06",

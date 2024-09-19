@@ -44,6 +44,18 @@ const index = () => {
                       <span>Terms & Conditions</span>
                     </button>
                   </li>
+                  <li role="presentation">
+                    <button
+                      data-bs-toggle="tab"
+                      data-bs-target="#refunds_and_cancellation"
+                      type="button"
+                      role="tab"
+                      aria-selected="true"
+                    >
+                      <i className="fas fa-circle"></i>
+                      <span>Refunds and cancellations</span>
+                    </button>
+                  </li>
                 </ul>
               </div>
               <div className="col-xl-9 col-lg-8">

@@ -6,19 +6,22 @@ import React, { useEffect, useState } from "react";
 
 const SidebarMovie = () => {
   const [movies, setMovies] = useState([]);
-  //get movie data
+
+  // Fetch movie data
   useEffect(() => {
     axios
       .get(`${process.env.BASE_URL}movie/all-movie`)
       .then((res) => {
-        setMovies(res.data);
+        console.log(res.data); // Log the response to check data structure
+        // Ensure the data is an array
+        setMovies(Array.isArray(res.data) ? res.data : []);
       })
       .catch((e) => console.log(e));
   }, []);
 
   return (
     <div className="fm-widget-top-product-list-1-6">
-      {movies.length &&
+      {Array.isArray(movies) && movies.length > 0 ? (
         movies.slice(12, 17).map((item) => (
           <div
             className="fm-widget-top-product-single-1-6 mb-20"
@@ -27,11 +30,11 @@ const SidebarMovie = () => {
             <div className="fm-shop-thumb">
               <Link href={`/shop-details/${item._id}`}>
                 <Image
-                  src={item.image}
+                  src={item.image || '/placeholder.jpg'} // Provide a fallback image if needed
                   width={500}
                   height={500}
                   style={{ width: "100%", height: "auto" }}
-                  alt="image not found"
+                  alt={item.title || 'image not found'} // Provide a fallback alt text
                 />
               </Link>
             </div>
@@ -42,7 +45,7 @@ const SidebarMovie = () => {
               <div className="fm-product-box-price-1-6">
                 <span>
                   <ins>${item.price}</ins>
-                  {item?.old_price && <del>${item.old_price}</del>}
+                  {item.old_price && <del>${item.old_price}</del>}
                 </span>
               </div>
               <div className="fm-rating pt-4-px">
@@ -50,7 +53,10 @@ const SidebarMovie = () => {
               </div>
             </div>
           </div>
-        ))}
+        ))
+      ) : (
+        <p>No services available</p> // Message if there are no movies
+      )}
     </div>
   );
 };

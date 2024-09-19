@@ -152,7 +152,7 @@ import SwiperComponent from "./SwiperComponent";
 const dummyData = [
   { id: 1, name: "Animation" },
   { id: 2, name: "Visual Production" },
-  { id: 3, name: "Digital Marketing" },
+  // { id: 3, name: "Digital Marketing" },
   { id: 4, name: "UI / UX" },
   { id: 5, name: "Fabrication" },
   { id: 6, name: "Branding" },

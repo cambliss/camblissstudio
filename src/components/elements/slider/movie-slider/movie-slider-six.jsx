@@ -46,14 +46,15 @@ image: four,
       url: "/UI-UX",
     },
   ],
-  DigitalMarketing: [
-    {
-      _id: "5",
-      title: "Digital Marketing",
-image: one,
-      url: "/Digital-Marketing",
-    },
-  ],
+//   DigitalMarketing: [
+//     {
+//       _id: "5",
+//       title: "Digital Marketing",
+// image: one,
+//       url: "/Digital-Marketing",
+//     },
+//   ],
+
   Advertisement: [
     {
       _id: "6",

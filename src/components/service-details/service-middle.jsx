@@ -92,11 +92,11 @@ Cambliss talented team of designers specializes in creating unique and captivati
 <p className="mb-30 ">
       <strong>UI / UX</strong><br/>
 we craft visually appealing and user - friendly designs that not only captures attention but also guide users through your website or application effortlessly      </p>
-<p className="mb-30 ">
+{/* <p className="mb-30 ">
       <strong>Hosting</strong><br/>
      Our Hosting services provide you with a reliable  and secure  platform to host your website or application. We will make your site uptime and fast loading speeds, which is why
      we offer robust hosting solutions tailored to your specific needs.
-      </p>
+      </p> */}
       {/* <p className="">
         The portfolio features a flexible grid system were pre-defined rows can
         be used to build a grid that fits all needs. We have selected a
