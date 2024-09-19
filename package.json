@@ -15,18 +15,11 @@
     "@vercel/analytics": "^1.1.2",
     "axios": "^1.5.0",
     "bootstrap": "^5.2.2",
-<<<<<<< HEAD
-    "eslint": "8.26.0",
-=======
->>>>>>> master
     "eslint-config-next": "13.0.2",
     "formik": "^2.2.9",
     "framer-motion": "^7.6.12",
     "next": "13.0.2",
-<<<<<<< HEAD
-=======
     "prop-types": "^15.8.1",
->>>>>>> master
     "react": "18.2.0",
     "react-circular-progressbar": "^2.1.0",
     "react-countup": "^6.3.2",
@@ -51,10 +44,7 @@
     "yup": "^0.32.11"
   },
   "devDependencies": {
-<<<<<<< HEAD
-=======
     "eslint-plugin-react": "^7.36.1",
->>>>>>> master
     "file-loader": "^6.2.0"
   }
 }
