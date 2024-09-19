@@ -10,11 +10,7 @@ const index = () => {
     <>
       <Header />
       <main>
-<<<<<<< HEAD
-      <Breadcrumb title="Careers" subTitle="Careers" />
-=======
       <Breadcrumb />
->>>>>>> master
         <SectionTitle />
         <PostBoxArea />
       </main>
