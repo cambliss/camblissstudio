@@ -1,11 +1,13 @@
-import axios from "axios";
+// import axios from "axios";
 import Image from "next/image";
-import Link from "next/link";
-import React, { useEffect, useState } from "react";
+// import Link from "next/link";
+// import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+
 import SocialIcon from "../social-icon/SocialIcon";
 
 const TeamSectionTwo = ({ teamBottomBorder }) => {
-  const [teams, setTeams] = useState([]);
+  const [teams] = useState([]);
   // useEffect(() => {
   //   axios
   //     .get(`${process.env.BASE_URL}team/all-team`)
