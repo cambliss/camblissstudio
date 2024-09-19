@@ -4,7 +4,7 @@ import Link from "next/link";
 import menu_data from "@data/menu-data";
 
 const MobileMenusTwo = () => {
-  const [subMenu, setSubMenu] = useState("");
+  // const [subMenu, setSubMenu] = useState("");
   const [navTitle, setNavTitle] = useState("");
   //openMobileMenu
   const openMobileMenu = (menu) => {

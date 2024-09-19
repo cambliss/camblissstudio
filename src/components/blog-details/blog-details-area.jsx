@@ -18,7 +18,7 @@ import blogDeatilsImg from "@assets/img/blog/blog-details-bg-1.jpg";
 
 const BlogDetailsArea = ({ id }) => {
   const { blog, setBlog } = useGlobalContext();
-  const router = useRouter(); // Defined router using the hook
+  // const router = useRouter(); // Defined router using the hook
 
   // Get data
   useEffect(() => {

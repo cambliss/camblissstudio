@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import imageOne from "@assets/img/logo/mainbackground.png";
-import useGlobalContext from "@hooks/use-context";
+// import useGlobalContext from "@hooks/use-context";
 
 const ServiceMiddle = () => {
   // const { service } = useGlobalContext();

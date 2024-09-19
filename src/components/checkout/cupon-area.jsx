@@ -4,7 +4,9 @@ import React, { useState } from 'react';
 
 
 const CuponArea = () => {
-    const [isActive, setActive] = useState("false");
+    // const [isActive, setActive] = useState("false");
+
+    const [isActive] = useState("false");
     const [isActiveA, setActiveA] = useState("false");
 
     // const handleToggle = () => {
