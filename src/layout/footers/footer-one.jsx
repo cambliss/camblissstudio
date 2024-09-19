@@ -72,7 +72,7 @@ const FooterOne = () => {
                   <div className="footer-info">
                     <p>Connect with us on social media</p>
                   </div>
-                  <div className="fm-social-2 footer-social-3">
+                  {/* <div className="fm-social-2 footer-social-3">
   {footerData.socialLink.socialIcons.map((item) => (
     <Link 
       key={item.id} 
@@ -83,7 +83,7 @@ const FooterOne = () => {
       <i className={item.icon}></i>
     </Link>
   ))}
-</div>
+</div> */}
                 </div>
                 <div className="footer-wrapper footer-widget-contact">
                   <div className="footer-title">
