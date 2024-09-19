@@ -78,12 +78,12 @@ const FooterOne = () => {
       key={item.id} 
       href={item.url} 
       target="_blank" 
-      rel="opener"
+      rel="noopener noreferrer" // Corrected here
     >
       <i className={item.icon}></i>
     </Link>
   ))}
- </div>
+</div>
                 </div>
                 <div className="footer-wrapper footer-widget-contact">
                   <div className="footer-title">
