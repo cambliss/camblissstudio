@@ -3,11 +3,7 @@ import AboutImgOne from "@assets/img/logo/one.png";
 import AboutImgTwo from "@assets/img/logo/two/3.png";
 import AboutImgThere from "@assets/img/logo/three.png";
 import Image from "next/image";
-<<<<<<< HEAD
-import Link from "next/link";
-=======
 // import Link from "next/link";
->>>>>>> master
 
 const HomeAboutFour = () => {
   return (
