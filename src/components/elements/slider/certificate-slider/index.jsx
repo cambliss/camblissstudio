@@ -142,6 +142,9 @@ import client6 from "@assets/img/logo/clients/7.png";
 // import client7 from "@assets/img/logo/clients/8.png";
 // import client8 from "@assets/img/logo/clients/plushkins.png";
 // import client9 from "@assets/img/logo/clients/sudharshana1.png";
+import client7 from "@assets/img/logo/clients/8.png";
+import client8 from "@assets/img/logo/clients/plushkins.png";
+import client9 from "@assets/img/logo/clients/sudharshana1.png";
 
 const CertificateSlider = () => {
    const certificateData = [
@@ -154,6 +157,8 @@ const CertificateSlider = () => {
       { id: 7, image: client6 },
       // { id: 8, image: client8 },
       // { id: 9, image: client9 },
+      { id: 8, image: client8 },
+      { id: 9, image: client9 },
    ];
 
    return (
