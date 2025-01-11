@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import FooterOneCopyright from "./component/footer-one-copyright";
 import Logo from '@assets/img/logo/cambliss.png';
-import bgImage from '@assets/img/footer.jpg';
+import bgImage from '@assets/img/footer.png';
 import footerData from "@data/footer-data";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 
@@ -19,7 +19,7 @@ const FooterOne = () => {
           : "cubic-bezier(0.34, 1.56, 0.64, 1)"}
       >
         <footer>
-          <div className="footer-area-5 section-spacing-top pos-rel" style={{height:'fit-content'}}>
+          <div className="footer-area-5 section-spacing-top pos-rel" style={{height:'fit-content',backgroundImage: `url(${bgImage.src})`,height:"fit-content",backgroundSize:'cover'}}>
             <div
               className="footer-bg-3"
               style={{ backgroundImage: `url(${bgImage.src})` }}
