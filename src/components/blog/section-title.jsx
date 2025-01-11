@@ -3,7 +3,7 @@ import React from 'react';
 const SectionTitle = () => {
    return (
       <>
-         <div className="adjust-header-space bg-common-black"></div>
+         <div className="adjust-header-space bg-common-black" style={{height:"fit-content", paddingTop:"0px"}}></div>
          <section className="page-title-area section-spacing-top">
             <div className="container">
                <div className="row section-title-spacing wow fadeInUp">
