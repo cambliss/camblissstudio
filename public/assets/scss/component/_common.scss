@@ -417,8 +417,8 @@ textarea::placeholder:focus {
 }
 
 .section-spacing {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
   @media #{$lg} {
     padding-top: 120px;
@@ -439,6 +439,7 @@ textarea::placeholder:focus {
 .section-spacing-top {
   padding-top: 120px;
   background-color: #000;
+  height: 820px ;
 
   @media #{$lg} {
     padding-top: 120px;
@@ -454,7 +455,7 @@ textarea::placeholder:focus {
 }
 
 .section-spacing-bottom {
-  padding-bottom: 120px;
+  // padding-bottom: 120px;
   // background-image: url('../../img/logo/bckimg.png');
   background-size: cover;
   background-color: #000;

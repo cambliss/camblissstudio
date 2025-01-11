@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 // import imageabout from "@assets/img/logo/video-2-0.png";
-import servicesimage1 from "@assets/img/logo/servicesimage1.png";
+import servicesimage1 from "@assets/img/services-about.png";
 
 
 const AboutSectionTwo = () => {

@@ -12,7 +12,7 @@ const index = () => {
       <Header />
       <main>
       
-        <Breadcrumb  />
+        {/* <Breadcrumb  /> */}
         <ContactArea />
         <ContactMap />
         <ContactSection />

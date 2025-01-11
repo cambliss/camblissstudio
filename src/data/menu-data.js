@@ -17,9 +17,9 @@ const menu_data = [
   {
     id: 4,
     // title: "Pages",
-    title:"About US",
+    title:"About us",
     megaMenu: true,
-    link: "/About-US",
+    link: "/About-us",
     pages: true,
     
     mega_menus: [
@@ -71,7 +71,7 @@ const menu_data = [
     id: 2,
     hasDropdown: true,
     // title: "Movie",
-    title:"Our Services",
+    title:"Services",
     link: "/Services",
   
     submenus: [
@@ -83,8 +83,8 @@ const menu_data = [
     id: 8,
     hasDropdown: true,
     active:true,
-    title: "Our Work",
-    link: "/OurWork",
+    title: "Gallery",
+    link: "/Gallery",
     submenus:[]
    
   },
@@ -144,7 +144,7 @@ const menu_data = [
     hasDropdown: true,
     active:true,
     title: "Shop",
-    link: "/shop-sidebar",
+    link: "/shop",
     submenus:[]
    
   },

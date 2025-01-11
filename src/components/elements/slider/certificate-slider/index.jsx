@@ -132,19 +132,22 @@ import { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 import Image from 'next/image';
-import client0 from "@assets/img/logo/clients/1.png";
-import client1 from "@assets/img/logo/clients/2.png";
-import client2 from "@assets/img/logo/clients/3.png";
-import client3 from "@assets/img/logo/clients/4.png";
-import client4 from "@assets/img/logo/clients/5.png";
-import client5 from "@assets/img/logo/clients/6.png";
-import client6 from "@assets/img/logo/clients/7.png";
-// import client7 from "@assets/img/logo/clients/8.png";
+import client0 from "@assets/img/logo/clients/anandgiri.png";
+import client1 from "@assets/img/logo/clients/fullfill.png";
+import client2 from "@assets/img/logo/clients/enchant.png";
+import client3 from "@assets/img/logo/clients/flicmicrowaves.png";
+import client4 from "@assets/img/logo/clients/satavahanauniversity.png";
+import client5 from "@assets/img/logo/clients/spe.png";
+import client6 from "@assets/img/logo/clients/dream4loans.png";
+
+
+
+import client8 from "@assets/img/logo/clients/facesofstyle.png";
 // import client8 from "@assets/img/logo/clients/plushkins.png";
+import client9 from "@assets/img/logo/clients/plushkins.png";
+import client10 from "@assets/img/logo/clients/justmoveit.png";
+import client11 from "@assets/img/logo/clients/parivartan.png";
 // import client9 from "@assets/img/logo/clients/sudharshana1.png";
-import client7 from "@assets/img/logo/clients/8.png";
-import client8 from "@assets/img/logo/clients/plushkins.png";
-import client9 from "@assets/img/logo/clients/sudharshana1.png";
 
 const CertificateSlider = () => {
    const certificateData = [
@@ -155,8 +158,8 @@ const CertificateSlider = () => {
       { id: 5, image: client4 },
       { id: 6, image: client5 },
       { id: 7, image: client6 },
-      // { id: 8, image: client8 },
-      // { id: 9, image: client9 },
+      { id: 10, image: client10 },
+      { id: 11, image: client11 },
       { id: 8, image: client8 },
       { id: 9, image: client9 },
    ];
@@ -168,7 +171,13 @@ const CertificateSlider = () => {
                <div className="col-12">
                   <div className="sec-sub">
                      <div className="section-title sec-sub-style text-center">
-                        <span className="section-subtitle">OUR CLIENTS</span>
+                     <span className="highlighted-text">OUR CLIENTS</span>
+
+<style jsx>{`
+  .highlighted-text {
+    color: #ffbd39 !important; /* This will override other styles */
+  }
+`}</style>
                      </div>
                   </div>
                </div>

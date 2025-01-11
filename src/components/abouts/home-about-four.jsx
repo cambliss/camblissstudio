@@ -38,7 +38,7 @@ const HomeAboutFour = () => {
           <div className="col-xl-6 col-lg-6">
             <div className="about-2-wrapper wow fmSlideInRight" data-wow-delay="0.4s">
               <div className="section-title sec-sub-style mb-30">
-                <span className="section-subtitle">ABOUT US</span>
+                <span style={{color:"#ffbd39", marginBottom:"20px"}}>ABOUT US</span>
                 <h2 className="section-main-title about-sec-title-2 title-anim ">
             Your Success Story Starts with<br/>
                   <span>Cambliss Studio</span>

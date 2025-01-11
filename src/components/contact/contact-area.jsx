@@ -62,8 +62,15 @@ import ContactForm from '@components/forms/contact-form';
 
 const ContactArea = () => {
    return (
-      <div className="fm-contact-area section-spacing">
+      <div className="fm-contact-area section-spacing" style={{paddingBottom:"0px"}}>
+            <div style={{ textAlign: "center", margin: "20px 0", marginTop: "50px" }}>
+  <h2 className="section-main-title text-white title-anim featured-work-title" style={{marginBottom:"20px"}}>
+    Contact us
+  </h2>
+</div>
+
          <div className="container">
+     
             <div className="row justify-content-center wow fadeInUp" data-wow-delay="0.3s">
                <div className="col-xxl-10">
                   <div className="fm-contact-content-wrapper ">

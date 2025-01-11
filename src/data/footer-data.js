@@ -83,13 +83,13 @@ const footerData = {
             {
                 id: 1,
                 contactInfo: 'https://www.google.com/maps/place/Cambliss/@17.302298,78.506638,16z/data=!4m6!3m5!1s0x3bcba28a18b09ea9:0xccbf37b932caddb6!8m2!3d17.3022976!4d78.5066378!16s%2Fg%2F11k7k_7k91?hl=en&entry=ttu',
-                contact: 'SURVEY NO: 75/2, BALAPUR, HYDERABAD, TELANGANA, 500005',
+                contact: 'Survey No: 75/2, Balapur(V), Hyderabad, Telangana, 500005',
                 addressWrapperClass:'fa-sharp fa-solid fa-location-dot'
             },
             {
                 id: 2,
-                contactInfo: 'tel:8309264634',
-                contact: '8309264634',
+                contactInfo: 'tel:1800 571 9799',
+                contact: '1800 571 9799',
                 addressWrapperClass:'fa-sharp fa-solid fa-phone'
             },
             {

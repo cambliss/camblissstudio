@@ -9,9 +9,13 @@ const FooterOneCopyright = () => {
           {/* Copyright Text */}
           <div className="footer-copyright">
             <p>
-              © 2023
+              © 2025
               <Link href="/"> CAMBLISS </Link> All Rights Reserved.
             </p>
+            <div>
+                    <p>CIN : 	U32100TG2018PTC128985</p>
+
+                    </div>
           </div>
           
           {/* Partner Logo */}
@@ -39,11 +43,7 @@ const FooterOneCopyright = () => {
             <Link href="/refunds-cancellation">Refunds and Cancellations</Link>
           </div>
           
-          {/* CIN Number */}
-          <br />
-          <div className="footer-copyright">
-            <p>CIN : U32100TG2018PTC128985</p>
-          </div>
+        
         </div>
       </div>
     </div>

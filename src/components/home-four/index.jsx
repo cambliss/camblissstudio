@@ -17,7 +17,7 @@ const index = () => {
         <>
         <Header /><br/><br/>
         <main>
-      <Breadcrumb/>
+      {/* <Breadcrumb/> */}
         {/* <Breadcrumb title="About Us" subTitle="About Us" />  */}
           <HomeAboutFour/>
           <HistorySectionFour/>

@@ -9,7 +9,7 @@ FooterTwoCopyRight = () => {
            <div className="footer-bottom-wrapper">
               <div className="footer-bottom-inner">
                  <div className="footer-copyright ">
-                    <p>© 2023<Link className="color-theme-1" href="/"> CAMBLISS </Link> All Rights Reserved.</p>
+                    <p>© 2025<Link className="color-theme-1" href="/"> CAMBLISS </Link> All Rights Reserved.</p>
                  </div>
                  <div className="footer-rules ">
                  <Link href="/">Privacy Policy</Link>

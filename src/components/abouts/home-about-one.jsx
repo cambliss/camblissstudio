@@ -3,7 +3,8 @@ import React from 'react';
 // import aboutImage from '@assets/img/about/director-about.png'
 // import Link from 'next/link';
 // import aboutusimage from "@assets/img/logo/aboutus.jpeg";
-import aboutusimage1 from "@assets/img/logo/aboutus1.png";
+// import aboutusimage1 from "@assets/img/logo/aboutus1.png";
+import aboutusimage1 from "@assets/img/about/about-us.png"
 
 const AboutSection = () => {
    return (
@@ -12,7 +13,7 @@ const AboutSection = () => {
             <div className="row align-items-center g-5 gy-50">
                <div className="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-delay="0.3s">
                   <div className="fm-director-about-img">
-                     <Image src={aboutusimage1} style={{ width: '100%', height: 'auto' }} alt="img not found" />
+                     <Image src={aboutusimage1} style={{ width: '100%', height: '400px' }} alt="img not found" />
                      {/* <div className="fm-director-years">
                         <span className="fm-director-years-number">30</span>
                         <span className="fm-director-years-content">

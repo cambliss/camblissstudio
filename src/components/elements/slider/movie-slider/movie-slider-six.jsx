@@ -18,7 +18,7 @@ const categoriesData = {
       _id: "1",
       title: "Website Design ",
       image: two,
-      url: "/service-details/1",
+      url: "/WebsiteDesignandDevelopment",
     },
   ],
   Branding: [
@@ -66,9 +66,17 @@ image : six,
   InteriorDesigning: [
     {
       _id: "7",
-      title: "Fabrication",
+      title: "Interior Designing",
 image : seven,
       url: "/InteriorDesigning",
+    },
+  ],
+ IntegratedCloudBussinessSolutions: [
+    {
+      _id: "8",
+      title: "Integrated Cloud Bussiness Solutions",
+image : seven,
+      url: "/IBS",
     },
   ],
 };
@@ -93,7 +101,7 @@ const MovieSliderSix = () => {
   return (
     <>
     
-      <div className="fm-landing-trending-area bg-common-black section-spacing">
+      <div className="fm-landing-trending-area bg-common-black section-spacing" style={{paddingBottom:"0px", paddingTop:"100px"}}>
         <div className="container">
           <div
             className="row align-items-center g-5 section-title-spacing-small wow fadeInUp"

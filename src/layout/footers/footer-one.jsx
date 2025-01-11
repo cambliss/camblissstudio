@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import FooterOneCopyright from "./component/footer-one-copyright";
 import Logo from '@assets/img/logo/cambliss.png';
-import bgImage from '@assets/img/bg/footer/img-1.jpg';
+import bgImage from '@assets/img/footer.jpg';
 import footerData from "@data/footer-data";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 
@@ -19,10 +19,10 @@ const FooterOne = () => {
           : "cubic-bezier(0.34, 1.56, 0.64, 1)"}
       >
         <footer>
-          <div className="footer-area-5 section-spacing-top pos-rel">
+          <div className="footer-area-5 section-spacing-top pos-rel" style={{height:'fit-content'}}>
             <div
               className="footer-bg-3"
-              // style={{ backgroundImage: `url(${bgImage.src})` }}
+              style={{ backgroundImage: `url(${bgImage.src})` }}
             ></div>
             <div className="container">
               <div className="footer-middle-area">
@@ -39,15 +39,16 @@ const FooterOne = () => {
                   <div className="footer-text">
                     <p>
                     <Link href="/">Home</Link ><br/>
-                    <Link href="/About-US">About Us</Link ><br/>
+                    <Link href="/About-us">About us</Link ><br/>
                     <Link href="/Services">Services</Link ><br/>
                     <Link href="/contact">Contact</Link ><br/>
-                    </p>
+                    </p><br /><br />
+                    
                   </div>
                 </div>
                 <div className="footer-wrapper footer-widget-gallery">
                   <div className="footer-title">
-                    <h4>Our Gallery</h4>
+                    <h4>Gallery</h4>
                   </div>
                   <ul className="footer-img">
                     {footerData.gallery.galleryData.map((item, i) => (
