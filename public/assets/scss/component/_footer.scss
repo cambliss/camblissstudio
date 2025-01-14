@@ -571,6 +571,15 @@
   margin-bottom: 30px;
 
 }
+.footer-image-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Adjust the shadow as needed */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  transition: transform 0.3s ease; /* Optional: Add a hover effect */
+}
+
+.footer-image-shadow:hover {
+  transform: scale(1.05); /* Scale up slightly on hover */
+}
 
 .footer-middle-area {
   margin-bottom: 60px;

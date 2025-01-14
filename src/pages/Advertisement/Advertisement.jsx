@@ -18,7 +18,11 @@ import imageOne from "@assets/img/logo/adverstisement/adv3.png";
 import imageThree from "@assets/img/logo/adverstisement/adv1.png";  
 import imageFour from "@assets/img/logo/adverstisement/adv4.jpg";  
 import imageFive from "@assets/img/logo/adverstisement/adv5.jpg";  
-import imageSix from "@assets/img/logo/gallery5.jpeg";  
+// import imageSix from "@assets/img/logo/gallery5.jpeg"; 
+import imageSix from "@assets/img/22.jpg";
+import imageSeven from "@assets/img/33.jpg";
+import imageEight from "@assets/img/54.jpg";
+import imageNine from "@assets/img/57.jpg" 
 
 import CaseSubtitleIcon from "@svg/case-subtitle-icon";
 import { PhotoProvider, PhotoView } from "react-photo-view";
@@ -37,10 +41,10 @@ const Advertisement = ({ id }) => {
   }, [id, setService]);
 
   const galary_data = [
-    {
-      id: 1,
-      img: imageSix,
-    },
+    // {
+    //   id: 9,
+    //   img: imageSix,
+    // },
     {
       id: 2,
       img: imageFive,
@@ -57,24 +61,29 @@ const Advertisement = ({ id }) => {
       id: 5,
       img: imageOne,
     },
+    {
+      id: 6,
+      img: imageSeven,
+    },
+    {
+      id: 7,
+      img: imageEight,
+    },
+    {
+      id: 8,
+      img: imageNine
+    },
+  {
+    id: 9,
+    img: imageSix
+  }
   ];
   
   return (
     <>
       <Header />
-      <div className="adjust-header-space bg-common-black"></div>
-      <div className="fm-breadcrumb-area breadcrumb-style" style={{ backgroundImage: `url(${imagehero.src})`, paddingTop: '400px', position: 'relative' }}>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-12">
-              <div className="page-title-wrapper" style={{ marginTop: '-300px' }}>
-             
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="breadcrumb-image-overlay" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 1 }}></div>
-      </div>
+      <div className="adjust-header-space bg-common-black" style={{marginTop:"50px"}}></div>
+     
       <main>
         <section className="case-details-area">
           <div className="container">

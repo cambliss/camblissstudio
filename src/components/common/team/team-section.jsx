@@ -95,9 +95,8 @@ import avishek from "@assets/img/logo/avishek.jpg";
 // import gabriel from "@assets/img/logo/gabriel.jpg";
 import vijay from "@assets/img/logo/vijay.jpg";
 import arjun from "@assets/img/logo/arjun.png";
-import pravath from "@assets/img/logo/pravath.png";
-import pramod from "@assets/img/logo/Pramod.png";
-// import bobby from "@assets/img/logo/aaaa.jpg"
+// import pravath from "@assets/img/logo/pravath.png";
+import pramod from "@assets/img/logo/pramod.jpg";
 const TeamSection = () => {
   const teams = [
     {
@@ -116,7 +115,7 @@ const TeamSection = () => {
       _id: "2",
       teamName: "Pramod",
       // director: "Director",
-      designation: "Operations Head",
+      designation: "Head Of Operations",
       teamImg: pramod,
       delay: "0.6s",
       // socialIcons: [
@@ -165,18 +164,18 @@ const TeamSection = () => {
       //   { _id: "4", icon: "fa-instagram", url: "https://www.instagram.com/" },
       // ],
     },
-    {
-      _id: "5",
-      teamName: "Pravat",
-      // director: "Director",
-      designation: "Interior Designer",
-      teamImg: pravath,
-      delay: "0.6s",
-      // socialIcons: [
-      //   { _id: "3", icon: "fa-linkedin", url: "https://www.linkedin.com/" },
-      //   { _id: "4", icon: "fa-instagram", url: "https://www.instagram.com/" },
-      // ],
-    },
+    // {
+    //   _id: "5",
+    //   teamName: "Pravat",
+    //   // director: "Director",
+    //   designation: "Interior Designer",
+    //   teamImg: pravath,
+    //   delay: "0.6s",
+    //   socialIcons: [
+    //     { _id: "3", icon: "fa-linkedin", url: "https://www.linkedin.com/" },
+    //     { _id: "4", icon: "fa-instagram", url: "https://www.instagram.com/" },
+    //   ],
+    // },
    
     {
       _id: "6",

@@ -158,20 +158,9 @@ const Animation = ({ id }) => {
     <>
          <Header />
       <div className="adjust-header-space bg-common-black"></div>
-      <div className="fm-breadcrumb-area breadcrumb-style" style={{ backgroundImage: `url(${imagehero.src})`, paddingTop: '400px', position: 'relative' }}>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-12">
-              <div className="page-title-wrapper" style={{ marginTop: '-300px' }}>
-                {/* <h1 className="page-title">Animation</h1> */}
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="breadcrumb-image-overlay" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 1 }}></div>
-      </div>
+     
       <main>
-        <section className="case-details-area">
+        <section className="case-details-area" style={{marginTop:"1px"}}>
           <div className="container">
             <div className="row">
               <div className="col-xxl-12" style={{ position: 'relative', zIndex: 2 }}>

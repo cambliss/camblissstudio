@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import FooterOneCopyright from "./component/footer-one-copyright";
 import Logo from '@assets/img/logo/cambliss.png';
-import bgImage from '@assets/img/footer.png';
+import bgImage from '@assets/img/footerimage.png';
 import footerData from "@data/footer-data";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 
@@ -20,10 +20,32 @@ const FooterOne = () => {
       >
         <footer>
           <div className="footer-area-5 section-spacing-top pos-rel" style={{height:'fit-content',backgroundImage: `url(${bgImage.src})`,height:"fit-content",backgroundSize:'cover'}}>
-            <div
-              className="footer-bg-3"
-              style={{ backgroundImage: `url(${bgImage.src})` }}
-            ></div>
+          <div
+  className="footer-bg-3"
+  style={{
+    position: 'relative',
+    backgroundImage: `url(${bgImage.src})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    height: '300px', // Adjust as needed
+    width: '100%',
+    borderRadius: '8px',
+  }}
+>
+  {/* Overlay */}
+  <div
+    style={{
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100%',
+      backgroundColor: 'rgba(0, 0, 0, 0.5)', // Semi-transparent black overlay
+      borderRadius: '8px',
+    }}
+  ></div>
+</div>
+
             <div className="container">
               <div className="footer-middle-area">
                 <div className="footer-wrapper footer-widget-about">

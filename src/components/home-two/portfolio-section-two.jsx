@@ -405,7 +405,7 @@ const PortfolioSectionTwo = () => {
 
   return (
     <>
-      <section className="featured-area bg-common-black section-spacing-bottom">
+      <section className="featured-area bg-common-black section-spacing-bottom" style={{paddingBottom:"100px"}}>
         <div className="container">
           <div
             className="row section-title-spacing justify-content-center wow fadeInUp"

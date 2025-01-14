@@ -4,7 +4,8 @@ import React from "react";
 import SectionTitle from "./section-title";
 import PostBoxArea from "./postbox-area";
 import Breadcrumb from "@components/common/breadcrumb/breadcrumb";
-
+import BenefitsSection from "./BenefitSection";
+import JobOpeningsSection from "./JobOpenings";
 const index = () => {
   return (
     <>
@@ -12,7 +13,9 @@ const index = () => {
       <main>
       <Breadcrumb />
         <SectionTitle />
-        <PostBoxArea />
+        {/* <PostBoxArea /> */}
+<BenefitsSection/>
+<JobOpeningsSection/>
       </main>
       <FooterOne />
     </>

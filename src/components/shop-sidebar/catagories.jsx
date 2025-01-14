@@ -13,7 +13,8 @@ const fetchCategories = () => {
         { _id: '5', category: 'Interior Designing' },
         { _id: '6', category: 'App Development' },
         { _id: '7', category: 'Marketing' },
-        { _id: '8', category: 'Branding and Creative Services' },
+        { _id: '8', category: 'Branding & Creative Services' },
+        // { _id: '8', category: 'Branding and Creative Services' },
       ]);
     }, 500); // Simulate network delay
   });
