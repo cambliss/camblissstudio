@@ -38,7 +38,7 @@ const AboutSectionTwo = () => {
                            </p>
                         </div>
                         <div className="fm-about-btn-2 btn_wrapper wow fadeInUp" data-wow-delay="0.6s">
-                           <Link href="/service-details" className="blog-rotate-btn is-white btn__item-move">
+                           <Link href="/contact" className="blog-rotate-btn is-white btn__item-move">
                               <span>
                                  <i className="flaticon-right-arrow-1"></i>
                               </span>

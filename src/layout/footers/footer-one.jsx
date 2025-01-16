@@ -3,9 +3,10 @@ import Link from "next/link";
 import React from "react";
 import FooterOneCopyright from "./component/footer-one-copyright";
 import Logo from '@assets/img/logo/cambliss.png';
-import bgImage from '@assets/img/footerimage.png';
+import bgImage from '@assets/img/footer-image-cs.png';
 import footerData from "@data/footer-data";
 import { PhotoProvider, PhotoView } from "react-photo-view";
+import { left } from "@popperjs/core";
 
 
 const FooterOne = () => {
@@ -53,26 +54,33 @@ const FooterOne = () => {
                     <Link href="/">
                       <Image
                         src={Logo}
-                        style={{ width: "200px", height: "60px" }}
+                        style={{ width: "200px", height: "60px", marginTop: "-10px", marginLeft:"-30px" }}
                         alt="Logo"
                       />
                     </Link>
                   </div>
-                  <div className="footer-text">
-                    <p>
-                    <Link href="/">Home</Link ><br/>
-                    <Link href="/About-us">About us</Link ><br/>
-                    <Link href="/Services">Services</Link ><br/>
-                    <Link href="/contact">Contact</Link ><br/>
+                  <div className="footer-text" style={{marginTop:'-30px'}}>
+                   
+                    <p><Link href="/">Home</Link ></p><br/>
+                    <p><Link href="/About-us">About us</Link ></p><br/>
+                    <p><Link href="/Services">Services</Link ></p><br/>
+                   <p> <Link href="/contact">Contact</Link >
                     </p><br /><br />
                     
                   </div>
                 </div>
                 <div className="footer-wrapper footer-widget-gallery">
                   <div className="footer-title">
-                    <h4>Gallery</h4>
+                    <h4>Cambliss Products</h4>
                   </div>
-                  <ul className="footer-img">
+                  <p><Link href="https://weblis.in/" target="_blank">Webliss</Link ></p><br/>
+                  <p><Link href="https://job-board.camblissstudio.cloud/" target="_blank">MO-JOB</Link ></p><br/>
+                    
+                    {/* <Link href="/Services">Services</Link ><br/>
+                    <Link href="/contact">Contact</Link ><br/> */}
+                 
+                  
+                  {/* <ul className="footer-img">
                     {footerData.gallery.galleryData.map((item, i) => (
                       <PhotoView src={item.image.src} key={i}>
                         <li>
@@ -86,7 +94,7 @@ const FooterOne = () => {
                         </li>
                       </PhotoView>
                     ))}
-                  </ul>
+                  </ul> */}
                 </div>
                 <div className="footer-wrapper footer-widget-social">
                   <div className="footer-title">

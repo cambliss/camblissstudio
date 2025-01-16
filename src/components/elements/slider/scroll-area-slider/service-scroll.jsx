@@ -12,7 +12,7 @@ const ServiceScroll = () => {
     },
     {
       id: 2,
-      title: "FEATURED SERVICES.",
+      title: "SERVICES.",
     },
   ];
   return (

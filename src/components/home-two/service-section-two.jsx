@@ -243,13 +243,12 @@
 import Link from "next/link";
 import ServiceScroll from "@components/elements/slider/scroll-area-slider/service-scroll";
 import React from "react";
-import website from "@assets/img/Untitled design.png";
 
 const manuallyWrittenServices = [
   {
     link: "/service-details/1",
     serviceNum: "01",
-    image: "assets/img/services/websitedesignanddev.png", // Add the image path
+    image: "assets/img/services/websitedesignanddev.png",
     title: "Website Design & Development",
     description: "We tailor website design&development to your business needs.",
     delay: "0.3s",
@@ -315,64 +314,43 @@ const manuallyWrittenServices = [
 const ServiceTwo = () => {
   return (
     <>
-      {/* Enclose components in a React Fragment */}
       <ServiceScroll />
       <section className="fm-services-area fm-services-spc bg-common-black section-spacing">
-        <div className="container pt-20">
-          <div className="row g-5 gy-50">
-            <div className="col-xl-4 col-lg-12 wow fadeInUp" data-wow-delay="0.3s">
-              <div className="services-sec-wrapper">
-                <div className="section-title section-title-spacing">
-                  <span className="section-subtitle title-anim">WHAT WE DO</span>
-                  <h2 className="section-main-title text-white title-anim">
-                    Our Services
-                  </h2>
+        <div className="container pt-20 text-center">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="section-title section-title-spacing">
+                <span className="section-subtitle title-anim d-block">
+                  WHAT WE DO
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            {manuallyWrittenServices.map((item) => (
+              <div
+                className="col-md-6 col-lg-12 fm-single-services-content mb-20 wow fadeInUp"
+                data-wow-delay={item.delay}
+                key={item.serviceNum}
+              >
+                <div className="service-image text-center">
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    className="img-fluid"
+                  />
                 </div>
-
-                <div className="fm-services-btn btn_wrapper">
+                <h4 className="fm-service-title mt-3">
                   <Link
-                    href="/contact"
-                    className="blog-rotate-btn is-white btn-item btn__item-move"
+                    className="fm-content-title text-white"
+                    href={item.link}
                   >
-                    <span>
-                      <i className="flaticon-right-arrow-1"></i>
-                    </span>
+                    {item.title}
                   </Link>
-                </div>
+                </h4>
+                <p className="fm-services-text-2">{item.description}</p>
               </div>
-            </div>
-
-            <div className="col-xl-8 col-lg-12">
-              <div className="fm-services-content-2 fade_bottom">
-                {manuallyWrittenServices.map((item) => (
-                  <div
-                    className="fm-single-services-content mb-20 wow fadeInUp"
-                    data-wow-delay={item.delay}
-                    key={item.serviceNum}
-                  >
-                    {/* Image */}
-                    <div className="service-image">
-                      <img
-                        src={item.image}
-                        alt={item.title}
-                        className="img-fluid"
-                      />
-                    </div>
-                    {/* Title */}
-                    <h4 className="fm-service-title mt-3">
-                      <Link
-                        className="fm-content-title text-white"
-                        href={item.link}
-                      >
-                        {item.title}
-                      </Link>
-                    </h4>
-                    {/* Description */}
-                    <p className="fm-services-text-2">{item.description}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
