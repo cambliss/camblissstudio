@@ -71,10 +71,11 @@ const FooterOne = () => {
                 </div>
                 <div className="footer-wrapper footer-widget-gallery">
                   <div className="footer-title">
-                    <h4>Cambliss Products</h4>
+                    <h4>Other Links</h4>
                   </div>
-                  <p><Link href="https://weblis.in/" target="_blank">Webliss</Link ></p><br/>
-                  <p><Link href="https://job-board.camblissstudio.cloud/" target="_blank">MO-JOB</Link ></p><br/>
+                  <p><Link href="/Gallery">Gallery</Link ></p><br/>
+                  <p><Link href="/Careers">Careers</Link ></p><br/>
+                  <p><Link href="/shop">Shop</Link ></p><br/>
                     
                     {/* <Link href="/Services">Services</Link ><br/>
                     <Link href="/contact">Contact</Link ><br/> */}

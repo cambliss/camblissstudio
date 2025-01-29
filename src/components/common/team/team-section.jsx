@@ -179,7 +179,7 @@ const TeamSection = () => {
    
     {
       _id: "6",
-      teamName: "Sonal Senghal",
+      teamName: "Sonal Sehgal",
       // director: "Director",
       designation: "Head Of Marketing",
       teamImg: Sonal,
