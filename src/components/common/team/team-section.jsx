@@ -115,7 +115,7 @@ const TeamSection = () => {
       _id: "2",
       teamName: "Pramod",
       // director: "Director",
-      designation: "Head Of Operations",
+      designation: "",
       teamImg: pramod,
       delay: "0.6s",
       // socialIcons: [
@@ -181,7 +181,7 @@ const TeamSection = () => {
       _id: "6",
       teamName: "Sonal Sehgal",
       // director: "Director",
-      designation: "Head Of Marketing",
+      designation: "Bussiness Development",
       teamImg: Sonal,
       delay: "0.6s",
       // socialIcons: [
