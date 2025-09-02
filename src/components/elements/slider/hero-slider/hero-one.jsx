@@ -42,7 +42,11 @@ const HeroOne = () => {
                     ></div>
                     <div className="fm-slider-main-inner">
                       <div className="adjust-header-space"></div>
+<<<<<<< HEAD
                       <div className="container-fluid">
+=======
+                      <div className="container">
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
                         <div className="fm-slider-main-slide-content ">
                           <span
                             className="fm-director-subtitle fm-translateY-80 fm-delay-03 fm-opacity-0 fm-duration-07"

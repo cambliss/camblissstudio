@@ -155,7 +155,10 @@ const Fabrication = ({ id }) => {
       title: "Evaluate and Learn",
       description: " After the campaign concludes, conduct a thorough analysis of its overall performance. Identify what worked well and areas for improvement for future advertisement.",
     },
+<<<<<<< HEAD
 
+=======
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
   ];
   const galary_data = [
     {
@@ -195,8 +198,24 @@ const Fabrication = ({ id }) => {
   return (
     <>
          <Header />
+<<<<<<< HEAD
       <div className="adjust-header-space bg-common-black" style={{marginTop:"50px"}}></div>
     
+=======
+      <div className="adjust-header-space bg-common-black"></div>
+      <div className="fm-breadcrumb-area breadcrumb-style" style={{ backgroundImage: `url(${imagehero.src})`, paddingTop: '400px', position: 'relative' }}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-12">
+              <div className="page-title-wrapper" style={{ marginTop: '-300px' }}>
+                {/* <h1 className="page-title">Interior Designing</h1> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="breadcrumb-image-overlay" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 1 }}></div>
+      </div>
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
       <main>
         <section className="case-details-area">
           <div className="container">
@@ -367,7 +386,10 @@ const Fabrication = ({ id }) => {
         {/* <FaqSection /> */}
         {/* <CaseQouteArea /> */}
         {/* <PricingSection /> */}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
         <ContactSection />
       </main>
       <FooterOne />

@@ -12,7 +12,11 @@ const index = () => {
       <Header />
       <main>
       
+<<<<<<< HEAD
         {/* <Breadcrumb  /> */}
+=======
+        <Breadcrumb  />
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
         <ContactArea />
         <ContactMap />
         <ContactSection />

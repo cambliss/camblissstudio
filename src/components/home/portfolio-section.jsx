@@ -79,7 +79,11 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+<<<<<<< HEAD
 import digitalmarketing from "@assets/img/ouwork/2.jpg";
+=======
+import digitalmarketing from "@assets/img/logo/digitalmarketing.png";
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
 import animation from "@assets/img/logo/animation.png";
 import branding from "@assets/img/logo/branding.png";
 import tv from "@assets/img/logo/5.png";

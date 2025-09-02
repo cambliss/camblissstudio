@@ -28,8 +28,12 @@ const SidebarArea = ({ keyword, setKeyword, selectCategory, categorys }) => {
         <h4 className="fm-widget-heading-1-6 mb-20">FILTER BY PRICE</h4>
         <div className="fm-slider-range">
           <div id="fm-slider-range" className="mb-5-px">
+<<<<<<< HEAD
             <Range style={{ color:"#000"}}
           
+=======
+            <Range
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
               values={values}
               step={STEP}
               min={MIN}
@@ -78,7 +82,11 @@ const SidebarArea = ({ keyword, setKeyword, selectCategory, categorys }) => {
             />
           </div>
           <p>
+<<<<<<< HEAD
             <output id="output" style={{color:"#000"}}>
+=======
+            <output id="output">
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
               ${values[0].toFixed(1)} - ${values[1].toFixed(1)}
             </output>
           </p>

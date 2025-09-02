@@ -88,6 +88,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import sunaina from "@assets/img/logo/sunaina.png";
+<<<<<<< HEAD
 import bobby from "@assets/img/logo/S_BobbyJena.png";
 import Sonal from "@assets/img/logo/Sonal_Senghal.png";
 import avishek from "@assets/img/logo/avishek.jpg";
@@ -97,6 +98,16 @@ import vijay from "@assets/img/logo/vijay.jpg";
 import arjun from "@assets/img/logo/arjun.png";
 // import pravath from "@assets/img/logo/pravath.png";
 import pramod from "@assets/img/logo/pramod.jpg";
+=======
+import avishek from "@assets/img/logo/avishek.jpg";
+// import bismay from "@assets/img/logo/bismay.jpg";
+import gabriel from "@assets/img/logo/gabriel.jpg";
+import vijay from "@assets/img/logo/vijay.jpg";
+import arjun from "@assets/img/logo/arjun.png";
+import pravath from "@assets/img/logo/pravath.png";
+import pramod from "@assets/img/logo/Pramod.png";
+import bobby from "@assets/img/logo/aaaa.jpg"
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
 const TeamSection = () => {
   const teams = [
     {
@@ -115,7 +126,11 @@ const TeamSection = () => {
       _id: "2",
       teamName: "Pramod",
       // director: "Director",
+<<<<<<< HEAD
       designation: "",
+=======
+      designation: "Operations Head",
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
       teamImg: pramod,
       delay: "0.6s",
       // socialIcons: [
@@ -164,6 +179,7 @@ const TeamSection = () => {
       //   { _id: "4", icon: "fa-instagram", url: "https://www.instagram.com/" },
       // ],
     },
+<<<<<<< HEAD
     // {
     //   _id: "5",
     //   teamName: "Pravat",
@@ -183,6 +199,26 @@ const TeamSection = () => {
       // director: "Director",
       designation: "Bussiness Development",
       teamImg: Sonal,
+=======
+    {
+      _id: "5",
+      teamName: "Pravat",
+      // director: "Director",
+      designation: "Interior Designer",
+      teamImg: pravath,
+      delay: "0.6s",
+      // socialIcons: [
+      //   { _id: "3", icon: "fa-linkedin", url: "https://www.linkedin.com/" },
+      //   { _id: "4", icon: "fa-instagram", url: "https://www.instagram.com/" },
+      // ],
+    },
+    {
+      _id: "6",
+      teamName: "Sunaina Mahesh",
+      // director: "Director",
+      designation: "Developer",
+      teamImg: sunaina,
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
       delay: "0.6s",
       // socialIcons: [
       //   { _id: "3", icon: "fa-linkedin", url: "https://www.linkedin.com/" },
@@ -191,10 +227,17 @@ const TeamSection = () => {
     },
     {
       _id: "7",
+<<<<<<< HEAD
       teamName: "Sunaina Mahesh",
       // director: "Director",
       designation: "Developer",
       teamImg: sunaina,
+=======
+      teamName: "Sukchan H",
+      // director: "Director",
+      designation: "Executive",
+      teamImg: gabriel,
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
       delay: "0.6s",
       // socialIcons: [
       //   { _id: "3", icon: "fa-linkedin", url: "https://www.linkedin.com/" },

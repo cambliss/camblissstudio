@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import Image from 'next/image'; // Add this import for Next.js
 import hiring from '@assets/img/hiring.png'; // Make sure this path is correct
 
@@ -40,3 +41,27 @@ const SectionTitle = () => {
 };
 
 export default SectionTitle;
+=======
+
+const SectionTitle = () => {
+   return (
+      <>
+         <div className="adjust-header-space bg-common-black"></div>
+         <section className="page-title-area section-spacing-top">
+            <div className="container">
+               <div className="row section-title-spacing wow fadeInUp">
+                  <div className="col-xl-6">
+                     <div className="section-title">
+                        <span className="section-subtitle title-anim">we are</span>
+                        <h2 className="section-main-title title-anim">Hiring </h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </>
+   );
+};
+
+export default SectionTitle;
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c

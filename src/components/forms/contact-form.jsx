@@ -10,7 +10,10 @@ const ContactForm = () => {
       name: "",
       email: "",
       phnNo: "",
+<<<<<<< HEAD
       service: "",
+=======
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
       subject: "",
       msg: "",
     },
@@ -19,8 +22,14 @@ const ContactForm = () => {
       const mailtoLink = `mailto:contact@camblissstudio.com?subject=${encodeURIComponent(
         values.subject
       )}&body=${encodeURIComponent(
+<<<<<<< HEAD
         `Name: ${values.name}\nEmail: ${values.email}\nPhone Number: ${values.phnNo}\nService: ${values.service}\nMessage: ${values.msg}`
       )}`;
+=======
+        `Name: ${values.name}\nEmail: ${values.email}\nPhone Number: ${values.phnNo}\nMessage: ${values.msg}`
+      )}`;
+      
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
 
       window.location.href = mailtoLink;
 
@@ -29,6 +38,10 @@ const ContactForm = () => {
   });
 
   return (
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
     <form onSubmit={handleSubmit}>
       <div className="row">
         <div className="col-xl-6 col-lg-6">
@@ -40,7 +53,10 @@ const ContactForm = () => {
             type="text"
             placeholder="Enter your name"
             id="name"
+<<<<<<< HEAD
             className="form-control"
+=======
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
           />
           {touched.name && <ErrorMsg error={errors.name} />}
         </div>
@@ -53,12 +69,16 @@ const ContactForm = () => {
             type="email"
             placeholder="Enter your email"
             id="email"
+<<<<<<< HEAD
             className="form-control"
+=======
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
           />
           {touched.email && <ErrorMsg error={errors.email} />}
         </div>
       </div>
 
+<<<<<<< HEAD
       <div className="row">
         <div className="col-xl-6 col-lg-6">
           <input
@@ -130,6 +150,21 @@ const ContactForm = () => {
       </div>
 
 
+=======
+      <div className="col-xl-6 col-lg-6">
+        <input
+          name="phnNo"
+          value={values.phnNo}
+          onChange={handleChange}
+          onBlur={handleBlur}
+          type="text"
+          placeholder="Enter your phone number"
+          id="phnNo"
+        />
+        {touched.phnNo && <ErrorMsg error={errors.phnNo} />}
+      </div>
+
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
       <div className="col-xl-12">
         <input
           type="text"
@@ -137,9 +172,14 @@ const ContactForm = () => {
           onChange={handleChange}
           onBlur={handleBlur}
           value={values.subject}
+<<<<<<< HEAD
           id="subject"
           name="subject"
           className="form-control"
+=======
+          id="text"
+          name="subject"
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
         />
       </div>
 
@@ -151,15 +191,22 @@ const ContactForm = () => {
           onBlur={handleBlur}
           id="msg"
           placeholder="Type your message..."
+<<<<<<< HEAD
           className="form-control"
+=======
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
         ></textarea>
         {touched.msg && <ErrorMsg error={errors.msg} />}
       </div>
 
       <div className="col-xl-12">
+<<<<<<< HEAD
         <button type="submit" className="btn btn-primary">
           Send Message
         </button>
+=======
+        <button type="submit">Send Message</button>
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
       </div>
     </form>
   );

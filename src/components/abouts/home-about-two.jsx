@@ -6,7 +6,11 @@ import Link from 'next/link';
 import { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 // import imageabout from "@assets/img/logo/video-2-0.png";
+<<<<<<< HEAD
 import servicesimage1 from "@assets/img/services-about.png";
+=======
+import servicesimage1 from "@assets/img/logo/servicesimage1.png";
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
 
 
 const AboutSectionTwo = () => {
@@ -38,7 +42,11 @@ const AboutSectionTwo = () => {
                            </p>
                         </div>
                         <div className="fm-about-btn-2 btn_wrapper wow fadeInUp" data-wow-delay="0.6s">
+<<<<<<< HEAD
                            <Link href="/contact" className="blog-rotate-btn is-white btn__item-move">
+=======
+                           <Link href="/service-details" className="blog-rotate-btn is-white btn__item-move">
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
                               <span>
                                  <i className="flaticon-right-arrow-1"></i>
                               </span>

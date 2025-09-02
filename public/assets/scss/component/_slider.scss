@@ -970,8 +970,11 @@
 .fm-slider-main-area {
   position: relative;
   z-index: 0;
+<<<<<<< HEAD
   width: 100%;
   overflow: hidden;
+=======
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
 }
 
 .fm-slider-active {
@@ -981,7 +984,10 @@
     position: relative;
     z-index: 1;
     padding: 200px 0;
+<<<<<<< HEAD
     width: 100%;
+=======
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
 
     @media #{$xxl,$xl} {
       padding: 120px 0;

@@ -76,6 +76,7 @@
 
 
 
+<<<<<<< HEAD
 // import React from "react";
 // import Image from "next/image";
 // import Link from "next/link";
@@ -200,3 +201,35 @@ const styles = {
 };
 
 export default Technology;
+=======
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import technology from "@assets/img/logo/technology (2).png";
+
+const Technology= () => {
+  
+  return (
+   
+    <div className="col-12" style={{backgroundColor:"#000"}}>
+      <div className="custom-director-sec-title text-center">
+        <h2 className="custom-section-main-title text-white title-anim featured-work-title" >
+          Our Technology Stack
+        </h2>
+        <br /><br />
+        <div className="custom-breadcrumb-area breadcrumb-style" style={{ paddingTop: "400px", position: "relative" }}>
+          <Image src={technology} alt="Image Description" style={{ width: "100%", position: "absolute", top: "0px", left: "0px" , height:" 100%"}} />
+        </div>
+      </div>
+    </div>
+ 
+  
+  );
+};
+
+export default Technology;
+
+
+  
+
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c

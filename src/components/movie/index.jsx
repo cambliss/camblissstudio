@@ -18,11 +18,19 @@ const index = () => {
       <Header />
       <main>
         
+<<<<<<< HEAD
         {/* <div
         className="fm-breadcrumb-area breadcrumb-style"
         style={{ backgroundImage: `url(${BgImage.src})` , height:"510px"}}
       >
 </div> */}
+=======
+        <div
+        className="fm-breadcrumb-area breadcrumb-style"
+        style={{ backgroundImage: `url(${BgImage.src})` , height:"510px"}}
+      >
+</div>
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
       
 
       <VideoAreaSection /> 

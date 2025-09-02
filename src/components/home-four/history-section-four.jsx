@@ -39,8 +39,13 @@ const HistorySectionFour = () => {
           <div className="col-xl-6 col-lg-6 col-md-10">
             <div className="single-history">
               <div className="section-title sec-sub-style mb-60 wow fadeInUp" data-wow-delay="0.3s">
+<<<<<<< HEAD
               <span style={{color:"#ffbd39", marginBottom:"20px"}}>WHY WORK WITH US</span>
               <h2 className="section-main-title about-sec-title-2  title-anim">
+=======
+                <span className="section-subtitle">Why Work With US</span>
+                <h2 className="section-main-title about-sec-title-2  title-anim">
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
                   Where imagination and Strategy Converge
                  
                 </h2>

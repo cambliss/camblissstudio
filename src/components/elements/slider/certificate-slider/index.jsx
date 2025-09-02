@@ -132,6 +132,7 @@ import { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 import Image from 'next/image';
+<<<<<<< HEAD
 import client0 from "@assets/img/logo/clients/anandgiri.png";
 import client1 from "@assets/img/logo/clients/fullfill.png";
 import client2 from "@assets/img/logo/clients/enchant.png";
@@ -147,6 +148,17 @@ import client8 from "@assets/img/logo/clients/facesofstyle.png";
 import client9 from "@assets/img/logo/clients/plushkins.png";
 import client10 from "@assets/img/logo/clients/justmoveit.png";
 import client11 from "@assets/img/logo/clients/parivartan.png";
+=======
+import client0 from "@assets/img/logo/clients/1.png";
+import client1 from "@assets/img/logo/clients/2.png";
+import client2 from "@assets/img/logo/clients/3.png";
+import client3 from "@assets/img/logo/clients/4.png";
+import client4 from "@assets/img/logo/clients/5.png";
+import client5 from "@assets/img/logo/clients/6.png";
+import client6 from "@assets/img/logo/clients/7.png";
+// import client7 from "@assets/img/logo/clients/8.png";
+// import client8 from "@assets/img/logo/clients/plushkins.png";
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
 // import client9 from "@assets/img/logo/clients/sudharshana1.png";
 
 const CertificateSlider = () => {
@@ -158,10 +170,15 @@ const CertificateSlider = () => {
       { id: 5, image: client4 },
       { id: 6, image: client5 },
       { id: 7, image: client6 },
+<<<<<<< HEAD
       { id: 10, image: client10 },
       { id: 11, image: client11 },
       { id: 8, image: client8 },
       { id: 9, image: client9 },
+=======
+      // { id: 8, image: client8 },
+      // { id: 9, image: client9 },
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
    ];
 
    return (
@@ -171,6 +188,7 @@ const CertificateSlider = () => {
                <div className="col-12">
                   <div className="sec-sub">
                      <div className="section-title sec-sub-style text-center">
+<<<<<<< HEAD
                      <span className="highlighted-text">OUR CLIENTS</span>
 
 <style jsx>{`
@@ -178,6 +196,9 @@ const CertificateSlider = () => {
     color: #ffbd39 !important; /* This will override other styles */
   }
 `}</style>
+=======
+                        <span className="section-subtitle">OUR CLIENTS</span>
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
                      </div>
                   </div>
                </div>

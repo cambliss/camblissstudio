@@ -18,7 +18,11 @@ const categoriesData = {
       _id: "1",
       title: "Website Design ",
       image: two,
+<<<<<<< HEAD
       url: "/WebsiteDesignandDevelopment",
+=======
+      url: "/service-details/1",
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
     },
   ],
   Branding: [
@@ -66,11 +70,16 @@ image : six,
   InteriorDesigning: [
     {
       _id: "7",
+<<<<<<< HEAD
       title: "Interior Designing",
+=======
+      title: "Fabrication",
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
 image : seven,
       url: "/InteriorDesigning",
     },
   ],
+<<<<<<< HEAD
  IntegratedCloudBussinessSolutions: [
     {
       _id: "8",
@@ -79,6 +88,8 @@ image : seven,
       url: "/IBS",
     },
   ],
+=======
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
 };
 
 const MovieSliderSix = () => {
@@ -101,7 +112,11 @@ const MovieSliderSix = () => {
   return (
     <>
     
+<<<<<<< HEAD
       <div className="fm-landing-trending-area bg-common-black section-spacing" style={{paddingBottom:"0px", paddingTop:"100px"}}>
+=======
+      <div className="fm-landing-trending-area bg-common-black section-spacing">
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
         <div className="container">
           <div
             className="row align-items-center g-5 section-title-spacing-small wow fadeInUp"

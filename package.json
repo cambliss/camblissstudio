@@ -5,8 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+<<<<<<< HEAD
     "start": "next start",
     "lint": "next lint"
+=======
+    "start": "next start"
+ 
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
@@ -15,7 +20,10 @@
     "@vercel/analytics": "^1.1.2",
     "axios": "^1.5.0",
     "bootstrap": "^5.2.2",
+<<<<<<< HEAD
     "eslint-config-next": "13.0.2",
+=======
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
     "formik": "^2.2.9",
     "framer-motion": "^7.6.12",
     "next": "13.0.2",
@@ -24,7 +32,10 @@
     "react-circular-progressbar": "^2.1.0",
     "react-countup": "^6.3.2",
     "react-dom": "18.2.0",
+<<<<<<< HEAD
     "react-icons": "^5.4.0",
+=======
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
     "react-intersection-observer": "^9.4.0",
     "react-modal-video": "^2.0.1",
     "react-photo-view": "^1.2.3",
@@ -40,13 +51,19 @@
     "redux": "^4.2.1",
     "redux-persist": "^6.0.0",
     "sass": "^1.56.0",
+<<<<<<< HEAD
     "styled-components": "^6.1.14",
+=======
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
     "swiper": "^8.4.7",
     "wowjs": "^1.1.3",
     "yup": "^0.32.11"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "eslint-plugin-react": "^7.36.1",
+=======
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
     "file-loader": "^6.2.0"
   }
 }

@@ -75,7 +75,11 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                 </div>
                 <div className="offcanvas-contact-text">
                   <Link target="_blank" href="">
+<<<<<<< HEAD
                     Survey No: 75/2, Balapur(V), Hyderabad, Telangana, 500005
+=======
+                    SURVEY NO: 75/2, BALAPUR(V), HYDERABAD, TELANGANA, 500005
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
                   </Link>
                 </div>
               </li>
@@ -86,7 +90,11 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                   </Link>
                 </div>
                 <div className="offcanvas-contact-text">
+<<<<<<< HEAD
                   <Link href="tel:915550303420">1800 571 9799</Link>
+=======
+                  <Link href="tel:915550303420">8309264634</Link>
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
                 </div>
               </li>
               <li className="d-flex align-items-center gap-2">

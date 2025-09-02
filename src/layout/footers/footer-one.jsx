@@ -3,10 +3,16 @@ import Link from "next/link";
 import React from "react";
 import FooterOneCopyright from "./component/footer-one-copyright";
 import Logo from '@assets/img/logo/cambliss.png';
+<<<<<<< HEAD
 import bgImage from '@assets/img/footer-image-cs.png';
 import footerData from "@data/footer-data";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import { left } from "@popperjs/core";
+=======
+import bgImage from '@assets/img/bg/footer/img-1.jpg';
+import footerData from "@data/footer-data";
+import { PhotoProvider, PhotoView } from "react-photo-view";
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
 
 
 const FooterOne = () => {
@@ -20,6 +26,7 @@ const FooterOne = () => {
           : "cubic-bezier(0.34, 1.56, 0.64, 1)"}
       >
         <footer>
+<<<<<<< HEAD
           <div className="footer-area-5 section-spacing-top pos-rel" style={{height:'fit-content',backgroundImage: `url(${bgImage.src})`,height:"fit-content",backgroundSize:'cover'}}>
           <div
   className="footer-bg-3"
@@ -47,6 +54,13 @@ const FooterOne = () => {
   ></div>
 </div>
 
+=======
+          <div className="footer-area-5 section-spacing-top pos-rel">
+            <div
+              className="footer-bg-3"
+              // style={{ backgroundImage: `url(${bgImage.src})` }}
+            ></div>
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
             <div className="container">
               <div className="footer-middle-area">
                 <div className="footer-wrapper footer-widget-about">
@@ -54,11 +68,16 @@ const FooterOne = () => {
                     <Link href="/">
                       <Image
                         src={Logo}
+<<<<<<< HEAD
                         style={{ width: "200px", height: "60px", marginTop: "-10px", marginLeft:"-30px" }}
+=======
+                        style={{ width: "200px", height: "60px" }}
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
                         alt="Logo"
                       />
                     </Link>
                   </div>
+<<<<<<< HEAD
                   <div className="footer-text" style={{marginTop:'-30px'}}>
                    
                     <p><Link href="/">Home</Link ></p><br/>
@@ -67,10 +86,20 @@ const FooterOne = () => {
                    <p> <Link href="/contact">Contact</Link >
                     </p><br /><br />
                     
+=======
+                  <div className="footer-text">
+                    <p>
+                    <Link href="/">Home</Link ><br/>
+                    <Link href="/About-US">About Us</Link ><br/>
+                    <Link href="/Services">Services</Link ><br/>
+                    <Link href="/contact">Contact</Link ><br/>
+                    </p>
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
                   </div>
                 </div>
                 <div className="footer-wrapper footer-widget-gallery">
                   <div className="footer-title">
+<<<<<<< HEAD
                     <h4>Other Links</h4>
                   </div>
                   <p><Link href="/Gallery">Gallery</Link ></p><br/>
@@ -82,6 +111,11 @@ const FooterOne = () => {
                  
                   
                   {/* <ul className="footer-img">
+=======
+                    <h4>Our Gallery</h4>
+                  </div>
+                  <ul className="footer-img">
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
                     {footerData.gallery.galleryData.map((item, i) => (
                       <PhotoView src={item.image.src} key={i}>
                         <li>
@@ -95,7 +129,11 @@ const FooterOne = () => {
                         </li>
                       </PhotoView>
                     ))}
+<<<<<<< HEAD
                   </ul> */}
+=======
+                  </ul>
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
                 </div>
                 <div className="footer-wrapper footer-widget-social">
                   <div className="footer-title">

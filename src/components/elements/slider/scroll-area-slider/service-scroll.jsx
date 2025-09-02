@@ -8,6 +8,7 @@ const ServiceScroll = () => {
   const serviceScroll = [
     {
       id: 1,
+<<<<<<< HEAD
       title: "OUR",
     },
     {
@@ -23,6 +24,17 @@ const ServiceScroll = () => {
 >
   {/* Content goes here */}
 
+=======
+      title: "BEST SERVICES.",
+    },
+    {
+      id: 2,
+      title: "FEATURED SERVICES.",
+    },
+  ];
+  return (
+    <div className="services-scroll-area section-spacing-top fix wow fadeInUp" data-wow-delay="0.3s">
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
       <div className="services-scroll-border" >
         <div className="swiper text-scroll">
           <div className="services-scroll-wrapper">

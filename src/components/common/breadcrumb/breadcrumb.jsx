@@ -1,5 +1,9 @@
 import PropTypes from 'prop-types'; // Import PropTypes for validation
 import React from 'react';
+<<<<<<< HEAD
+=======
+import BgImage from "@assets/img/logo/mainbackground.png";
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
 
 const Breadcrumb = ({ title, servicePage }) => {
   // Define a mapping of service pages to their subtitles
@@ -18,6 +22,7 @@ const Breadcrumb = ({ title, servicePage }) => {
   return (
     <>
       <div className="adjust-header-space bg-common-black"></div>
+<<<<<<< HEAD
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12">
@@ -33,6 +38,31 @@ const Breadcrumb = ({ title, servicePage }) => {
                   </li>
                 </ul>
               </nav>
+=======
+      <div
+        className="fm-breadcrumb-area breadcrumb-style"
+        style={{ backgroundImage: `url(${BgImage.src})` }}
+      >
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-12">
+              <div className="page-title-wrapper ">
+                <h1 className="page-title">{title}</h1>
+              </div>
+              <div className="breadcrumb-menu ">
+                <nav
+                  aria-label="Breadcrumbs"
+                  className="breadcrumb-trail breadcrumbs"
+                >
+                  <ul className="trail-items">
+                    {/* Breadcrumb menu items */}
+                    <li className="trail-item trail-end ">
+                      <span>{serviceSubtitles[formattedServicePage]}</span>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
             </div>
           </div>
         </div>

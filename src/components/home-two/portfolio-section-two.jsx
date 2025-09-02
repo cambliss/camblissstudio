@@ -405,7 +405,11 @@ const PortfolioSectionTwo = () => {
 
   return (
     <>
+<<<<<<< HEAD
       <section className="featured-area bg-common-black section-spacing-bottom" style={{paddingBottom:"100px"}}>
+=======
+      <section className="featured-area bg-common-black section-spacing-bottom">
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
         <div className="container">
           <div
             className="row section-title-spacing justify-content-center wow fadeInUp"

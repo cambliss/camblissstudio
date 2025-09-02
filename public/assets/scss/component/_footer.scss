@@ -449,8 +449,13 @@
 
 .footer-bg-3 {
   position: absolute;
+<<<<<<< HEAD
   width: 400px !important;
   height: 100% !important;
+=======
+  width: 100%;
+  height: 100%;
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
   top: 0;
   left: 0;
   right: 0;
@@ -571,6 +576,7 @@
   margin-bottom: 30px;
 
 }
+<<<<<<< HEAD
 .footer-image-shadow {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Adjust the shadow as needed */
   border-radius: 8px; /* Optional: Add rounded corners */
@@ -580,6 +586,8 @@
 .footer-image-shadow:hover {
   transform: scale(1.05); /* Scale up slightly on hover */
 }
+=======
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
 
 .footer-middle-area {
   margin-bottom: 60px;

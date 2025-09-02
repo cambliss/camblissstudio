@@ -17,12 +17,21 @@ const index = () => {
         <>
         <Header /><br/><br/>
         <main>
+<<<<<<< HEAD
       {/* <Breadcrumb/> */}
+=======
+      <Breadcrumb/>
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
         {/* <Breadcrumb title="About Us" subTitle="About Us" />  */}
           <HomeAboutFour/>
           <HistorySectionFour/>
           <PortFolioSectionFour/>
+<<<<<<< HEAD
           {/* <TestimonialSliderTwo/> */}
+=======
+{/*           <TeamSection/>
+          {/* <TestimonialSliderTwo/> */} */}
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
           {/* <VideoSectionFour/> */}
           <BlogSectionFour/>
           <CertificateSlider/>
@@ -33,4 +42,8 @@ const index = () => {
     );
 };
 
+<<<<<<< HEAD
 export default index;
+=======
+export default index;
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c

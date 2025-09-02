@@ -18,11 +18,15 @@ import imageOne from "@assets/img/logo/adverstisement/adv3.png";
 import imageThree from "@assets/img/logo/adverstisement/adv1.png";  
 import imageFour from "@assets/img/logo/adverstisement/adv4.jpg";  
 import imageFive from "@assets/img/logo/adverstisement/adv5.jpg";  
+<<<<<<< HEAD
 // import imageSix from "@assets/img/logo/gallery5.jpeg"; 
 import imageSix from "@assets/img/22.jpg";
 import imageSeven from "@assets/img/33.jpg";
 import imageEight from "@assets/img/54.jpg";
 import imageNine from "@assets/img/57.jpg" 
+=======
+import imageSix from "@assets/img/logo/gallery5.jpeg";  
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
 
 import CaseSubtitleIcon from "@svg/case-subtitle-icon";
 import { PhotoProvider, PhotoView } from "react-photo-view";
@@ -41,10 +45,17 @@ const Advertisement = ({ id }) => {
   }, [id, setService]);
 
   const galary_data = [
+<<<<<<< HEAD
     // {
     //   id: 9,
     //   img: imageSix,
     // },
+=======
+    {
+      id: 1,
+      img: imageSix,
+    },
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
     {
       id: 2,
       img: imageFive,
@@ -61,6 +72,7 @@ const Advertisement = ({ id }) => {
       id: 5,
       img: imageOne,
     },
+<<<<<<< HEAD
     {
       id: 6,
       img: imageSeven,
@@ -77,13 +89,31 @@ const Advertisement = ({ id }) => {
     id: 9,
     img: imageSix
   }
+=======
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
   ];
   
   return (
     <>
       <Header />
+<<<<<<< HEAD
       <div className="adjust-header-space bg-common-black" style={{marginTop:"50px"}}></div>
      
+=======
+      <div className="adjust-header-space bg-common-black"></div>
+      <div className="fm-breadcrumb-area breadcrumb-style" style={{ backgroundImage: `url(${imagehero.src})`, paddingTop: '400px', position: 'relative' }}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-12">
+              <div className="page-title-wrapper" style={{ marginTop: '-300px' }}>
+             
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="breadcrumb-image-overlay" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 1 }}></div>
+      </div>
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
       <main>
         <section className="case-details-area">
           <div className="container">

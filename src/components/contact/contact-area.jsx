@@ -62,6 +62,7 @@ import ContactForm from '@components/forms/contact-form';
 
 const ContactArea = () => {
    return (
+<<<<<<< HEAD
       <div className="fm-contact-area section-spacing" style={{paddingBottom:"0px"}}>
             <div style={{ textAlign: "center", margin: "20px 0", marginTop: "50px" }}>
   <h2 className="section-main-title text-white title-anim featured-work-title" style={{marginBottom:"20px"}}>
@@ -71,6 +72,10 @@ const ContactArea = () => {
 
          <div className="container">
      
+=======
+      <div className="fm-contact-area section-spacing">
+         <div className="container">
+>>>>>>> 886602eb8f2b62eb03397aa8f625347feb9ef54c
             <div className="row justify-content-center wow fadeInUp" data-wow-delay="0.3s">
                <div className="col-xxl-10">
                   <div className="fm-contact-content-wrapper ">
