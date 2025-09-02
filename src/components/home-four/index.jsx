@@ -22,7 +22,6 @@ const index = () => {
           <HomeAboutFour/>
           <HistorySectionFour/>
           <PortFolioSectionFour/>
-          {/* <TeamSection/> */}
           {/* <TestimonialSliderTwo/> */}
           {/* <VideoSectionFour/> */}
           <BlogSectionFour/>
