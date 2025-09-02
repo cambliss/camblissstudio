@@ -139,15 +139,15 @@ const menu_data = [
   //   ],
   //   submenus:[],
   // },
-  {
-    id: 8,
-    hasDropdown: true,
-    active:true,
-    title: "Shop",
-    link: "/shop",
-    submenus:[]
+  // {
+  //   id: 8,
+  //   hasDropdown: true,
+  //   active:true,
+  //   title: "Shop",
+  //   link: "/shop",
+  //   submenus:[]
    
-  },
+  // },
 
 ];
 
