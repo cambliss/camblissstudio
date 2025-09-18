@@ -19,7 +19,7 @@ const FooterOneCopyright = () => {
           </div>
           
           {/* Partner Logo */}
-          <div className="footer-copyright">
+          {/* <div className="footer-copyright">
             <p>
               Partnered with{" "}
               <a
@@ -33,7 +33,7 @@ const FooterOneCopyright = () => {
                 />
               </a>
             </p>
-          </div>
+          </div> */}
 
           {/* Footer Links */}
           <div className="footer-rules">

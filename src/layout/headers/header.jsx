@@ -75,12 +75,17 @@ const Header = ({ HeaderWrapperClass }) => {
                     </span>
                   </button>
                 ) : (
-                  <Link href="/login" className="fill-btn">
-                    Login
-                    <span>
-                      <i className="fa-regular fa-arrow-right"></i>
-                    </span>
-                  </Link>
+                <a
+  href="https://camblisstech.com/login"
+  className="fill-btn"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Log In
+  <span>
+    <i className="fa-regular fa-arrow-right"></i>
+  </span>
+</a>
                 )}
               </div>
             </div>
