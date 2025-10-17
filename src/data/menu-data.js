@@ -19,7 +19,7 @@ const menu_data = [
     // title: "Pages",
     title:"About us",
     megaMenu: true,
-    link: "/About-us",
+    link: "/About-US",
     pages: true,
     
     mega_menus: [
