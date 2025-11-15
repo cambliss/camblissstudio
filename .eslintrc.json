@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "react/jsx-no-target-blank": ["error", { "allowReferrer": false }]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

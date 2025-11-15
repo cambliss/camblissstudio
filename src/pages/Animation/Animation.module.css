@@ -1,0 +1,53 @@
+/* styles/Home.module.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .videoGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  /* Styles for the video container */
+.videoContainer {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Add margin between video containers */
+  display: flex;
+}
+
+/* Styles for the video element */
+.videoContainer video {
+  width: 100%;
+  height: 150%;
+  object-fit: cover; /* Ensure the video covers the entire container */
+  border-radius: 8px; /* Match the border-radius of the container */
+  outline: none; /* Remove the default focus outline on the video */
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .videoGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    width: 100%; /* Ensure the grid container is 100% wide */
+  }
+
+  .videoGrid video {
+    width: 100%; /* Make sure the video is 100% wide within its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the video is treated as a block element */
+  }
+
+  /* Optional: Style the parent container if necessary */
+  .videoGridContainer {
+    width: 100%; /* Make sure the parent container is 100% wide */
+    overflow: hidden; /* Prevent any overflow */
+  }
+}
+

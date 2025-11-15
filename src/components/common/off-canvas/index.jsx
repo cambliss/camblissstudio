@@ -1,0 +1,144 @@
+import React from "react";
+import PropTypes from "prop-types"; // Import PropTypes for validation
+import Link from "next/link";
+import Image from "next/image";
+import MobileMenus from "./mobile-menus";
+import Cambliss1 from "@assets/img/logo/cambliss.png";
+
+const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
+  return (
+    <React.Fragment>
+      <div
+        className={`fm-header-sidebar-area fm-header-sidebar-left ${
+          isOffCanvasOpen ? "header-sidebar-visible" : ""
+        }`}
+      >
+        <div className="fm-header-sidebar-wrapper">
+          <div className="fm-header-sidebar-action mb-75">
+            <div className="fm-header-sidebar-logo">
+              <Link href="/">
+                <Image
+                  src={Cambliss1}
+                  style={{ width: "auto", height: "auto" }}
+                  alt="img not found"
+                />
+              </Link>
+            </div>
+            <div className="offcanvas-close">
+              <button
+                className="offcanvas-btn"
+                onClick={() => setIsOffCanvasOpen(false)}
+              >
+                <i className="fa-thin fa-times"></i>
+              </button>
+            </div>
+          </div>
+          <div className="d-none d-sm-block">
+            <div className="fm-header-sidebar-search">
+              <form onSubmit={handleSubmit}>
+                <input type="text" placeholder="Search here" />
+                <button type="submit">
+                  <i className="flaticon flaticon-search"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+          <div className="mobile-menu mean-container d-xl-none">
+            <nav className="mean-nav">
+              <MobileMenus />
+            </nav>
+          </div>
+          <div className="d-none d-sm-block">
+            <div className="fm-offcanvas-about mt-30 mb-30">
+              <h4>About CAMBLISS</h4>
+              <p>
+                We Believe Film And Moving Image Has The Power To Create
+                Significant Change.
+              </p>
+            </div>
+          </div>
+          <div className="offcanvas-contact mt-45 mb-30">
+            <h4 className="offcanvas-contact-title">Contact Information</h4>
+            <ul>
+              <li className="d-flex align-items-center gap-2">
+                <div className="offcanvas-contact-icon">
+                  <Link
+                    target="_blank"
+                    href="https://www.google.com/maps/place/Cambliss/@17.302298,78.506638,16z/data=!4m6!3m5!1s0x3bcba28a18b09ea9:0xccbf37b932caddb6!8m2!3d17.3022976!4d78.5066378!16s%2Fg%2F11k7k_7k91?hl=en&entry=ttu"
+                  >
+                    <i className="fal fa-map-marker-alt"></i>
+                  </Link>
+                </div>
+                <div className="offcanvas-contact-text">
+                  <Link target="_blank" href="">
+                    Survey No: 75/2, Balapur(V), Hyderabad, Telangana, 500005
+                  </Link>
+                </div>
+              </li>
+              <li className="d-flex align-items-center gap-2">
+                <div className="offcanvas-contact-icon">
+                  <Link href="tel:+088889797697">
+                    <i className="far fa-phone"></i>
+                  </Link>
+                </div>
+                <div className="offcanvas-contact-text">
+                  <Link href="tel:915550303420">1800 571 9799</Link>
+                </div>
+              </li>
+              <li className="d-flex align-items-center gap-2">
+                <div className="offcanvas-contact-icon">
+                  <Link href="mailto:contact@camblissstudio.com">
+                    <i className="fal fa-envelope"></i>
+                  </Link>
+                </div>
+                <div className="offcanvas-contact-text">
+                  <Link href="mailto:contact@camblissstudio.com">
+                    contact@camblissstudio.com
+                  </Link>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div className="d-none d-sm-block d-sm-none d-md-block">
+            <div className="fm-offcanvas-social">
+              <span className="social-text">Follow :</span>
+              <div className="fm-offcanvas-social-icon">
+                <Link
+                  href="https://www.facebook.com/profile.php?id=61553561020127"
+                  target="_blank"
+                >
+                  <i className="fa-brands fa-facebook-f"></i>
+                </Link>
+                <Link href="https://twitter.com/" target="_blank">
+                  <i className="fa-brands fa-twitter"></i>
+                </Link>
+                <Link href="https://www.instagram.com/" target="_blank">
+                  <i className="fa-brands fa-instagram"></i>
+                </Link>
+                <Link href="https://www.pinterest.com/" target="_blank">
+                  <i className="fa-brands fa-pinterest-p"></i>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className={`overlay ${isOffCanvasOpen ? "visible-overlay" : ""}`}
+        onClick={() => setIsOffCanvasOpen(false)}
+      ></div>
+    </React.Fragment>
+  );
+};
+
+// Add PropTypes validation
+OffCanvasMain.propTypes = {
+  isOffCanvasOpen: PropTypes.bool.isRequired, // Validate as a required boolean
+  setIsOffCanvasOpen: PropTypes.func.isRequired, // Validate as a required function
+};
+
+export default OffCanvasMain;
