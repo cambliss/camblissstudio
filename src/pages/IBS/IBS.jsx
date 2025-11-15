@@ -199,11 +199,14 @@ const IBS = ({ id }) => {
                   </span>
                   OBJECTIVE
                 </h4>
-                <p className="mb-55 ">
+            <p className="mb-55 ">
+  IBS (Integrated Cloud Business Solutions), a flagship division of Cambliss, is dedicated to transforming businesses through intelligent, scalable, and fully integrated cloud technologies. With a commitment to innovation and customer-centric delivery, IBS empowers organizations to modernize their operations, streamline workflows, and build secure digital ecosystems tailored to their vision.
+</p>
 
-                  Cambliss, a leading interior design company, is dedicated to transforming spaces into aesthetically pleasing and functional environments. With a commitment to innovation and client satisfaction, Cambliss aims to create unique designs that reflect individual lifestyles and organizational identities.                <p className="mb-45 ">
-                  Cambliss strives to create exceptional interior designs that not only meet but exceed the expectations of its clients while maintaining a commitment to quality and innovation.    With a team of creative minds and marketing experts, we go beyond traditional advertising boundaries, pushing the limits to deliver campaigns that resonate. By staying ahead of industry trends and leveraging cutting-edge technologies, we ensure that your brand stands out in a crowded media landscape.    
-                  </p>
+<p className="mb-45 ">
+  At IBS, we strive to create next-generation cloud solutions that not only meet but exceed the expectations of our clients, while maintaining unwavering focus on quality, reliability, and technological excellence. With a team of skilled engineers, strategists, and cloud experts, we go beyond traditional IT boundaries to deliver solutions that truly elevate business performance. By embracing emerging technologies and understanding real-world challenges, IBS ensures your business stands out in today’s competitive digital landscape.
+</p>
+
                   {" "}
                   {/* Cambliss strives to create exceptional interior designs that not only meet but exceed the expectations of its clients while maintaining a commitment to quality and innovation.                <p className="mb-45 "> */}
                   </p>
