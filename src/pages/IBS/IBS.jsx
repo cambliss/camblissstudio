@@ -35,145 +35,23 @@ const IBS = ({ id }) => {
     }
   }, [id, setService]);
 
-  const manuallyWrittenServices = [
-    {
-      _id: "1",
-      serviceNum: "01",
-      title: "Website Design & Development",
-      description:
-        "Our website design & development services are tailored to meet the unique needs of your business",
-      serviceBtn: "Learn More",
-      delay: "0.3s",
-    },
-    {
-      _id: "2",
-      serviceNum: "02",
-      title: "Branding & Creative Services",
-      description:
-        "Our approach to branding is collaborative involving clients in every step to capture your vision.",
-      serviceBtn: "Learn More",
-      delay: "0.4s",
-    },
-    {
-      _id: "3",
-      serviceNum: "03",
-      title: "Animation",
-      description:
-        "We bring your imagination to life through stunning 2D & 3D animations and captivate the audience.",
-      serviceBtn: "Learn More",
-      delay: "0.5s",
-    },
-    {
-      _id: "4",
-      serviceNum: "04",
-      title: "UI/UX",
-      description:
-        "Cambliss specializes in UI/UX, Where your Functionality Meets Aesthetics.",
-      serviceBtn: "Learn More",
-      delay: "0.6s",
-    },
-    {
-      _id: "5",
-      serviceNum: "05",
-      title: "Digital Marketing",
-      description:
-        "From SEO to PPC advertising to social media marketing, cambliss covers all aspects of marketing.",
-      serviceBtn: "Learn More",
-      delay: "0.6s",
-    },
-    {
-      _id: "6",
-      serviceNum: "06",
-      title: "Visual Production",
-      description: "A Mix of Everything just for you.",
-      serviceBtn: "Learn More",
-      delay: "0.6s",
-    },
-  ];
-
-  const stepData = [
-    {
-      id: 1,
-      title: "Define Objectives",
-      description:
-        "Clearly outline the goals of your advertisement. Whether it's raising brand awareness, promoting a specific product, or driving sales.",
-    },
-    {
-      id: 2,
-      title: "Know Your Audience",
-      description:
-        "Understand your target audience's demographics, preferences, and behaviors. Tailor your message and creative elements to resonate with them.",
-    },
-    {
-      id: 3,
-      title: "Craft Compelling Content",
-      description:
-        "Develop a strong message that communicates your key selling points. Use attention-grabbing headlines, compelling visuals, and persuasive language.",
-    },
-    {
-      id: 4,
-      title: "Choose the Right Channels",
-      description:
-        "Select the platforms for your target audience. Whether it's social media, TV, radio, print, or online advertising, align your choices with your audience.",
-    },
-    {
-      id: 5,
-      title: "Design Engaging Visuals",
-      description:
-        "Invest in visually appealing graphics or videos that complement your message. Eye-catching visuals are crucial for grabbing attention in a crowded advertising space.",
-    },
-    {
-      id: 6,
-      title: "Include a Call to Action",
-      description:
-        "Prompt your audience to take specific actions. Whether it's visiting a website, making a purchase, or subscribing, make a clear CTA for your audience.",
-    },
-    {
-      id: 7,
-      title: "Test and Iterate",
-      description:
-        "Before launching a full-scale campaign, conduct A/B testing with different ad variations to identify what resonates best with your audience. Use the data to refine your approach.",
-    },
-    {
-      id: 8,
-      title: "Set a Budget",
-      description:
-        "Determine your advertising budget based on your objectives and the channels you plan to use. Allocate resources effectively to maximize reach and impact and adjust as needed.",
-    },
-    {
-      id: 9,
-      title: "Launch and Monitor",
-      description:
-        "Once everything is in place, launch your advertisement campaign. Monitor its performance closely, tracking key metrics such as impressions, click-through rates, and conversions.",
-    },
-    {
-      id: 10,
-      title: "Evaluate and Learn",
-      description:
-        "After the campaign concludes, conduct a thorough analysis of its overall performance. Identify what worked well and areas for improvement for future advertisement.",
-    },
-  ];
 
   const galary_data = [
-    {
-      id: 1,
-      img: imageFour,
-    },
-    {
-      id: 2,
-      img: imageTwo,
-    },
+    { id: 1, img: imageFour },
+    { id: 2, img: imageTwo },
   ];
 
   return (
     <>
       <Header />
+
       <div
         className="adjust-header-space bg-common-black"
         style={{ marginTop: "50px" }}
       ></div>
 
       <main>
+        {/* ----------------------- OBJECTIVE SECTION ----------------------- */}
         <section className="case-details-area">
           <div className="container">
             <div className="row">
@@ -181,16 +59,6 @@ const IBS = ({ id }) => {
                 className="col-xxl-12"
                 style={{ position: "relative", zIndex: 2 }}
               >
-                {/* 
-                <div className="case-details-thumb" style={{ marginTop: "-100px" }}>
-                  <Image
-                    data-speed="auto"
-                    src={imagehero}
-                    style={{ width: "100%", height: "100%" }}
-                    alt="image not found"
-                  />
-                </div> 
-                */}
                 <br />
                 <br />
 
@@ -214,18 +82,18 @@ const IBS = ({ id }) => {
                   OBJECTIVE
                 </h4>
 
-                <p className="mb-55 ">
-                  IBS (Integrated Cloud Business Solutions), a flagship
-                  division of Cambliss, is dedicated to transforming businesses
-                  through intelligent, scalable, and fully integrated cloud
-                  technologies. With a commitment to innovation and
-                  customer-centric delivery, IBS empowers organizations to
-                  modernize their operations, streamline workflows, and build
-                  secure digital ecosystems tailored to their vision.
+                <p className="mb-55">
+                  IBS (Integrated Cloud Business Solutions), a flagship division
+                  of Cambliss, is dedicated to transforming businesses through
+                  intelligent, scalable, and fully integrated cloud technologies.
+                  With a commitment to innovation and customer-centric delivery,
+                  IBS empowers organizations to modernize their operations,
+                  streamline workflows, and build secure digital ecosystems
+                  tailored to their vision.
                 </p>
 
-                <p className="mb-45 ">
-                  At IBS, we strive to create next-generation cloud solutions
+                <p className="mb-45">
+                  At Cambliss, we strive to create next-generation cloud solutions
                   that not only meet but exceed the expectations of our clients,
                   while maintaining unwavering focus on quality, reliability,
                   and technological excellence. With a team of skilled
@@ -237,29 +105,15 @@ const IBS = ({ id }) => {
                   digital landscape.
                 </p>
 
-                {/* 
-                <h4 className="case-subtitle mb-25">
-                  <span>
-                    <svg ...>...</svg>
-                  </span>
-                  WHAT WE DO
-                </h4>
-                <p className="mb-30 ">
-                  <strong>Client-Centric Approach</strong><br />
-                  We begin by thoroughly understanding your brand...
-                </p>
+                {/* SAFE COMMENT BLOCK — OLD CAMBLISS TEXT REMOVED 
+                <p>Old content here...</p>
                 */}
               </div>
             </div>
           </div>
         </section>
 
-        {/* 
-        <section className="step-area section-spacing-top">
-          ...
-        </section> 
-        */}
-
+        {/* ----------------------- GALLERY SECTION ----------------------- */}
         <br />
         <br />
 
@@ -275,57 +129,22 @@ const IBS = ({ id }) => {
               Gallery
             </h4>
 
-            <div className="design-humb-grid ">
-              {galary_data &&
-                galary_data.map((item) => (
-                  <div
-                    className="design-thumb img-tilt all__item-fade common-galary-icons"
-                    key={item.id}
-                  >
-                    <Image
-                      src={item.img}
-                      style={{ width: "100%", height: "auto" }}
-                      alt="image not found"
-                    />
-                  </div>
-                ))}
+            <div className="design-humb-grid">
+              {galary_data.map((item) => (
+                <div
+                  className="design-thumb img-tilt all__item-fade common-galary-icons"
+                  key={item.id}
+                >
+                  <Image
+                    src={item.img}
+                    style={{ width: "100%", height: "auto" }}
+                    alt="image not found"
+                  />
+                </div>
+              ))}
             </div>
-
-            {/* 
-            <PhotoProvider
-              speed={() => 800}
-              easing={(type) =>
-                type === 2
-                  ? "cubic-bezier(0.36, 0, 0.66, -0.56)"
-                  : "cubic-bezier(0.34, 1.56, 0.64, 1)"
-              }
-            >
-              <div className="design-humb-grid ">
-                {galary_data &&
-                  galary_data.map((item) => (
-                    <PhotoView key={item.id} src={item.img.src}>
-                      <div className="design-thumb img-tilt all__item-fade common-galary-icons">
-                        <Image
-                          src={item.img}
-                          style={{ width: "100%", height: "auto" }}
-                          alt="image not found"
-                        />
-                        <div className="common-galary-icon">
-                          <i className="fal fa-plus fm-film-video-btn"></i>
-                        </div>
-                      </div>
-                    </PhotoView>
-                  ))}
-              </div>
-            </PhotoProvider> 
-            */}
           </section>
         </div>
-
-        {/* <StepAreaSection /> */}
-        {/* <FaqSection /> */}
-        {/* <CaseQouteArea /> */}
-        {/* <PricingSection /> */}
 
         <ContactSection />
       </main>
